@@ -87,6 +87,9 @@ def execute(args):
         raise ValueError("V5 cannot migrate V4 experiment checkpoints")
     if any(getattr(args,k,False) for k in ("dropout_migration","io_repair_migration")):
         raise ValueError("Historical local migrations are not portable; start a new demonstration")
+    global SOURCE
+    if getattr(args, "materials", None):
+        SOURCE = Path(args.materials).resolve()
     cfg = defaults()
     if args.config:
         cfg.update(json.loads(Path(args.config).read_text(encoding="utf-8")))
@@ -304,6 +307,7 @@ def prepare_replay(parent, destination, upto=40):
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--materials", help="Input directory; use research_archive/inputs for original run inputs")
     parser.add_argument("--steps", type=int, default=40)
     parser.add_argument("--config")
     parser.add_argument("--live", action="store_true")

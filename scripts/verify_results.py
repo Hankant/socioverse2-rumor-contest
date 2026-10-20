@@ -12,3 +12,9 @@ assert set(counts)==set(range(1,41)) and all(len(v)==582 for v in counts.values(
 for name,expected in json.loads((root/'MANIFEST.json').read_text()).items():
     assert hashlib.sha256((root/name).read_bytes()).hexdigest()==expected, name
 print('40 completed ticks, 582 identities/tick, 1 dropout; package hashes verified')
+
+archive=root/'research_archive'
+export=json.loads((archive/'EXPORT_MANIFEST.json').read_text(encoding='utf-8'))
+for name,entry in export['files'].items():
+    assert hashlib.sha256((root/name).read_bytes()).hexdigest()==entry['published_sha256'], name
+print('Original input and audit archive hashes verified')
