@@ -12,3 +12,6 @@ jobs:
       - run: python scripts/verify_results.py
       - run: python -m pytest app -q
       - run: python app/run.py --steps 3
+
+      - run: python -m pytest app_v6 -q
+      - run: python app_v6/verify_run.py research_archive/v6_tg2_completed/run
