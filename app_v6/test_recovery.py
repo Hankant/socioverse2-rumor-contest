@@ -46,7 +46,7 @@ def test_memory_is_actually_in_prompt(tmp_path):
         'repost':{'enabled':False,'target_content_id':None,'text':''}}]
     template=(SOURCE/'02_Prompt固定提示词.md').read_text(encoding='utf-8').split('```text')[1].split('```')[0]
     prompt, feed, memory, estimate=prepare_prompt(template,ob)
-    assert len(memory)==1 and 'belief_before' in prompt and estimate<=4096
+    assert len(memory)==1 and 'belief_before' in prompt and estimate<=32768
 
 
 def test_quota_pause_resume_reuses_success_and_budget(tmp_path,monkeypatch):

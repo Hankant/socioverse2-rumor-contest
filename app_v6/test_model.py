@@ -155,7 +155,7 @@ def test_prompt_no_private_state_or_future(env, bundles):
     from llm_client import prepare_prompt
     dec = V4Decision(**bundles[3].decision_args)
     prompt, feed, mem, units = prepare_prompt(dec.template, env.observe("A0002", 1))
-    assert units <= 4096
+    assert units <= 32768
     assert "G001" not in prompt and "scripted_no_evidence" not in prompt
     assert "decision_mode" not in prompt and "cohort" not in prompt
     assert "P001" in prompt and mem == []

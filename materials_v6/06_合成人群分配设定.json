@@ -1,0 +1,37 @@
+{
+  "version": "v6-heterogeneity-20261022-1",
+  "seed": 20261024,
+  "status": "researcher_assigned_synthetic_not_population_estimate",
+  "scope": "582名成年合成角色；不是原始账户的真实年龄、职业、居住地或测评结果",
+  "mbti_weights": {"ISTJ": 0.0625, "ISFJ": 0.0625, "INFJ": 0.0625, "INTJ": 0.0625, "ISTP": 0.0625, "ISFP": 0.0625, "INFP": 0.0625, "INTP": 0.0625, "ESTP": 0.0625, "ESFP": 0.0625, "ENFP": 0.0625, "ENTP": 0.0625, "ESTJ": 0.0625, "ESFJ": 0.0625, "ENFJ": 0.0625, "ENTJ": 0.0625},
+  "age_bands": [
+    {"label": "18-24", "min": 18, "max": 24, "weight": 0.15},
+    {"label": "25-34", "min": 25, "max": 34, "weight": 0.25},
+    {"label": "35-44", "min": 35, "max": 44, "weight": 0.25},
+    {"label": "45-54", "min": 45, "max": 54, "weight": 0.20},
+    {"label": "55-64", "min": 55, "max": 64, "weight": 0.10},
+    {"label": "65-75", "min": 65, "max": 75, "weight": 0.05}
+  ],
+  "region_weights": {"华北": 0.15, "东北": 0.08, "华东": 0.25, "华中": 0.14, "华南": 0.13, "西南": 0.15, "西北": 0.10},
+  "settlement_weights": {"城市城区": 0.60, "县城或镇区": 0.25, "乡村": 0.15},
+  "occupations": [
+    {"label": "在校学生", "weight": 0.10, "min_age": 18, "max_age": 29},
+    {"label": "退休人员", "weight": 0.07, "min_age": 55, "max_age": 75, "prioritize_oldest": true},
+    {"label": "专业技术岗位", "weight": 0.12, "min_age": 22, "max_age": 64},
+    {"label": "商业服务岗位", "weight": 0.18, "min_age": 18, "max_age": 64},
+    {"label": "行政或办公室岗位", "weight": 0.18, "min_age": 18, "max_age": 64},
+    {"label": "生产运输或体力岗位", "weight": 0.15, "min_age": 18, "max_age": 64},
+    {"label": "个体经营或自由职业", "weight": 0.15, "min_age": 18, "max_age": 64},
+    {"label": "暂未就业或家庭照料", "weight": 0.05, "min_age": 18, "max_age": 75}
+  ],
+  "project_experience_weights": {"较少接触社区工程信息": 0.3333333333333333, "曾关注延期但未获完整原因": 0.3333333333333333, "曾见到项目调整并获得公开解释": 0.3333333333333333},
+  "notes": [
+    "按最大余数法取整数人数；MBTI在LLM/规则及圈内外分层分配，合计严格使用全体配额。",
+    "年龄段内均匀抽取整数年龄，职业按所列年龄约束分配；这些是研究假设，不是现实退休制度或职业统计。",
+    "合成居住地区与原账户location分开存储；本次角色使用合成地区，原字段仅作为历史账户快照保留。",
+    "MBTI四对偏好用于叙事和表达风格，不推导智力、核验能力、来源信任或相信概率；同型内部有随机偏好强度。",
+    "既有LLM连续行为参数与信任分配机制保留；规则用户补充资料但仍由原PB/RC/GT/RF公式决策。",
+    "社区工程经历不涉及本案例项目，不预置本次事件的真假或结局。"
+  ],
+  "sources": ["https://www.myersbriggs.org/my-mbti-personality-type/myers-briggs-overview/", "https://www.themyersbriggs.com/en-US/Support/Ethical-Principles-for-MBTI-Practitioners"]
+}

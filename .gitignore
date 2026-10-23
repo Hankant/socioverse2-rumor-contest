@@ -11,3 +11,11 @@ runtime/
 
 build/
 dist/
+
+# Local credential material and dependency caches
+*.dpapi
+*.pem
+*.key
+*.pfx
+*.p12
+node_modules/

@@ -1,0 +1,95 @@
+{
+  "source_zip": "E:\\papers\\socioverse 2026\\socioverse2-rumor-contest-main.zip",
+  "source_zip_sha256": "52cddac3f5a6f254b30ae4d78db2a6fa0081651ca85ebaf83ba672ac27b8a269",
+  "deployment_path": "E:\\papers\\socioverse 2026\\socioverse2_v6_local",
+  "files_extracted": 8043,
+  "uncompressed_bytes": 221223133,
+  "upstream_app_v6_sha256": {
+    "build_personas.py": "2f8e9df341c672b4908044ce12e99702f25581811f547b803279deb9a4bf2696",
+    "government.py": "c0bcb75680f961287ec34c4dabef2d40cb46a734f7a5df74f40893843a3dfc14",
+    "llm_client.py": "9ae5b6724e104feae114cba0c87485c61aa7e724dc9acb0bd2b1ee4ef8a0194f",
+    "model.py": "3ac6ff519117023f096f795aba291e0968624b0c05889212ed13ffa18a22667a",
+    "parameter_report.py": "9dbc18dc63f1d38e65005cc248bfe554c26186d7135d1fc699cd87a3e55e3cdb",
+    "run.py": "feea583a4c582745a4b9aa41156e7a952a2f9e39505de5f3902e2b7b9e26158b",
+    "test_concurrency.py": "70920e8582f9d312adb21114fc122b870700007afaad1b36df9e3fc4f03be9f4",
+    "test_dropout.py": "b92af0b8208d15a5b20356bd235308beef56e049d90e63637d98694fb13e7723",
+    "test_government.py": "88e36949b3c0a19d32935f216ceb2dd432d2d333e802999896734c2e1293a52d",
+    "test_model.py": "491fe589ad95bcaaaeb541eecdff4dd1d51219277e70bc7bdb36dcdb90f30ba7",
+    "test_parameter_report.py": "36a173b501627f731c2859c0ca6bc65dcb0aaca376938ab5f03fd013e0125184",
+    "test_rate_limit.py": "49f7c0975ec45605abf39eaeb061caf40db94db105eaa2f5a8384233ca80e36b",
+    "test_rate_migration.py": "5b2aff0879d2c2596f7f51771b432a5d286d98ceb14cfba5da1657338ade91a6",
+    "test_recovery.py": "4ebd2cf81afe8216a66fb437f0e9924efd035f4e21ec1e522868970758d6ff51",
+    "test_request_index.py": "cd8bd4f19e151a3e42a6c26e0748bbb3b8810c6a59684468059f470bea6037f5",
+    "test_v6.py": "77e6e83467041cf3ac49cf749aa7ef0443ba5718b46fe966b30be4505638a1c3",
+    "throttle.py": "98404b84c45018234ccaea44f35eccdf28af8420d2fd319b620ce1717d41f462",
+    "verify_run.py": "9ccae0a2c102196beaa151abfc6967044ddb3577dd6ad3d0a3c790afdb77101e"
+  },
+  "note": "New local deployment; original archive and previous extracted repository are preserved",
+  "user_confirmed_settings": {
+    "population": "305_llm_277_rule",
+    "steps": 10,
+    "government_ticks": [
+      2,
+      4,
+      7
+    ],
+    "interventions_per_run": 1,
+    "government_reach": 100,
+    "targeting_inside_ratio": [
+      0.8,
+      0.2
+    ],
+    "targeting_filters_current_belief": false,
+    "source_trust_gap": [
+      0,
+      0.2,
+      0.4
+    ],
+    "source_trust_center": 0.5,
+    "source_trust_sd": 0.1,
+    "source_trust_rule_mode": "legacy_pb",
+    "government_trust_mean": [
+      0.75,
+      0.5,
+      0.25
+    ],
+    "prompt_input_token_limit": 32768,
+    "prompt_memory_policy": "preserve"
+  },
+  "local_app_v6_sha256": {
+    "build_personas.py": "2f8e9df341c672b4908044ce12e99702f25581811f547b803279deb9a4bf2696",
+    "experiment.py": "72578924550fb3e5f04d84759336a42b98dca1bc4faa8d8e96396320fb66b463",
+    "government.py": "c0bcb75680f961287ec34c4dabef2d40cb46a734f7a5df74f40893843a3dfc14",
+    "llm_client.py": "bdc2af7feaed3b41c060f7c4bd56104d225afb949073f40b4cdec64212bc4808",
+    "local_cli.py": "d62f02cb70e60595433f4b5ff4510c328c90a6050f6c5b34908a619e4ac2b018",
+    "model.py": "66899df469c1f8b2b6a17f9636dd3b01da6184ef82b917e6775268e53cbfdb52",
+    "parameter_report.py": "04eedbd29498658ee824dc5764f9d6ebbae1bc5865e6dbaaa58c831eddb262ca",
+    "run.py": "c7d02ac856c8a631c901b191247608991203e97bdffb2aac6f8e4de3fff0ba51",
+    "test_concurrency.py": "70920e8582f9d312adb21114fc122b870700007afaad1b36df9e3fc4f03be9f4",
+    "test_dropout.py": "b92af0b8208d15a5b20356bd235308beef56e049d90e63637d98694fb13e7723",
+    "test_government.py": "88e36949b3c0a19d32935f216ceb2dd432d2d333e802999896734c2e1293a52d",
+    "test_local_experiment.py": "a1b98adc9ae9fa9a4fa1aa658a08ce1b9ca529ea168dcfab6e5f831449e3818c",
+    "test_model.py": "491fe589ad95bcaaaeb541eecdff4dd1d51219277e70bc7bdb36dcdb90f30ba7",
+    "test_parameter_report.py": "36a173b501627f731c2859c0ca6bc65dcb0aaca376938ab5f03fd013e0125184",
+    "test_rate_limit.py": "49f7c0975ec45605abf39eaeb061caf40db94db105eaa2f5a8384233ca80e36b",
+    "test_rate_migration.py": "5b2aff0879d2c2596f7f51771b432a5d286d98ceb14cfba5da1657338ade91a6",
+    "test_recovery.py": "4ebd2cf81afe8216a66fb437f0e9924efd035f4e21ec1e522868970758d6ff51",
+    "test_request_index.py": "cd8bd4f19e151a3e42a6c26e0748bbb3b8810c6a59684468059f470bea6037f5",
+    "test_v6.py": "77e6e83467041cf3ac49cf749aa7ef0443ba5718b46fe966b30be4505638a1c3",
+    "throttle.py": "98404b84c45018234ccaea44f35eccdf28af8420d2fd319b620ce1717d41f462",
+    "verify_run.py": "9ccae0a2c102196beaa151abfc6967044ddb3577dd6ad3d0a3c790afdb77101e"
+  },
+  "modified_app_v6_files": [
+    "llm_client.py",
+    "model.py",
+    "parameter_report.py",
+    "run.py"
+  ],
+  "added_app_v6_files": [
+    "experiment.py",
+    "local_cli.py",
+    "test_local_experiment.py"
+  ],
+  "verification_file": "runtime/local_verification/deployment_verification.json",
+  "live_api_requests_made_during_deployment": 0
+}

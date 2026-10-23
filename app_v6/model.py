@@ -9,6 +9,7 @@ import copy
 import csv
 import hashlib
 import json
+import math
 import os
 import tempfile
 import time
@@ -20,6 +21,21 @@ import numpy as np
 from socioverse.abc import PopulationProvider, EnvironmentProvider, DecisionModel, MetricCollector
 from socioverse.engine import register
 from socioverse.schemas import Persona, Observation, Action
+
+NETWORK_FEED_POLICY = "network_rumor_all_comments_v1"
+from comment_policy import LATEST_FEED_POLICY,PARTICIPATION_POLICY,MEMORY_POLICY,recent_comments,personal_memory_posts
+from memory_policy import ROLLING, retained_memory, validate_memory_policy
+NETWORK_FEED_POLICIES = frozenset((NETWORK_FEED_POLICY,LATEST_FEED_POLICY))
+FULL_THREAD_POLICIES = frozenset(("shared_rumor_all_comments_v1", *NETWORK_FEED_POLICIES))
+
+
+def feed_description(policy, comment_window_limit=100):
+    return {
+        NETWORK_FEED_POLICY: "关注SOURCE者初始接触谣言；其他人通过关注者转发首次接触；已接触者每轮回看原帖及全部先前评论；官方独立账号，定向及转发触达",
+        LATEST_FEED_POLICY: f"关注与转发决定首次接触；已接触者每轮回看原帖及每个主帖截至上一轮最新{comment_window_limit}条评论；官方独立账号；自愿评论，个人记忆不重放旧评论全文",
+        "shared_rumor_all_comments_v1": "全体每轮同一谣言主帖及全部先前评论；官方独立账号，定向及转发触达",
+        "legacy": "全部活跃，每轮最多5帖，每帖最多2评论",
+    }[policy]
 
 
 def retry_file(operation):
@@ -40,7 +56,9 @@ def dump(path, value):
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
     # Replace only after the complete JSON is flushed: interruption cannot leave half a ledger.
-    fd, temporary = tempfile.mkstemp(dir=path.parent, prefix=path.name + ".", suffix=".tmp")
+    # A short random sibling name avoids repeating a 64-character cache hash
+    # in temporary filenames near the Windows path-length limit.
+    fd, temporary = tempfile.mkstemp(dir=path.parent, prefix=".write-", suffix=".tmp")
     try:
         with os.fdopen(fd, "w", encoding="utf-8") as stream:
             json.dump(value, stream, ensure_ascii=False, indent=2)
@@ -103,6 +121,7 @@ class V4Environment(EnvironmentProvider):
     def __init__(self, bundle):
         self.bundle = bundle
         self.cfg = bundle.provider_args
+        validate_memory_policy(self.cfg)
         self.rows = load_rows(self.cfg["roster_csv"])
         self.by_id = {r["agent_id"]: r for r in self.rows}
         self.following = {a: set() for a in self.by_id}
@@ -115,6 +134,10 @@ class V4Environment(EnvironmentProvider):
         self.t = 0
         self.offline = {}
         self.beliefs = {a: "unjudged" for a in self.by_id}
+        self.credibility = {a: None for a in self.by_id}
+        self.component_credibility = {a: None for a in self.by_id}
+        self.condition_application = {a: None for a in self.by_id}
+        self.condition_context_ref = {a: None for a in self.by_id}
         self.seen = {a: set() for a in self.by_id}
         self.reposted = {a: set() for a in self.by_id}
         self.memory = {a: [] for a in self.by_id}
@@ -137,11 +160,16 @@ class V4Environment(EnvironmentProvider):
 
     def advance_to(self, t):
         self.t = t
+        if self.cfg.get('memory_retention_policy') == ROLLING:
+            for aid in self.memory:
+                self.memory[aid] = retained_memory(self.memory[aid], t, self.cfg)
         if t == self.government_tick and "G001" not in self.posts:
             self._publish_root("G001", "GOVERNMENT", self.government_tick, self.cfg["correction_text"])
         return [e for e in self.bundle.scheduled_events if e.at_step == t]
 
     def observe_batch(self, agent_ids, t, round_idx=0):
+        if self.cfg.get("feed_policy") in FULL_THREAD_POLICIES:
+            return self._observe_shared_thread(agent_ids, t)
         out = []
         for aid in agent_ids:
             eligible = [p for p in self.posts.values()
@@ -185,9 +213,96 @@ class V4Environment(EnvironmentProvider):
                 local_physical={"persona": self.by_id[aid], "current_belief": self.beliefs[aid], "technical_offline": aid in self.offline,
                                 "exposure_history": copy.deepcopy(self.exposure_history[aid]), "rule_corrected": aid in self.rule_corrected,
                                 "government_trust": self.cfg.get("government_trust", {}).get(aid),
-                                "memory": copy.deepcopy(self.memory[aid]), "already_reposted": sorted(self.reposted[aid])},
+                                "source_trust": self.cfg.get("source_trust", {}).get(aid),
+                                "belief_target": self.cfg.get("belief_target"),
+                                "belief_measurement_policy": self.cfg.get("belief_measurement_policy", "legacy"),
+                                "decision_condition_policy": self.cfg.get("decision_condition_policy", "legacy"),
+                                "comment_target_policy": self.cfg.get("comment_target", "first_displayed_post"),
+                                "feed_policy": self.cfg.get("feed_policy", "legacy"),
+                                "subjective_credibility": self.credibility[aid],
+                                "component_credibility": copy.deepcopy(self.component_credibility[aid]),
+                                "memory": copy.deepcopy(retained_memory(self.memory[aid], t, self.cfg)),
+                                "memory_retention_policy": self.cfg.get('memory_retention_policy', 'last_five_experiences_v1'),
+                                "memory_window_ticks": self.cfg.get('memory_window_ticks'),
+                                "already_reposted": sorted(self.reposted[aid])},
                 local_information={"posts": feed}))
         return out
+
+    def _observe_shared_thread(self, agent_ids, t):
+        """At most one rumor root per person/tick; a separate official account.
+
+        Reposts remain transport records. They do not become additional rumor
+        reading slots. All earlier comments on a root and its reposts belong to
+        that root's discussion. Official comments never merge into P001.
+        """
+        out = []
+        for aid in agent_ids:
+            feed = []
+            active = aid not in self.offline and t >= 1
+            if active:
+                delivery = "public_shared_thread"
+                if self.cfg.get("feed_policy") in NETWORK_FEED_POLICIES:
+                    delivery = ("followed_source" if "SOURCE" in self.following[aid] else
+                                "rumor_thread_revisit" if "P001" in self.seen[aid] else
+                                "followee_rumor_repost" if self._visible_relays("P001", aid, t) else None)
+                if delivery and self.posts["P001"]["available_tick"] <= t:
+                    feed.append(self._shared_root_view("P001", aid, t, delivery))
+                if "G001" in self.posts and self.posts["G001"]["available_tick"] <= t:
+                    direct = t == self.government_tick and aid in self.direct_targets
+                    relays = self._visible_relays("G001", aid, t)
+                    if direct or "G001" in self.seen[aid] or relays:
+                        official = self._shared_root_view("G001", aid, t,
+                            "direct_government" if direct else "official_thread_or_followee_repost")
+                        feed.insert(0, official) if direct else feed.append(official)
+            out.append(Observation(agent_id=aid, step=t,
+                local_physical={"persona": self.by_id[aid], "current_belief": self.beliefs[aid],
+                    "technical_offline": aid in self.offline, "exposure_history": copy.deepcopy(self.exposure_history[aid]),
+                    "rule_corrected": aid in self.rule_corrected,
+                    "government_trust": self.cfg.get("government_trust", {}).get(aid),
+                    "source_trust": self.cfg.get("source_trust", {}).get(aid),
+                    "belief_target": self.cfg.get("belief_target"),
+                    "belief_measurement_policy": self.cfg.get("belief_measurement_policy", "legacy"),
+                    "decision_condition_policy": self.cfg.get("decision_condition_policy", "legacy"),
+                    "comment_target_policy": self.cfg.get("comment_target", "first_displayed_post"),
+                    "feed_policy": self.cfg["feed_policy"],
+                    "comment_window_limit": self.cfg.get("comment_window_limit"),
+                    "comment_participation_policy": self.cfg.get("comment_participation_policy","legacy"),
+                    "memory_comment_policy": self.cfg.get("memory_comment_policy","complete_observed_v1"),
+                    "subjective_credibility": self.credibility[aid],
+                    "component_credibility": copy.deepcopy(self.component_credibility[aid]),
+                    "memory": copy.deepcopy(retained_memory(self.memory[aid], t, self.cfg)),
+                    "memory_retention_policy": self.cfg.get('memory_retention_policy', 'last_five_experiences_v1'),
+                    "memory_window_ticks": self.cfg.get('memory_window_ticks'),
+                    "already_reposted": sorted(self.reposted[aid])},
+                local_information={"posts": feed}))
+        return out
+
+    def _visible_relays(self, root, aid, t):
+        return [p for p in self.posts.values() if p["root_content_id"] == root and p["content_id"] != root
+                and p["author_id"] in self.following[aid] and p["available_tick"] <= t
+                and 0 < t-p["published_tick"] < 40]
+
+    def _shared_root_view(self, root, aid, t, delivery):
+        post = copy.deepcopy(self.posts[root])
+        # Include comments by non-followed accounts and comments under any
+        # repost of THIS root; preserve IDs, text, author and publication time.
+        post["comments"] = sorted([copy.deepcopy(c) for c in self.comments.values()
+            if c["published_tick"] < t
+            and self.posts.get(c["target_content_id"], {}).get("root_content_id") == root],
+            key=lambda c: (c["published_tick"], c["comment_id"]))
+        if self.cfg.get("feed_policy")==LATEST_FEED_POLICY:
+            post["comments"]=recent_comments(post["comments"],self.cfg["comment_window_limit"],self.cfg["comment_tie_seed"])
+        post["relay_context"] = sorted([{
+            k: p[k] for k in ("content_id", "author_id", "published_tick", "repost_text")}
+            for p in self._visible_relays(root, aid, t)], key=lambda p: (p["published_tick"], p["content_id"]))
+        post.update(delivery=delivery, can_repost=root not in self.reposted[aid],
+            block_reason="duplicate_root_repost" if root in self.reposted[aid] else None,
+            is_reread=root in self.seen[aid], comment_scope="all_earlier_comments_on_root_and_reposts")
+        if self.cfg.get("feed_policy")==LATEST_FEED_POLICY:
+            post.update(comment_scope=f"latest_{self.cfg['comment_window_limit']}_earlier_comments_per_root",
+                comment_window_limit=self.cfg["comment_window_limit"],
+                comment_order="newest_tick_then_seeded_hash_v1")
+        return post
 
     def apply(self, actions):
         # Validate the entire batch BEFORE committing any agent (atomic decision stage).
@@ -207,16 +322,30 @@ class V4Environment(EnvironmentProvider):
                 continue
             if a.step != self.t or a.agent_id not in self.by_id:
                 raise ValueError("action step/agent mismatch")
-            valid_feed = {p["content_id"]: p for p in self.observe(a.agent_id, a.step).local_information["posts"]}
+            valid_ob = self.observe(a.agent_id, a.step)
+            valid_feed = {p["content_id"]: p for p in valid_ob.local_information["posts"]}
             feed = a.payload["observed_posts"]
+            if self.cfg.get("feed_policy") in FULL_THREAD_POLICIES and feed != list(valid_feed.values()):
+                raise ValueError("shared thread observation must include every visible post and comment")
             for p in feed:
                 original = valid_feed.get(p["content_id"])
                 if original is None or any(p.get(k) != v for k, v in original.items() if k != "comments"):
                     raise ValueError("observation contains invisible/altered content")
                 if any(c not in original["comments"] for c in p["comments"]):
                     raise ValueError("observation contains invisible comment")
-            used_memory = [m for m in self.memory[a.agent_id] if m["tick"] in a.payload["used_memory_ticks"]]
-            answer = normalize_answer(a.payload["answer"], feed, used_memory, self.reposted[a.agent_id])
+            retained = retained_memory(self.memory[a.agent_id], a.step, self.cfg)
+            used_memory = [m for m in retained if m["tick"] in a.payload["used_memory_ticks"]]
+            if (self.cfg.get("decision_condition_policy")=="all_conditions_v1"
+                    and self.by_id[a.agent_id]["decision_mode"]=="llm" and used_memory != retained):
+                raise ValueError("all conditions require the complete retained personal memory")
+            policy = self.cfg.get("belief_measurement_policy", "legacy") if self.by_id[a.agent_id]["decision_mode"] == "llm" else "legacy"
+            answer = normalize_answer(a.payload["answer"], feed, used_memory, self.reposted[a.agent_id], belief_policy=policy,
+                                      comment_target_policy=self.cfg.get("comment_target", "first_displayed_post"))
+            validate_belief_measurement(answer, required=self.by_id[a.agent_id]["decision_mode"] == "llm"
+                and self.cfg.get("belief_measurement_policy") in ("subjective_credibility_v1", BINARY_SCORE_POLICY))
+            if self.by_id[a.agent_id]["decision_mode"] == "llm":
+                from decision_conditions import validate_condition_application
+                validate_condition_application(answer, valid_ob)
             prepared.append((a, signature, answer))
         for a, signature, answer in prepared:
             aid = a.agent_id
@@ -225,7 +354,14 @@ class V4Environment(EnvironmentProvider):
             if answer is not None:
                 feed = a.payload["observed_posts"]
                 before = self.beliefs[aid]
+                credibility_before = self.credibility[aid]
                 self.beliefs[aid] = answer["belief"]
+                if "subjective_credibility" in answer:
+                    self.credibility[aid] = answer["subjective_credibility"]
+                    self.component_credibility[aid] = copy.deepcopy(answer["component_credibility"])
+                if "condition_application" in answer:
+                    self.condition_application[aid] = copy.deepcopy(answer["condition_application"])
+                    self.condition_context_ref[aid] = answer["condition_context_ref"]
                 self.last_updated[aid] = a.step
                 for p in feed:
                     entry = self.exposure_history[aid].setdefault(p["content_id"], {
@@ -239,9 +375,10 @@ class V4Environment(EnvironmentProvider):
                 self.seen[aid].update(p["content_id"] for p in feed)
                 if answer["comment"]["enabled"]:
                     cid = f"C{a.step:02d}-{aid}"
-                    # V4 has no comment target field: explicitly target first shown post.
+                    target = (answer["comment"]["target_content_id"] if self.cfg.get("comment_target") == "explicit_visible_root"
+                              else feed[0]["content_id"])
                     self.comments[cid] = dict(comment_id=cid, author_id=aid, published_tick=a.step,
-                        target_content_id=feed[0]["content_id"], text=answer["comment"]["text"])
+                        target_content_id=target, text=answer["comment"]["text"])
                 if answer["repost"]["enabled"]:
                     target = self.posts[answer["repost"]["target_content_id"]]
                     cid = f"RP{a.step:02d}-{aid}"
@@ -250,10 +387,14 @@ class V4Environment(EnvironmentProvider):
                         published_tick=a.step, available_tick=a.step + 1, text=target["text"],
                         repost_text=answer["repost"]["text"], parent_content_id=target["content_id"])
                     self.reposted[aid].add(target["root_content_id"])
-                self.memory[aid].append(dict(agent_id=aid, tick=a.step, observed_posts=copy.deepcopy(feed),
+                remembered=(personal_memory_posts(feed) if self.cfg.get("memory_comment_policy")==MEMORY_POLICY else copy.deepcopy(feed))
+                self.memory[aid].append(dict(agent_id=aid, tick=a.step, observed_posts=remembered,
                     belief_before=before, belief_after=answer["belief"],
+                    subjective_credibility_before=credibility_before,
+                    subjective_credibility_after=self.credibility[aid],
+                    component_credibility=copy.deepcopy(self.component_credibility[aid]),
                     comment=answer["comment"], repost=answer["repost"]))
-                self.memory[aid] = self.memory[aid][-5:]
+                self.memory[aid] = retained_memory(self.memory[aid], a.step+1, self.cfg)
                 if aid in self.cohort and a.step >= self.government_tick and answer["belief"] == "reject":
                     self.transitions.setdefault(aid, a.step)
             self.applied[(a.step, aid)] = signature
@@ -264,12 +405,22 @@ class V4Environment(EnvironmentProvider):
         return dict(exposure_summary=exposure_summary(self.exposure_history[aid], [], self.t), current_belief=self.beliefs[aid], last_updated_tick=self.last_updated[aid],
                     decision_mode=self.by_id[aid]["decision_mode"], group=self.by_id[aid]["group"],
                     memory_count=len(self.memory[aid]), seen_count=len(self.seen[aid]),
+                    subjective_credibility=self.credibility[aid],
+                    component_credibility=copy.deepcopy(self.component_credibility[aid]),
+                    condition_application=copy.deepcopy(self.condition_application[aid]),
+                    condition_context_ref=self.condition_context_ref[aid],
+                    synthetic_age=self.by_id[aid].get("synthetic_age"),
+                    synthetic_region=self.by_id[aid].get("synthetic_region"),
+                    synthetic_occupation=self.by_id[aid].get("synthetic_occupation"),
+                    synthetic_mbti_type=self.by_id[aid].get("synthetic_mbti_type"),
                     reposted_roots=sorted(self.reposted[aid]))
 
     def snapshot(self):
         return dict(technical_offline=self.offline, exposure_history=self.exposure_history,
                     read_comments={a: sorted(v) for a,v in self.read_comments.items()},
                     rule_corrected=sorted(self.rule_corrected), tick=self.t, beliefs=self.beliefs, memory=self.memory,
+                    subjective_credibility=self.credibility, component_credibility=self.component_credibility,
+                    condition_application=self.condition_application, condition_context_ref=self.condition_context_ref,
                     posts=self.posts, comments=self.comments,
                     seen={a: sorted(x) for a, x in self.seen.items()},
                     reposted={a: sorted(x) for a, x in self.reposted.items()},
@@ -306,13 +457,20 @@ def allowed_evidence_ids(feed, memories):
         # Provider text holds original/root text, not the repost caption.
         if isinstance(p.get("text"), str) and p["text"].strip() and p.get("root_content_id"):
             ids.add(p["root_content_id"])
+        # Complete-thread observations also display followed accounts' relay
+        # captions. Those visible transport IDs are valid evidence, not new roots.
+        ids.update(r["content_id"] for r in p.get("relay_context", []))
     return ids
 
 
-def normalize_answer(raw, feed, memories, already_reposted):
+def normalize_answer(raw, feed, memories, already_reposted, belief_policy="legacy", comment_target_policy="first_displayed_post"):
     if not feed:
         raise ValueError("no content must use idle")
     answer = copy.deepcopy(raw)
+    if belief_policy == BINARY_SCORE_POLICY:
+        validate_belief_measurement(answer, required=True)
+        answer["belief"] = score_to_belief(answer["subjective_credibility"])
+        answer["belief_basis"] = "subjective_credibility > 50; score=50 is reject"
     repairs = list(answer.get("format_repairs", []))
     # Only the explicit false shorthand is unambiguous. Never infer a true action.
     if answer.get("repost") is False and answer.get("target_content_id") is None and answer.get("text", "") == "":
@@ -324,12 +482,19 @@ def normalize_answer(raw, feed, memories, already_reposted):
         answer["format_repairs"] = repairs
     if answer.get("belief") not in ("believe", "uncertain", "reject", "unjudged"):
         raise ValueError("invalid belief")
+    validate_belief_measurement(answer)
     for field in ("comment", "repost"):
         item = answer.get(field)
         if not isinstance(item, dict) or type(item.get("enabled")) is not bool or not isinstance(item.get("text"), str):
             raise ValueError("invalid action schema")
         if item["enabled"] and field == "comment" and not item["text"].strip():
             raise ValueError("empty enabled comment")
+    if comment_target_policy == "explicit_visible_root":
+        comment_target=answer["comment"].get("target_content_id")
+        if answer["comment"]["enabled"] and (not isinstance(comment_target,str) or comment_target not in {p["content_id"] for p in feed}):
+            raise ValueError("invalid/invisible comment target")
+        if not answer["comment"]["enabled"]:
+            answer["comment"]["target_content_id"] = None
     visible_ids = allowed_evidence_ids(feed, memories)
     evidence = answer.get("evidence_ids")
     if not isinstance(evidence, list) or any(not isinstance(i, str) or i not in visible_ids for i in evidence):
@@ -349,6 +514,34 @@ def normalize_answer(raw, feed, memories, already_reposted):
     if not answer["repost"]["enabled"]:
         answer["repost"]["target_content_id"] = None
     return answer
+
+
+COMPONENT_KEYS = ("funds_redirected", "safety_delayed", "causal_link")
+BINARY_SCORE_POLICY = "binary_score_gt50_v1"
+
+
+def score_to_belief(score):
+    """One authoritative boundary: >50 believe; <=50 reject. No rounding."""
+    if type(score) not in (int, float) or not math.isfinite(score) or not 0 <= score <= 100:
+        raise ValueError("invalid belief measurement")
+    return "believe" if score > 50 else "reject"
+
+
+def belief_states(policy):
+    return ("unjudged", "believe", "reject") if policy == BINARY_SCORE_POLICY else ("unjudged", "believe", "uncertain", "reject")
+
+
+def validate_belief_measurement(answer, required=False):
+    """Validate the four self-report scores. Classification is a separate policy."""
+    present = any(k in answer for k in ("subjective_credibility", "component_credibility"))
+    if not present and not required:
+        return
+    def score(value):
+        return type(value) in (int, float) and math.isfinite(value) and 0 <= value <= 100
+    components = answer.get("component_credibility")
+    if (not score(answer.get("subjective_credibility")) or not isinstance(components, dict)
+            or set(components) != set(COMPONENT_KEYS) or not all(score(v) for v in components.values())):
+        raise ValueError("invalid belief measurement")
 
 
 def empty_answer(belief):
@@ -401,6 +594,10 @@ class V4Decision(DecisionModel):
             inside = ob.local_physical["persona"]["group"] == "inside"
             pb, rc = {0.0: (.579, .579, .100, .100), .2: (.679, .479, .117, .083),
                       .4: (.779, .379, .135, .065)}[self.cfg["pbd"]][0 if inside else 1::2]
+            if self.cfg.get("rule_source_trust_mode") == "individual_pb":
+                pb = ob.local_physical.get("source_trust")
+                if pb is None:
+                    raise ValueError("individual_pb requires a frozen source_trust assignment")
             if state in ("unjudged", "uncertain") or (state == "reject" and self.cfg.get("rule_reconsider_rumor", False) and not ob.local_physical.get("rule_corrected", False)):
                 answer["belief"] = "believe" if trial("PB", pb) else "reject"
             repost = answer["belief"] == "believe" and eligible and trial("RC", rc)
@@ -415,7 +612,18 @@ class V4Decision(DecisionModel):
         answer = empty_answer("reject" if target["root_content_id"] == "G001" else "believe")
         answer["repost"] = {"enabled": True, "target_content_id": target["content_id"], "text": "离线工程测试附言"}
         answer["comment"] = {"enabled": True, "text": "离线工程测试评论"}
+        if ob.local_physical.get("comment_target_policy") == "explicit_visible_root":
+            answer["comment"]["target_content_id"] = target["content_id"]
         answer["evidence_ids"] = [target["content_id"]]
+        if ob.local_physical.get("belief_measurement_policy") in ("subjective_credibility_v1", BINARY_SCORE_POLICY):
+            value = 10 if answer["belief"] == "reject" else 90
+            answer["subjective_credibility"] = value
+            answer["component_credibility"] = {k:value for k in COMPONENT_KEYS}
+        if ob.local_physical.get("belief_measurement_policy") == BINARY_SCORE_POLICY:
+            answer.pop("belief") # exercise the same score-only schema as the live prompt
+        if ob.local_physical.get("decision_condition_policy") == "all_conditions_v1":
+            from decision_conditions import scripted_condition_application
+            answer.update(scripted_condition_application(ob))
         return answer
 
     def decide_batch(self, obs, memories):
@@ -423,6 +631,8 @@ class V4Decision(DecisionModel):
         observations = copy.deepcopy(list(obs))
         if len({o.agent_id for o in observations}) != len(observations):
             raise ValueError("duplicate agent in observation batch")
+        if self.mode=='openai' and self.cfg.get('prompt_encoding')=='lossless_thread_refs_v1':
+            self.client.preflight_batch(observations,self.template)
         workers = int(self.cfg.get("max_concurrency", 1))
         if workers == 1 or self.mode != "openai":
             return self._decide_serial(observations, memories)
@@ -439,18 +649,25 @@ class V4Decision(DecisionModel):
             while next_index < min(workers, len(observations)):
                 submit_one(next_index)
                 next_index += 1
-            while pending:
-                done, _ = wait(pending, return_when=FIRST_COMPLETED)
-                for future in done:
-                    index = pending.pop(future)
-                    try:
-                        results[index] = future.result()
-                    except Exception as exc:
-                        errors.append(exc)
-                if not errors:
-                    while len(pending) < workers and next_index < len(observations):
-                        submit_one(next_index)
-                        next_index += 1
+            try:
+                while pending:
+                    done, _ = wait(pending, return_when=FIRST_COMPLETED)
+                    for future in done:
+                        index = pending.pop(future)
+                        try:
+                            results[index] = future.result()
+                        except Exception as exc:
+                            errors.append(exc)
+                    if not errors:
+                        while len(pending) < workers and next_index < len(observations):
+                            submit_one(next_index)
+                            next_index += 1
+            except KeyboardInterrupt:
+                self.client.gate.halt()
+                for future in pending:
+                    future.cancel()
+                print("\n正在暂停：停止新请求，等待已发送的请求收尾并保存缓存。请勿直接关闭窗口。", flush=True)
+                raise
             if errors:
                 from llm_client import QuotaPause
                 raise next((e for e in errors if isinstance(e, QuotaPause)), errors[0])
@@ -475,11 +692,18 @@ class V4Decision(DecisionModel):
                     raw = self._scripted(ob)
                 else:
                     raw, used, meta = self.client.decide(ob, self.template)
-                    if raw.get("belief") not in ("believe", "uncertain", "reject"):
+                    if ob.local_physical.get("belief_measurement_policy") != BINARY_SCORE_POLICY and raw.get("belief") not in ("believe", "uncertain", "reject"):
                         raise ValueError("LLM must not return unjudged")
+                validate_belief_measurement(raw, required=is_llm and
+                    ob.local_physical.get("belief_measurement_policy") in ("subjective_credibility_v1", BINARY_SCORE_POLICY))
+                if is_llm:
+                    from decision_conditions import validate_condition_application
+                    validate_condition_application(raw, ob)
                 used_ticks = meta.get("used_memory_ticks", [m["tick"] for m in ob.local_physical["memory"]])
                 used_memory = [m for m in ob.local_physical["memory"] if m["tick"] in used_ticks]
-                answer = normalize_answer(raw, used, used_memory, ob.local_physical["already_reposted"])
+                policy = ob.local_physical.get("belief_measurement_policy", "legacy") if is_llm else "legacy"
+                answer = normalize_answer(raw, used, used_memory, ob.local_physical["already_reposted"], belief_policy=policy,
+                                          comment_target_policy=ob.local_physical.get("comment_target_policy", "first_displayed_post"))
             except Exception as exc:
                 from llm_client import AgentRequestFailure, FormatAttemptsExhausted
                 if is_llm and isinstance(exc, (AgentRequestFailure, FormatAttemptsExhausted)):
@@ -507,15 +731,34 @@ class V4Decision(DecisionModel):
 class V4Metrics(MetricCollector):
     def collect(self, env, actions, t):
         result = {}
+        labels = belief_states(env.cfg.get("belief_measurement_policy", "legacy"))
+        if any(b not in labels for b in env.beliefs.values()):
+            raise ValueError("belief state incompatible with active measurement policy")
         for mode in ("all", "llm", "rule"):
             counts = Counter(b for a, b in env.beliefs.items() if mode == "all" or env.by_id[a]["decision_mode"] == mode)
-            for b in ("unjudged", "believe", "uncertain", "reject"):
+            for b in labels:
                 result[f"{mode}_{b}"] = counts[b]
+            judged = counts["believe"] + counts["reject"]
+            result[f"{mode}_judged_n"] = judged
+            result[f"{mode}_believe_rate_judged"] = counts["believe"] / judged if judged else None
         result.update(remaining_agents=len(env.by_id)-len(env.offline), technical_dropout_count=len(env.offline),
             remaining_llm=sum(r["decision_mode"] == "llm" and aid not in env.offline for aid,r in env.by_id.items()),
             remaining_rule=sum(r["decision_mode"] == "rule" and aid not in env.offline for aid,r in env.by_id.items()))
-        for belief in ("unjudged", "believe", "uncertain", "reject"):
+        for belief in labels:
             result["remaining_"+belief] = sum(b == belief and aid not in env.offline for aid,b in env.beliefs.items())
+        for root, prefix in (("P001", "rumor"), ("G001", "official")):
+            first_ticks = [min(tick for h in history.values() if h["root_content_id"] == root
+                               for tick in h.get("ticks", [h["tick"]]))
+                           for history in env.exposure_history.values()
+                           if any(h["root_content_id"] == root for h in history.values())]
+            result[prefix+"_readers_this_tick"] = sum(any(p["root_content_id"] == root
+                for p in a.payload.get("observed_posts", [])) for a in actions)
+            result[prefix+"_new_reach"] = sum(tick == t for tick in first_ticks)
+            result[prefix+"_cumulative_reach"] = len(first_ticks)
+            result[prefix+"_coverage_rate"] = len(first_ticks)/len(env.by_id)
+        scores = [v for aid,v in env.credibility.items() if env.by_id[aid]["decision_mode"] == "llm" and v is not None]
+        result["llm_credibility_reported_n"] = len(scores)
+        result["llm_credibility_mean"] = mean(scores) if scores else None
         result.update(posts=len(env.posts), comments=len(env.comments),
             reread_presentations=sum(p.get("is_reread", False) for a in actions for p in a.payload.get("observed_posts", [])),
             visible_comment_presentations=sum(len(p.get("comments", [])) for a in actions for p in a.payload.get("observed_posts", [])),

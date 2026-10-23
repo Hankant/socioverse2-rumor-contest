@@ -1,0 +1,30 @@
+{
+  "factors": {
+    "source_trust_gap": [
+      0,
+      0.2,
+      0.4
+    ],
+    "government_tick": [
+      2,
+      4,
+      7
+    ],
+    "targeting_inside_ratio": [
+      0.2,
+      0.8
+    ],
+    "government_trust_mean": [
+      0.25,
+      0.5,
+      0.75
+    ]
+  },
+  "conditions": 54,
+  "runs_executed": 0,
+  "repeat_count": 1,
+  "note": "Configurations only; no live runs are automatically started",
+  "population_version": "v6-heterogeneity-20261022-1",
+  "feed_policy": "network_rumor_all_comments_v1",
+  "runtime_version": "v6-network-thread-all-conditions-20261022-1"
+}
