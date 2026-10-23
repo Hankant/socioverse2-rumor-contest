@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "这段描述仍只有传播者的概括，没有原始视频、涉事干部身份或当地回应可供核实。“懒惰”和“牛被饿死”都不能仅凭片段直接定性，建议等完整视频、报道或调查结果再判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0142",
+      "C05-A0137"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0277",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1298,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "87f27b41703b061d03294d99595c561b4ee5b437ffa4961a0a0cc9c6fae3fb44",
+    "input_reserved_units": 3957,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 8,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2434,
+    "actual_output_tokens": 124,
+    "elapsed_seconds": 3.906
+  },
+  "validation_status": "valid"
+}

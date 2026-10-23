@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "看了官方账号的回应，说原始帖所述情况不属实，而且反复转的也都是同一段内容，没有看到完整视频和独立核实，卫生状况也不能直接证明“懒惰”，先别下结论，转发也先停一停。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "RP08-A0358",
+      "P001",
+      "RP03-A0254",
+      "C04-A0189"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0394",
+    "tick": 9,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 2077,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "e99fca8e6b1afe4e2a20b25081fd4c8256bec829a299066a4c4c4931f86ada7d",
+    "input_reserved_units": 3995,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 3,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2498,
+    "actual_output_tokens": 142,
+    "elapsed_seconds": 2.922
+  },
+  "validation_status": "valid"
+}

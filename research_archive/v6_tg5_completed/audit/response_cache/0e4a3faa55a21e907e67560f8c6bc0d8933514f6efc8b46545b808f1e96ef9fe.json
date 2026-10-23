@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP03-A0114",
+      "text": "多次转述仍不等于独立核实；目前缺少完整视频、涉事干部身份和当地回应，建议先查清前因后果再判断。"
+    },
+    "evidence_ids": [
+      "RP03-A0114",
+      "RP03-A0322",
+      "C03-A0002",
+      "C03-A0017",
+      "RP02-A0013"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0419",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 760,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "0e4a3faa55a21e907e67560f8c6bc0d8933514f6efc8b46545b808f1e96ef9fe",
+    "input_reserved_units": 3700,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      3
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2331,
+    "actual_output_tokens": 101,
+    "elapsed_seconds": 2.828
+  },
+  "validation_status": "valid"
+}

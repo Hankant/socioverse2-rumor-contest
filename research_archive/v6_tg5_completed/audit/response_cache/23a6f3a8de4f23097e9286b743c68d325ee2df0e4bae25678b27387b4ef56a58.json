@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看到了几条不同人的转发，但仍然只有发布者对视频的概括描述，没有完整视频或原始报道来核实细节。多次重复出现不等于独立证实，转发提醒的提醒很对，先等完整上下文再下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP01-A0049",
+      "RP02-A0047",
+      "RP02-A0262",
+      "RP02-A0553",
+      "C02-A0022",
+      "C02-A0025"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0476",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 456,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "23a6f3a8de4f23097e9286b743c68d325ee2df0e4bae25678b27387b4ef56a58",
+    "input_reserved_units": 3926,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      2
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2462,
+    "actual_output_tokens": 153,
+    "elapsed_seconds": 5.562
+  },
+  "validation_status": "valid"
+}

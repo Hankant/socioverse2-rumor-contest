@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "这段内容目前仍主要是同一来源的重复转述。多位账号提到缺少完整视频和背景，并不能相互构成独立证实；建议先核对原始视频、涉事地点、扶贫干部身份及当地通报，再判断父子是否确实长期不干活、牛为何没得到照料。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0090",
+      "RP02-A0357",
+      "RP03-A0138",
+      "RP03-A0196",
+      "RP03-A0461",
+      "C03-A0291",
+      "C03-A0318"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0291",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 668,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "702f7200baaeae0498fcfa6ca355e730e4761d6cc072c17795a56588ae817ad0",
+    "input_reserved_units": 4038,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 1,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 1,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2492,
+    "actual_output_tokens": 182,
+    "elapsed_seconds": 4.063
+  },
+  "validation_status": "valid"
+}

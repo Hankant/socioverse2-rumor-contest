@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0035",
+      "text": "仅有视频描述，暂时无法核实所谓扶贫干部的身份，以及父子懒散、牛被饿死等情况的完整背景。建议先找原始视频和当地通报再下结论。"
+    },
+    "evidence_ids": [
+      "RP01-A0035"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0090",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 95,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "e94319ed6723b9b5b28d5ee50e74966f864648d4e1809977a6f12f292a4a1eab",
+    "input_reserved_units": 2417,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1536,
+    "actual_output_tokens": 80,
+    "elapsed_seconds": 3.344
+  },
+  "validation_status": "valid"
+}

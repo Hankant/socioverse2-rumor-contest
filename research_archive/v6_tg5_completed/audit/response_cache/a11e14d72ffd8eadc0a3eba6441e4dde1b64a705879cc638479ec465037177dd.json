@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0063",
+      "text": "目前只有发布者的概括，缺少原始视频、涉事干部身份及当地通报，父子家庭情况也可能有未展示背景。先求证，不把这段描述直接当成完整事实。"
+    },
+    "evidence_ids": [
+      "RP02-A0063"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0114",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 274,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "a11e14d72ffd8eadc0a3eba6441e4dde1b64a705879cc638479ec465037177dd",
+    "input_reserved_units": 2445,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1550,
+    "actual_output_tokens": 85,
+    "elapsed_seconds": 2.531
+  },
+  "validation_status": "valid"
+}

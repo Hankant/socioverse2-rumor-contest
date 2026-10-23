@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的仍是同一段概括性描述，缺少完整视频、事发时间线、涉事人员身份及当地回应；“牛被饿死”等具体细节也未见佐证。反复转载不等于独立核实，建议先等完整材料再判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0553",
+      "C03-A0201",
+      "C03-A0445",
+      "C04-A0028"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0009",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 886,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "eccc20263a88dac3fa3d1a81ff53d093573ad55ba9c2b07cd3de1837dd8952f3",
+    "input_reserved_units": 4027,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 5,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2498,
+    "actual_output_tokens": 113,
+    "elapsed_seconds": 3.36
+  },
+  "validation_status": "valid"
+}

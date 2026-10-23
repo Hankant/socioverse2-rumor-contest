@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "政府账号已经明确说该帖不属实，我之前也是因为只有单方说法而存疑，现在有官方回应就更不应传播这种未经核实还给当事人贴标签的内容了。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "RP02-A0002",
+      "RP04-A0005",
+      "C05-A0287",
+      "C05-A0555"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0025",
+    "tick": 9,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1909,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "91d530b9f4f26722f2ed98f53b47b7fa7b1bda3792e6530e2c1067dd674a9350",
+    "input_reserved_units": 3963,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 8,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2483,
+    "actual_output_tokens": 138,
+    "elapsed_seconds": 4.0
+  },
+  "validation_status": "valid"
+}

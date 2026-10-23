@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "同一段概括被多次转发并不能构成独立核实；目前缺少原始视频、涉事干部身份和当地权威回应。家中邋遢或生活状态也不能直接证明“懒惰”，建议先核实完整上下文。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0026",
+      "text": "先求证，不把短视频概括直接当事实：需要原始视频、当事人和当地回应等信息。"
+    },
+    "evidence_ids": [
+      "C03-A0024",
+      "C04-A0290",
+      "RP02-A0026",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0023",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 894,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "ced6803f246f5acd3a8b0e21afa151eb78228d30606cf5ce04de3ad511614328",
+    "input_reserved_units": 3941,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 8,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2450,
+    "actual_output_tokens": 127,
+    "elapsed_seconds": 2.422
+  },
+  "validation_status": "valid"
+}

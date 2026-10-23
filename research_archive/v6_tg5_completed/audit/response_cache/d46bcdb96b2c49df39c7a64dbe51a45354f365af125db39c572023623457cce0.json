@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前仍是同一批文字和视频片段被反复传播，尚未看到完整视频、当地官方通报或当事人回应，因此“长期不劳动”“牛被饿死都不知道”等细节不能独立证实，也暂不宜给当事人贴“懒惰”标签。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C04-A0401",
+      "RP03-A0257",
+      "RP04-A0001",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0342",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1049,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "d46bcdb96b2c49df39c7a64dbe51a45354f365af125db39c572023623457cce0",
+    "input_reserved_units": 3643,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 1,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      4
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2285,
+    "actual_output_tokens": 107,
+    "elapsed_seconds": 2.047
+  },
+  "validation_status": "valid"
+}

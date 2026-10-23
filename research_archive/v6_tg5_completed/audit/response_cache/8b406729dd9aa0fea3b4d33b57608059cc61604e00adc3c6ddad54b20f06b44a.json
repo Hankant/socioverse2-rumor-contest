@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "现有官方回应已明确称网传帖所述情况不属实，而且原视频片段也不足以证明扶贫干部身份、父子家庭状况及“懒惰”等指责。建议不要继续按原叙述传播，等待后续完整核实信息。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "RP06-A0041",
+      "RP06-A0199",
+      "RP06-A0291",
+      "RP06-A0485",
+      "RP03-A0291"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0278",
+    "tick": 7,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1530,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "8b406729dd9aa0fea3b4d33b57608059cc61604e00adc3c6ddad54b20f06b44a",
+    "input_reserved_units": 3816,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2435,
+    "actual_output_tokens": 154,
+    "elapsed_seconds": 7.312
+  },
+  "validation_status": "valid"
+}

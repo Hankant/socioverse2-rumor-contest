@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0518",
+      "text": "目前只有传播者的概述，无法确认视频背景及扶贫干部说法；先转出来求证，需核对完整视频和当地回应。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0518"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0429",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 431,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "973c9334a95f26bfc8c0040e85360339a817b836fc1fd71b75a02e2384ef2d27",
+    "input_reserved_units": 2421,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1540,
+    "actual_output_tokens": 77,
+    "elapsed_seconds": 3.797
+  },
+  "validation_status": "valid"
+}

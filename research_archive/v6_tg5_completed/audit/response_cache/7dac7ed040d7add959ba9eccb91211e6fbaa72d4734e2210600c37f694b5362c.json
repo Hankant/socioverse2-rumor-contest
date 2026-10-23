@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "现在看到的都是同一段文字转述，没有原始视频、扶贫干部身份核实、当地回应等关键材料。\"懒惰\"\"牛被饿死\"这类带情绪色彩的描述尤其需要原始画面坐实。在看到更完整材料之前，先不下定论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP02-A0200",
+      "RP03-A0464",
+      "C03-A0104",
+      "C03-A0235",
+      "C04-A0058"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0316",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1038,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "7dac7ed040d7add959ba9eccb91211e6fbaa72d4734e2210600c37f694b5362c",
+    "input_reserved_units": 3574,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2212,
+    "actual_output_tokens": 153,
+    "elapsed_seconds": 3.75
+  },
+  "validation_status": "valid"
+}

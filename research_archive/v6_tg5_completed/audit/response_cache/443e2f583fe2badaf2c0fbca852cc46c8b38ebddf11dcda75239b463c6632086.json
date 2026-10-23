@@ -1,0 +1,57 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "这段话已经看到不同账号重复发布，但重复内容不等于独立证实。目前仍缺少原始视频、官方通报及权威媒体信息，无法核实扶贫对象身份、干部言行和完整经过，先求证再判断。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP04-A0088",
+      "text": "多个账号转发同一段描述只能说明传播较多，不能证明内容属实。请补充原始视频、事发背景及权威通报后再下结论。"
+    },
+    "evidence_ids": [
+      "P001",
+      "C03-A0167",
+      "C03-A0411",
+      "RP02-A0075",
+      "RP03-A0527",
+      "RP03-A0528",
+      "RP04-A0088"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0092",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 940,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "443e2f583fe2badaf2c0fbca852cc46c8b38ebddf11dcda75239b463c6632086",
+    "input_reserved_units": 3838,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 1,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      4
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2390,
+    "actual_output_tokens": 150,
+    "elapsed_seconds": 3.968
+  },
+  "validation_status": "valid"
+}

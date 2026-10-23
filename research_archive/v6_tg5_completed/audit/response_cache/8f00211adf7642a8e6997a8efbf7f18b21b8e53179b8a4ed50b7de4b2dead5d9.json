@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了好几条转述都在说同一件事，但原始视频、完整语境和当地官方回应都还没看到，仅凭扶贫干部单方面的叙述就给这对父子贴'懒惰'的标签太早了。希望能有更完整的视频和独立核实再下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0374",
+      "RP03-A0058",
+      "RP03-A0169",
+      "RP03-A0520",
+      "C03-A0186",
+      "RP04-A0266"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0558",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1140,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "8f00211adf7642a8e6997a8efbf7f18b21b8e53179b8a4ed50b7de4b2dead5d9",
+    "input_reserved_units": 3937,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 5,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2416,
+    "actual_output_tokens": 145,
+    "elapsed_seconds": 3.938
+  },
+  "validation_status": "valid"
+}

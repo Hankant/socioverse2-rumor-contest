@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "已有账号明确回应该网传情况不属实，且目前缺少完整视频、涉事人员身份和独立核实材料，不宜继续传播，更不应据此给当事人贴“懒惰”标签。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "RP02-A0391",
+      "RP06-A0250",
+      "RP06-A0430",
+      "RP06-A0542",
+      "RP07-A0391",
+      "C07-A0290"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0435",
+    "tick": 8,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1845,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "52c0abe495bcf2c911dc0fa515929f933ba16f2e9d9c29c619f07aeefcf7c98d",
+    "input_reserved_units": 4027,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 1,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2537,
+    "actual_output_tokens": 118,
+    "elapsed_seconds": 2.937
+  },
+  "validation_status": "valid"
+}

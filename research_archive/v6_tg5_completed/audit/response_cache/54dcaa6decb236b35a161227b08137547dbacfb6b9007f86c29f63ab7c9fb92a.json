@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频里的画面能说明现场情况，但仅凭这段文字还无法核实扶贫干部身份及父子是否确实长期不干活。视频来源、时间地点和完整上下文是什么？"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "P001",
+      "text": "暂不能仅凭短视频断定事件全貌，想先核实视频来源及完整上下文。"
+    },
+    "evidence_ids": [
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0030",
+    "tick": 1,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 19,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "54dcaa6decb236b35a161227b08137547dbacfb6b9007f86c29f63ab7c9fb92a",
+    "input_reserved_units": 2336,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1488,
+    "actual_output_tokens": 93,
+    "elapsed_seconds": 6.578
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的仍是发布者的概括，缺少完整视频、权威信源和背景，无法核实这对父子的身份、处境，以及“扶贫干部怒斥”的前因后果。连续转述也不等于独立证实，建议先等当地通报或完整采访。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C02-A0021",
+      "C02-A0026",
+      "C02-A0044"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0002",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 222,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "31bfb10a3778ab03b4d4c66b037d1755f0260744ef3591c719ded9b02799676f",
+    "input_reserved_units": 3954,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 5,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2457,
+    "actual_output_tokens": 109,
+    "elapsed_seconds": 4.265
+  },
+  "validation_status": "valid"
+}

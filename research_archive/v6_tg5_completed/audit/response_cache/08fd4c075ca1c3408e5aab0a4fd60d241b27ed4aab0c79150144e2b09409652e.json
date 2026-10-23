@@ -1,0 +1,57 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "看到官方账号已经明确说“辽宁扶贫干部怒斥懒惰父子”不属实，提醒大家不要继续传播了。之前那段文字描述虽然很具体，但缺少原始视频和完整背景，本来就该先求证再判断，现在有了官方澄清就更不该转发了。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "RP02-A0075",
+      "RP06-A0075",
+      "RP07-A0119",
+      "RP07-A0152",
+      "RP09-A0124",
+      "C03-A0167",
+      "C03-A0411"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0539",
+    "tick": 10,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 2392,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "08fd4c075ca1c3408e5aab0a4fd60d241b27ed4aab0c79150144e2b09409652e",
+    "input_reserved_units": 4004,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 6,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2546,
+    "actual_output_tokens": 175,
+    "elapsed_seconds": 3.781
+  },
+  "validation_status": "valid"
+}

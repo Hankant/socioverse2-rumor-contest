@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "重复看到的是同一段概括，并非独立佐证。现有材料仍缺完整视频、涉事干部身份和父子家庭背景，也无当地官方或主流媒体回应；“懒惰”及“牛被饿死”等说法暂不能确认。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C03-A0026",
+      "C03-A0051",
+      "C03-A0236"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0237",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 640,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "9b89d982114bc042677724d6c0ce90f6cdf5fb70a9db7563036f642170a3b2df",
+    "input_reserved_units": 4019,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 1,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 1,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2455,
+    "actual_output_tokens": 105,
+    "elapsed_seconds": 3.953
+  },
+  "validation_status": "valid"
+}

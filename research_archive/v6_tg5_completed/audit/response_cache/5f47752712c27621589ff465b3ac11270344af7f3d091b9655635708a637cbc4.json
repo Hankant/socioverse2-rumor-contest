@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "转述里描述的画面很具体，但目前我也没看到原始视频、扶贫干部身份和当事父子背景的核实。重复看到多个人转同一段文字不等于信息被证实，还是等一下辽宁当地官方或主流媒体的完整通报再说。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C02-A0021",
+      "C02-A0026",
+      "C02-A0044",
+      "RP01-A0014",
+      "RP01-A0049",
+      "RP02-A0006",
+      "RP02-A0122"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0054",
+    "tick": 3,
+    "attempt": 2,
+    "format_max_attempts": 4,
+    "request_number": 255,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "5f47752712c27621589ff465b3ac11270344af7f3d091b9655635708a637cbc4",
+    "input_reserved_units": 4079,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 3,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2494,
+    "actual_output_tokens": 168,
+    "elapsed_seconds": 14.735
+  },
+  "validation_status": "valid"
+}

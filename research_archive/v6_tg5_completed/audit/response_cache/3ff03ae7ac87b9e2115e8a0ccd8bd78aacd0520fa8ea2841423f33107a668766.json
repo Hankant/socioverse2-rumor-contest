@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0061",
+      "text": "目前只有发布者的概括，缺少完整视频、当事人的背景和官方信息，仅凭片段不能直接断定\"懒惰\"，也不易确认扶贫干部身份及事情经过，先求证再说。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0061",
+      "RP02-A0542"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0149",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 279,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "3ff03ae7ac87b9e2115e8a0ccd8bd78aacd0520fa8ea2841423f33107a668766",
+    "input_reserved_units": 2815,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1746,
+    "actual_output_tokens": 110,
+    "elapsed_seconds": 3.875
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前只有同一段画面和概括被反复转发，尚不足以确认这对父子长期懒惰、牛被饿死以及扶贫干部的现场经过。重复出现不等于多方证实，建议等完整视频和当地部门说明再判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP04-A0310",
+      "RP01-A0028",
+      "C02-A0034",
+      "C04-A0060",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0393",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1070,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "1377b1370fcd51c785d03b3c6649c0a17212737770b490c78fa13a3d0375770c",
+    "input_reserved_units": 3069,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1921,
+    "actual_output_tokens": 106,
+    "elapsed_seconds": 3.328
+  },
+  "validation_status": "valid"
+}

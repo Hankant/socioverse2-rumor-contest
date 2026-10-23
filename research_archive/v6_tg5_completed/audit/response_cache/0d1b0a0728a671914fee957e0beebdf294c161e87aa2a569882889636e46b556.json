@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看到两版转述内容一致但都强调是片段，建议先找原始完整视频和当地官方通报确认一下，再判断这对父子的情况和扶贫干部的说法是否准确，不宜仅凭片段就下结论。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0025",
+      "text": "转发求证：视频细节挺震撼，但目前只有片段转述，难以判断全貌。希望能看到完整视频来源、事发地点核实以及官方回应，再决定怎么看这件事。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0025",
+      "RP02-A0507"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0267",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 391,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "0d1b0a0728a671914fee957e0beebdf294c161e87aa2a569882889636e46b556",
+    "input_reserved_units": 2800,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1739,
+    "actual_output_tokens": 167,
+    "elapsed_seconds": 3.281
+  },
+  "validation_status": "valid"
+}

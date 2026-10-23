@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "已有账号明确称网传情况不属实，而现有材料主要是同一段概括的重复传播，缺少完整视频、当事人背景及独立核实。因此不宜把“扶贫干部怒斥懒惰父子”以及“牛饿死”等细节当作事实。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "RP06-A0558",
+      "RP04-A0508",
+      "RP04-A0558"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0160",
+    "tick": 9,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1973,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "ca9917b595b1ca27a76bb2d6fc301758a5087a7147db03571fcbe1ea9d04b239",
+    "input_reserved_units": 3974,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 3,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2474,
+    "actual_output_tokens": 110,
+    "elapsed_seconds": 3.109
+  },
+  "validation_status": "valid"
+}

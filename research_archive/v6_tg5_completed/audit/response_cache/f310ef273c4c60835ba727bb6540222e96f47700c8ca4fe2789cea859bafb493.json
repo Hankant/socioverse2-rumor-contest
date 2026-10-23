@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "转述里具体细节挺多，但看不出原始视频拍摄时间、地点和确认来源，扶贫干部身份也没交代。父子和村子具体情况如何？现在家庭状况有没有官方说明？这些信息够了才比较好判断。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0036",
+      "text": "转述细节不少但完整语境不清楚，想看看原始视频和官方后续说明，有人了解吗？"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0036"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0360",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 155,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "f310ef273c4c60835ba727bb6540222e96f47700c8ca4fe2789cea859bafb493",
+    "input_reserved_units": 2422,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1527,
+    "actual_output_tokens": 145,
+    "elapsed_seconds": 8.656
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "只有视频描述不足以确认这对父子是否属于扶贫对象，也无法判断干部发怒是否有其他背景。建议先核实完整视频、拍摄地点、时间及后续回应，避免把个案标签化。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "P001",
+      "text": "转出来求证：目前只有传播者的概述，无法确认视频背景及扶贫干部说法，待核实完整视频和当地回应。"
+    },
+    "evidence_ids": [
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0012",
+    "tick": 1,
+    "attempt": 2,
+    "format_max_attempts": 4,
+    "request_number": 17,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "59b1f59af22eb55ca2d78eca9612d11a928d4c4436dfca5473d129c7fc076569",
+    "input_reserved_units": 2332,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1485,
+    "actual_output_tokens": 103,
+    "elapsed_seconds": 10.125
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的都是同一段事件概述，尚未提供可核验的原视频、完整上下文或当地回应。“懒惰”“牛被饿死却不知道”等带有评价性的说法不能据此当作事实，建议先核实。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP03-A0337",
+      "text": "转出来求证：现有内容主要是视频概括，事件经过、当事人背景及扶贫干部说法尚未核实，暂不宜直接给这对父子定性。"
+    },
+    "evidence_ids": [
+      "RP03-A0337",
+      "RP03-A0536",
+      "RP03-A0552",
+      "RP01-A0038",
+      "C03-A0209",
+      "C02-A0009",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0211",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 637,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "a91b810ac43af3a5d67cb74e43fe506b8139ec621d6c93a9dfa1d97d29e099bc",
+    "input_reserved_units": 3742,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2332,
+    "actual_output_tokens": 195,
+    "elapsed_seconds": 2.891
+  },
+  "validation_status": "valid"
+}

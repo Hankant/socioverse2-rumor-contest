@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "官方账号已明确称网传情况不属实，原视频也缺少完整语境和可核验材料。先停止给当事人贴标签，等待后续完整调查结果。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C05-A0113",
+      "G001",
+      "RP07-A0157",
+      "RP07-A0314",
+      "RP07-A0469"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0190",
+    "tick": 8,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1740,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "af965788c2a41b8f22a952e272964efb11c87193b4751a9e85a95b4c11ea2463",
+    "input_reserved_units": 4076,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 2,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2566,
+    "actual_output_tokens": 133,
+    "elapsed_seconds": 7.312
+  },
+  "validation_status": "valid"
+}

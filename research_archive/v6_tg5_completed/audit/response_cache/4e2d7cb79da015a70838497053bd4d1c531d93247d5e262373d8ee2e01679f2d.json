@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0050",
+      "text": "求证一下：视频是否完整、事件背景是什么？牛饿死等说法是否有官方或主流媒体核实？这种扶贫场景容易被断章取义，转出待核实。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0050",
+      "RP02-A0391",
+      "RP02-A0417",
+      "RP02-A0483"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0100",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 278,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "4e2d7cb79da015a70838497053bd4d1c531d93247d5e262373d8ee2e01679f2d",
+    "input_reserved_units": 3421,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2117,
+    "actual_output_tokens": 120,
+    "elapsed_seconds": 21.297
+  },
+  "validation_status": "valid"
+}

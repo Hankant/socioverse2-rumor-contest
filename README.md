@@ -1,5 +1,7 @@
 # 当前 V6 本地模型（2026-10-23）
 
+新增归档：[2026-10-21 TG5完整十轮结果](research_archive/v6_tg5_completed/run/)及[参数与版本说明](docs/V6_TG5历史结果归档.md)。此为此前三态判断版本，不是下述最新评分模型的运行结果。
+
 最新单组入口是 `Run-V6-Latest50-ONE.cmd`，对应 `configs/one_latest50_mbti_test.json`：305 名 LLM 用户＋277 名规则用户，10 轮；网络决定首次接触，每个可见主帖展示截至上一轮最新 50 条评论，个人临时记忆保留过去 3 个模拟轮次。LLM 以 0—100 分判断，>50 相信、≤50 不相信；结合 MBTI 和全部个人条件自主决定评论与转发。政府使用独立账号。
 
 模型为 MiniMax-M3。已支持 Windows 当前用户 DPAPI 加密保存最多四把 Key，按主、副、第三、第四顺序轮询，跳过故障冷却中的 Key；所有 Key 共享每次实验的请求和 token 保护上限。**GitHub 不包含任何真实 Key、加密凭据文件、虚拟环境或当前 `runs/`、`runtime/`。** 克隆到另一台 Windows 电脑后，先运行 `Setup-V6.ps1`，再通过 `python scripts/manage_api_keys.py set` 在本地隐藏输入自己的 Key。

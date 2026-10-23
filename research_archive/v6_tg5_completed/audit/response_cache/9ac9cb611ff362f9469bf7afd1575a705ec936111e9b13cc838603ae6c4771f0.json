@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的仍是同一段转述，多位用户也只是要求补充完整视频和背景，并非独立证实。卫生状况、家庭劳动情况和“牛被饿死”等细节仍缺少原始材料，暂不判断为真。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0034",
+      "RP01-A0051",
+      "C01-A0006",
+      "C01-A0007"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0036",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 79,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "9ac9cb611ff362f9469bf7afd1575a705ec936111e9b13cc838603ae6c4771f0",
+    "input_reserved_units": 3726,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      1
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2311,
+    "actual_output_tokens": 107,
+    "elapsed_seconds": 4.469
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "官方已明确回应原始帖文不属实，之前对父子'懒惰'和扶贫干部身份的具体描述不宜再当事实看待，也不应再传播这类未经核实的内容。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP07-A0397",
+      "RP07-A0528",
+      "RP02-A0075"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0411",
+    "tick": 10,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 2337,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "4dce3d4f677e530bd9bc687a963f60e9ca57d5eef61458f1ea1e39aab1d941fe",
+    "input_reserved_units": 4086,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 4,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2573,
+    "actual_output_tokens": 103,
+    "elapsed_seconds": 5.172
+  },
+  "validation_status": "valid"
+}

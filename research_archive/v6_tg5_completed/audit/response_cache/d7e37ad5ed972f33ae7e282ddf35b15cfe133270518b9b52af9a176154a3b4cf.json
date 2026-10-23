@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前只有扶贫干部一方对视频的概括，没有完整视频、当事人回应或独立核实，不能据此认定父子“懒惰”、不干活或牛被饿死。建议先核实事发背景，也避免把生活环境直接等同于个人品格。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0045",
+      "C02-A0027",
+      "C03-A0534"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0523",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 846,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "d7e37ad5ed972f33ae7e282ddf35b15cfe133270518b9b52af9a176154a3b4cf",
+    "input_reserved_units": 3403,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2124,
+    "actual_output_tokens": 104,
+    "elapsed_seconds": 2.656
+  },
+  "validation_status": "valid"
+}

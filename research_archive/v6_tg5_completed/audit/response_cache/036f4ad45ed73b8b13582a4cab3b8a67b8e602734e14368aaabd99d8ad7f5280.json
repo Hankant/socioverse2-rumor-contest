@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几条都是同一段概括，缺少原始视频、当事人背景和官方信息，“懒惰父子”“牛被饿死”这些细节目前还无法确认。等更多材料再下判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0143",
+      "RP04-A0001",
+      "RP04-A0537",
+      "C04-A0228"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0218",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1020,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "036f4ad45ed73b8b13582a4cab3b8a67b8e602734e14368aaabd99d8ad7f5280",
+    "input_reserved_units": 3181,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 1,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1977,
+    "actual_output_tokens": 134,
+    "elapsed_seconds": 5.672
+  },
+  "validation_status": "valid"
+}

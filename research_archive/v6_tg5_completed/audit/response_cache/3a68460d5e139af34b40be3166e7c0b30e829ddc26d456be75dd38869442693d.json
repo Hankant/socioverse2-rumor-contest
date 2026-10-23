@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "原帖仅有片段和概括性描述，无法核实涉事家庭的整体状况及“牛被饿死也不知道”等细节；政府账号已明确称该帖所述情况不属实，因此不宜继续当作事实传播。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C03-A0084",
+      "C04-A0141",
+      "G001",
+      "P001",
+      "RP07-A0011"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0084",
+    "tick": 8,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1683,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "3a68460d5e139af34b40be3166e7c0b30e829ddc26d456be75dd38869442693d",
+    "input_reserved_units": 3879,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2505,
+    "actual_output_tokens": 140,
+    "elapsed_seconds": 5.407
+  },
+  "validation_status": "valid"
+}

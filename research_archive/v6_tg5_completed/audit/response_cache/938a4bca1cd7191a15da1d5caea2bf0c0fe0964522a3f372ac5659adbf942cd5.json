@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "现有材料仍主要是扶贫干部一方的视频与概括，缺少完整上下文、当事人回应及当地部门核实，暂不足以认定这对父子属于扶贫对象或直接给他们贴上“懒惰”的标签。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0169",
+      "RP03-A0337",
+      "C02-A0027",
+      "C03-A0236",
+      "C03-A0534"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0545",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 866,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "938a4bca1cd7191a15da1d5caea2bf0c0fe0964522a3f372ac5659adbf942cd5",
+    "input_reserved_units": 3970,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 1,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2432,
+    "actual_output_tokens": 111,
+    "elapsed_seconds": 3.578
+  },
+  "validation_status": "valid"
+}

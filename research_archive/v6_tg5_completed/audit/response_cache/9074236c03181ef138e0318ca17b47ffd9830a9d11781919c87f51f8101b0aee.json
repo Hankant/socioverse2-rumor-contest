@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "我之前也对同一段转述保留怀疑。现在又看到两位不同账号转发同一概括，内容仍未变，仍没有原始视频链接、当地通报或当事人回应。在这些一手材料出来之前，继续对\"扶贫干部怒斥\"和\"牛饿死\"等具体细节持怀疑态度，不宜直接评价当事人。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0246",
+      "RP04-A0179",
+      "RP04-A0471"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0143",
+    "tick": 5,
+    "attempt": 2,
+    "format_max_attempts": 4,
+    "request_number": 956,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "9074236c03181ef138e0318ca17b47ffd9830a9d11781919c87f51f8101b0aee",
+    "input_reserved_units": 3390,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2093,
+    "actual_output_tokens": 153,
+    "elapsed_seconds": 3.125
+  },
+  "validation_status": "valid"
+}

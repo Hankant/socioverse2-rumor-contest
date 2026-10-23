@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "仅凭这段短视频描述，暂时无法确认视频真伪、事件地点及完整经过，建议先核实原始来源和上下文。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0030"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0406",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 167,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "db13129f4b43875f2f00b4017ee832812cf127676f9f96173dca062542e58823",
+    "input_reserved_units": 2407,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1532,
+    "actual_output_tokens": 71,
+    "elapsed_seconds": 3.031
+  },
+  "validation_status": "valid"
+}

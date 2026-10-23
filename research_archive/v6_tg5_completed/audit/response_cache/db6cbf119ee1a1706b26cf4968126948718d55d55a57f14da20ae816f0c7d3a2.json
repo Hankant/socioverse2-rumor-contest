@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "原始帖子这种通过二手叙述给人物贴'懒惰'标签的叙事，我习惯先保持距离——扶贫干部的怒斥可能合理，但仅凭视频片段和文字转述，下结论为时尚早。希望看到当事人回应或更完整的调查。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0060",
+      "RP02-A0315"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0158",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 288,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "db6cbf119ee1a1706b26cf4968126948718d55d55a57f14da20ae816f0c7d3a2",
+    "input_reserved_units": 2798,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1742,
+    "actual_output_tokens": 133,
+    "elapsed_seconds": 3.125
+  },
+  "validation_status": "valid"
+}

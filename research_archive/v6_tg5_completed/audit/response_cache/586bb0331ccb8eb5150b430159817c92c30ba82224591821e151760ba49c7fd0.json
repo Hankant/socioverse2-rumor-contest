@@ -1,0 +1,58 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的都是同一段概括在转，原始视频、扶贫干部身份和当地通报都没有，“懒惰”“牛被饿死”等针对具体家庭的说法在核实前先不下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C05-A0139",
+      "C05-A0255",
+      "C05-A0278",
+      "C05-A0283",
+      "C05-A0333",
+      "C05-A0345",
+      "P001",
+      "RP03-A0302",
+      "RP04-A0339",
+      "RP04-A0485"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0283",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1293,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "586bb0331ccb8eb5150b430159817c92c30ba82224591821e151760ba49c7fd0",
+    "input_reserved_units": 3905,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2414,
+    "actual_output_tokens": 169,
+    "elapsed_seconds": 3.344
+  },
+  "validation_status": "valid"
+}

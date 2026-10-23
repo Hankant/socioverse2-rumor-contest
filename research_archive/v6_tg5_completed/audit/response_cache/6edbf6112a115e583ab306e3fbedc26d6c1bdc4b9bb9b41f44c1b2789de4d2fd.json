@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前只有对视频的概括，缺少完整画面、原始出处和家庭背景，暂时无法确认这对父子是否确实长期不干活，也无法判断当地扶贫干部表述是否有完整依据。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0418",
+      "text": "先存疑：仅有单一概括，不能据此认定父子“懒惰”或把生活状况归咎于个人品质，建议核对完整视频、涉事背景和官方通报。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0418",
+      "RP02-A0478"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0151",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 283,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "6edbf6112a115e583ab306e3fbedc26d6c1bdc4b9bb9b41f44c1b2789de4d2fd",
+    "input_reserved_units": 2795,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1755,
+    "actual_output_tokens": 124,
+    "elapsed_seconds": 3.281
+  },
+  "validation_status": "valid"
+}

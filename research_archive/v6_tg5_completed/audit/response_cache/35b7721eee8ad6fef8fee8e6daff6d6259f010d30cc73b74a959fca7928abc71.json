@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频中的现场画面确实不足以证明扶贫干部与父子之间的完整经过；建议先看完整视频、时间线和后续回应，再判断。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0553",
+      "text": "转发提醒：类似视频可能有剪辑或缺少前因，看到完整上下文、确认来源和后续回应后再下结论。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0553"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0445",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 444,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "35b7721eee8ad6fef8fee8e6daff6d6259f010d30cc73b74a959fca7928abc71",
+    "input_reserved_units": 2436,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1544,
+    "actual_output_tokens": 100,
+    "elapsed_seconds": 2.453
+  },
+  "validation_status": "valid"
+}

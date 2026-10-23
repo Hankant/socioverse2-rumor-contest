@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0035",
+      "text": "视频光凭描述还看不出完整背景，希望能看到原始视频以及当地官方对扶贫干部身份和父子家庭情况的通报再下判断。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0035"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0509",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 200,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "472418fb4014d4603db0946a2d447a15c898f995fafe55945f9fa99fa7f165a1",
+    "input_reserved_units": 2415,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1520,
+    "actual_output_tokens": 109,
+    "elapsed_seconds": 3.687
+  },
+  "validation_status": "valid"
+}

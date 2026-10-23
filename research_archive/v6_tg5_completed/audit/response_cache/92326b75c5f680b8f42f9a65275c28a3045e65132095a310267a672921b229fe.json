@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的多是同一段转述，尚不足以确认现场情况和“懒惰”“牛被饿死”等细节；建议先等完整视频、时间线及当事人回应。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP04-A0197",
+      "RP03-A0510",
+      "C04-A0238"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0104",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 951,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "92326b75c5f680b8f42f9a65275c28a3045e65132095a310267a672921b229fe",
+    "input_reserved_units": 2781,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1769,
+    "actual_output_tokens": 91,
+    "elapsed_seconds": 6.484
+  },
+  "validation_status": "valid"
+}

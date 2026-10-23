@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "同一段文字和剪辑片段被多个账号重复转发，仍不能算独立核实。扶贫干部身份、父子是否属于帮扶对象，以及牛是否真的饿死都缺少完整证据；建议先等完整视频和当地官方回应。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0044",
+      "RP03-A0112",
+      "RP04-A0057",
+      "RP04-A0412",
+      "C03-A0387",
+      "C04-A0175"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0357",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1060,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "dc4601c4322ab718d1f9a15f626287f6f0d9b6ac8712c57b5e9d480859295174",
+    "input_reserved_units": 3966,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 2,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2465,
+    "actual_output_tokens": 122,
+    "elapsed_seconds": 5.5
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的仍是同一视频及重复转述，缺少完整来源、当事人背景和当地部门证实，暂时无法确认这对父子的实际状况及干部斥责是否被完整呈现。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP02-A0440",
+      "RP01-A0064",
+      "C02-A0023",
+      "C02-A0113"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0443",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 441,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "9c074624153dfa80ded2c3aee1445dab4ef455e737645bc207f19a18eeaf81de",
+    "input_reserved_units": 3247,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      2
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2074,
+    "actual_output_tokens": 98,
+    "elapsed_seconds": 2.125
+  },
+  "validation_status": "valid"
+}

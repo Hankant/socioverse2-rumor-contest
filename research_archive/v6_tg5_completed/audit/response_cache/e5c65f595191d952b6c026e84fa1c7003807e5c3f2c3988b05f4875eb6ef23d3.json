@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "已经连续看到同一段叙述，但目前没有完整视频、涉事干部身份或当地通报可供核对。“懒惰”“牛被饿死”等说法仍不宜直接当作事实，完整背景也需要求证。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0028",
+      "C02-A0034",
+      "C04-A0060",
+      "RP02-A0050",
+      "RP02-A0063"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0051",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 908,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "e5c65f595191d952b6c026e84fa1c7003807e5c3f2c3988b05f4875eb6ef23d3",
+    "input_reserved_units": 3993,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 8,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2466,
+    "actual_output_tokens": 111,
+    "elapsed_seconds": 6.547
+  },
+  "validation_status": "valid"
+}

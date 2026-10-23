@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "看了官方账号的辟谣和评论区的提醒，几个来源明确说该帖情况不属实，缺少完整视频和官方核实，我倾向于不信这个说法了，建议大家也别再转。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP06-A0229",
+      "RP07-A0397",
+      "C06-A0228",
+      "C03-A0245",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0386",
+    "tick": 10,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 2329,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "d7d37cbb2dd59bac5096529bcfe3a73592eafc1db602bca96bb29bc3024ba45f",
+    "input_reserved_units": 4076,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 4,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2569,
+    "actual_output_tokens": 135,
+    "elapsed_seconds": 2.765
+  },
+  "validation_status": "valid"
+}

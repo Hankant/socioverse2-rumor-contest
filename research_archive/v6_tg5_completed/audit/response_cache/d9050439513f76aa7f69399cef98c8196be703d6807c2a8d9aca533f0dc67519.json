@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看到有其他朋友也在求证，看来大家关注点一致：这段视频目前还缺权威信源，扶贫干部的描述不等于事实认定，懒汉父亲的具体身份、村镇背景都还没披露。希望看到当地官方通报或者主流媒体的完整采访后再判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C01-A0006",
+      "C01-A0007"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0044",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 76,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "d9050439513f76aa7f69399cef98c8196be703d6807c2a8d9aca533f0dc67519",
+    "input_reserved_units": 3088,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      1
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1927,
+    "actual_output_tokens": 118,
+    "elapsed_seconds": 8.688
+  },
+  "validation_status": "valid"
+}

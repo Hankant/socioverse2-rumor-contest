@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看到好几个转发的都在呼吁求证，我也有同样疑问：完整视频到底什么样？扶贫干部具体怎么说的？当地有没有官方说明？先不下结论。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0357",
+      "text": "转一下求证：目前能看到的只有这段概括描述，缺少完整视频和涉事家庭的具体背景，不能仅凭生活条件就给当事人贴上“懒惰”标签，希望能有更完整的报道再讨论。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0250",
+      "RP02-A0252",
+      "RP02-A0357"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0183",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 301,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "57a5aa4d696fd4386d3c4d931b5a9eb2c13c1cc502e6bf89a8a0b72e646abadb",
+    "input_reserved_units": 3100,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1927,
+    "actual_output_tokens": 171,
+    "elapsed_seconds": 3.781
+  },
+  "validation_status": "valid"
+}

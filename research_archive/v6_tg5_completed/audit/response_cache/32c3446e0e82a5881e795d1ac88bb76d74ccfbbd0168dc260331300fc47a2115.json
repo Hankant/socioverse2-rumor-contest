@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "我也注意到这条内容被多人转发求证，但目前没有看到原始视频、扶贫干部具体身份，也没有当地官方通报或主流媒体的完整采访。多看几遍并不会让\"懒惰\"的定性变得更可靠，建议等权威信源后再下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C02-A0021",
+      "C02-A0044",
+      "RP02-A0002",
+      "RP02-A0050"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0018",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 219,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "32c3446e0e82a5881e795d1ac88bb76d74ccfbbd0168dc260331300fc47a2115",
+    "input_reserved_units": 4054,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2471,
+    "actual_output_tokens": 130,
+    "elapsed_seconds": 2.719
+  },
+  "validation_status": "valid"
+}

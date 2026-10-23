@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频我还没看到，描述里的细节听起来挺极端的。这对父子是真懒到牛饿死了都不知道，还是有别的原因导致的状态？想了解一下这个视频的来源和上下文再判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0023",
+    "tick": 1,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 12,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "7e3ba5c8009341c33158b20fb918a62739b5ea44297c26596eb4cdbf6d3b65b7",
+    "input_reserved_units": 2344,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1476,
+    "actual_output_tokens": 108,
+    "elapsed_seconds": 2.641
+  },
+  "validation_status": "valid"
+}

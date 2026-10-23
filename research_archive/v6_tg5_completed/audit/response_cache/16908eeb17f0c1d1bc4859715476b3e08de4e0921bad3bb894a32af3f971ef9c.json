@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "转发的评论提到'先存疑'，这点我同意。仅凭一段视频和概括性描述就下'懒惰'的结论太草率了，特别是扶贫话题容易引发情绪化传播。希望能看到完整视频和更多背景信息。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0009"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0249",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 130,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "16908eeb17f0c1d1bc4859715476b3e08de4e0921bad3bb894a32af3f971ef9c",
+    "input_reserved_units": 2461,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1539,
+    "actual_output_tokens": 116,
+    "elapsed_seconds": 8.765
+  },
+  "validation_status": "valid"
+}

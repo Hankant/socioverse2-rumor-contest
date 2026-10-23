@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "这种涉及具体家庭的负面描述，单凭一段视频片段很难判断全貌。视频来源、完整前因后果、当事人的处境和说法都需要了解，光看扶贫干部的批评容易形成片面印象。坐等更完整的调查结果。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0200",
+      "RP02-A0542"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0235",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 339,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "e244381ff115c9e86e98f419cabb74a42dc6b06428919ef33df895a26fac0c9d",
+    "input_reserved_units": 2752,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1722,
+    "actual_output_tokens": 130,
+    "elapsed_seconds": 3.437
+  },
+  "validation_status": "valid"
+}

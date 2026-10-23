@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几个转发的版本和评论区，原始视频、干部原话和当地官方通报都没看到，光凭文字片段没法判断“懒惰”“牛被饿死”这些细节，更不能据此给当事人定性。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C03-A0171",
+      "C03-A0232",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0180",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 983,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "4eb3118e068cbe48e0c6590306c4389b6fe1d3833b867c27f640a8f521dff343",
+    "input_reserved_units": 4040,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 7,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2487,
+    "actual_output_tokens": 125,
+    "elapsed_seconds": 4.078
+  },
+  "validation_status": "valid"
+}

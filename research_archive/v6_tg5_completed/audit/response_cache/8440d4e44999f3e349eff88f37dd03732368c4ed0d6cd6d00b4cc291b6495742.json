@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "仍然是同一段视频的多手转述，原始素材、干部身份、当事人回应都还没看到。在这些信息补齐之前，“懒惰父子”这种定性不宜扩散。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C04-A0239",
+      "C04-A0573",
+      "P001",
+      "RP03-A0104"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0239",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1006,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "8440d4e44999f3e349eff88f37dd03732368c4ed0d6cd6d00b4cc291b6495742",
+    "input_reserved_units": 2735,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1720,
+    "actual_output_tokens": 125,
+    "elapsed_seconds": 2.907
+  },
+  "validation_status": "valid"
+}

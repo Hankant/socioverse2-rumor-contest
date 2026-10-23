@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "描述很具体，但目前仍只有转述，缺少完整视频和当事人背景；尤其“扶贫对象”“牛被饿死”等细节需要原始来源核实，暂时不宜直接下结论。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0049",
+      "text": "转述细节较多，但现有信息不足以确认事情全貌，建议先核实完整视频、事发地点和当事人背景，避免只凭片段给父子贴标签。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0049",
+      "C01-A0006",
+      "C01-A0007"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0025",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 63,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "fc06a666c34d0e3bb3cc31501e8bdf51d36f2c27375809a09fa2318dc76ed773",
+    "input_reserved_units": 3173,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      1
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2025,
+    "actual_output_tokens": 167,
+    "elapsed_seconds": 4.234
+  },
+  "validation_status": "valid"
+}

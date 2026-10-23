@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "这段描述被多个账号重复转发，但目前展示的内容仍主要是同一段概括，缺少原始视频、涉事干部身份和当地部门说明。“懒惰”、长期不劳动以及牛被饿死等说法尚不能仅凭转述认定，父子家庭的具体情况也可能未被完整呈现。建议先等官方通报或主流媒体的完整采访，不宜先给当事人定性。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C03-A0006",
+      "C03-A0030",
+      "C03-A0021",
+      "RP02-A0047",
+      "RP02-A0063",
+      "RP03-A0027"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0021",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 511,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "26fe2015b060d3c24356cef25fa5ac928cfb9594bcfb3e7427d1d9953d20e941",
+    "input_reserved_units": 3989,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 3,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2429,
+    "actual_output_tokens": 150,
+    "elapsed_seconds": 4.875
+  },
+  "validation_status": "valid"
+}

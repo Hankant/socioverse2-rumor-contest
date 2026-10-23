@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了多个人转发的都是同一段描述，缺少原始视频、涉事干部和当地通报。我之前判断过持怀疑态度，但现在说\"完全不相信\"也下不了结论——扶贫干部下村走访的冲突场景在辽宁这类地区并不罕见，视频片段本身也许真实，但\"懒惰父子\"、\"牛被饿死\"这种概括容易被放大或断章。倾向继续等主流媒体完整采访或官方说明再下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C03-A0021",
+      "C07-A0322",
+      "P001",
+      "RP02-A0063"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0050",
+    "tick": 9,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1922,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "81bd798e021adb5039a46e935e7ec6cedca68f4bb840f85fd2e20a2f1fba50ae",
+    "input_reserved_units": 4092,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 5,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2553,
+    "actual_output_tokens": 162,
+    "elapsed_seconds": 3.422
+  },
+  "validation_status": "valid"
+}

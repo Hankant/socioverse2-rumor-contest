@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP06-A0078",
+      "text": "官方已明确表示网传“辽宁扶贫干部怒斥懒惰父子”视频情况不属实，转发提醒关注者不要再当作事实传播，等候后续核实信息，请勿给涉事家庭贴标签。"
+    },
+    "evidence_ids": [
+      "G001",
+      "RP06-A0078",
+      "RP06-A0532",
+      "RP06-A0553",
+      "C03-A0201"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0186",
+    "tick": 7,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1487,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "bd6cd097190464db0c38479973ee028633cab42f44c43d7503572086e095dd29",
+    "input_reserved_units": 3979,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 1,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2513,
+    "actual_output_tokens": 126,
+    "elapsed_seconds": 2.672
+  },
+  "validation_status": "valid"
+}

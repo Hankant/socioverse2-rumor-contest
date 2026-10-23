@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "转发链已有多人指出缺少原视频、官方通报和当事人回应。仅凭现有转述，仍无法判断事件全貌和父子具体情况；重复出现不等于独立证实。希望有人贴出原始视频或当地扶贫部门的说明，再讨论不迟。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP03-A0322",
+      "C04-A0156",
+      "C04-A0190",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0305",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1034,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "7359aceaf0e3764fcd5af2fb4f003989aa4f56880ef6be962a834ac647600c4a",
+    "input_reserved_units": 2709,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1707,
+    "actual_output_tokens": 141,
+    "elapsed_seconds": 4.563
+  },
+  "validation_status": "valid"
+}

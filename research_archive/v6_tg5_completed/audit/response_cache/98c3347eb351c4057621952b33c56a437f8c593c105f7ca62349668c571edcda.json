@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的都是同一段概括性转述，多个账号重复发布不等于独立核实。原始视频、完整经过以及当地官方或权威媒体材料都还缺失，暂不能确认这对父子是否长期不劳动、牛是否因此饿死，也不宜先给当事人贴标签。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0018",
+      "text": "转出来求证：目前只有重复的概括描述，缺少原始视频、完整背景和权威信源；生活场景可以作为线索，但不足以直接确认当事人身份、劳动情况及牛的结局。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0018",
+      "C05-A0058"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0370",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1321,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "98c3347eb351c4057621952b33c56a437f8c593c105f7ca62349668c571edcda",
+    "input_reserved_units": 4027,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 8,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2478,
+    "actual_output_tokens": 149,
+    "elapsed_seconds": 3.563
+  },
+  "validation_status": "valid"
+}

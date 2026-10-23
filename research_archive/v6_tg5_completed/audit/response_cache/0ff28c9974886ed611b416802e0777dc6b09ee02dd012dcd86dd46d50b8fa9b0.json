@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几个政府相关账号的辟谣口径一致，但具体核查细节还没看到，比如是哪个部门、在什么范围内认定\"不属实\"、对原视频来源作了怎样的追溯。在原始帖子那些生动描述（如\"牛被饿死\"\"尿桶放在床边\"）得到独立核实之前，先不下定论比较稳妥。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "RP07-A0008",
+      "RP07-A0181",
+      "RP07-A0282",
+      "RP07-A0539",
+      "RP03-A0433",
+      "C05-A0322"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0322",
+    "tick": 8,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1807,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "0ff28c9974886ed611b416802e0777dc6b09ee02dd012dcd86dd46d50b8fa9b0",
+    "input_reserved_units": 3962,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 1,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2501,
+    "actual_output_tokens": 177,
+    "elapsed_seconds": 5.938
+  },
+  "validation_status": "valid"
+}

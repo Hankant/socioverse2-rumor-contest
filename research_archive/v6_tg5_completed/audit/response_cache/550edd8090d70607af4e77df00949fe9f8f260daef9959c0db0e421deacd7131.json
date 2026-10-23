@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几个转帖都是同一段文字描述，没有看到完整视频或当地官方通报，'懒惰''牛饿死'这类说法暂时无法证实。先等权威信源核实。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0094",
+      "RP03-A0141",
+      "RP03-A0171",
+      "RP03-A0291"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0333",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 690,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "550edd8090d70607af4e77df00949fe9f8f260daef9959c0db0e421deacd7131",
+    "input_reserved_units": 3772,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2316,
+    "actual_output_tokens": 133,
+    "elapsed_seconds": 8.171
+  },
+  "validation_status": "valid"
+}

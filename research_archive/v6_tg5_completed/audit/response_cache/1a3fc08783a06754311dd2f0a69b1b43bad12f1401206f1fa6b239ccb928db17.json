@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的仍是对同一视频的转述，评论也普遍提到缺少完整来源和当事人背景。重复看到相似内容并不能独立核实情况，所以暂时无法确认这对父子的状态及干部斥责是否被完整呈现。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0064",
+      "C01-A0006",
+      "C01-A0007"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0023",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 69,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "1a3fc08783a06754311dd2f0a69b1b43bad12f1401206f1fa6b239ccb928db17",
+    "input_reserved_units": 3279,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      1
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2070,
+    "actual_output_tokens": 104,
+    "elapsed_seconds": 4.735
+  },
+  "validation_status": "valid"
+}

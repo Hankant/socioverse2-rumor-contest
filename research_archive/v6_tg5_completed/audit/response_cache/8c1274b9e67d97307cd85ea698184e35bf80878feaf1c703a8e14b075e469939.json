@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "光看转述难以判断真伪，扶贫干部怒斥懒惰父子的视频听上去挺极端的，希望能有官方通报或者主流媒体核实完整经过再下结论。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0044",
+      "text": "转出来求证。视频里父子懒到牛饿死的说法太夸张，有没有当地官方或主流媒体报道过完整经过？"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0044"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0387",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 163,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "8c1274b9e67d97307cd85ea698184e35bf80878feaf1c703a8e14b075e469939",
+    "input_reserved_units": 2431,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1528,
+    "actual_output_tokens": 144,
+    "elapsed_seconds": 7.578
+  },
+  "validation_status": "valid"
+}

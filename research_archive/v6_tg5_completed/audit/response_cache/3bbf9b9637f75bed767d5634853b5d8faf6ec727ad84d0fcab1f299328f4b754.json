@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0450",
+      "text": "先求证：视频来源、完整经过和当事人情况是否可靠？对一个具体家庭的对立化描述，传播前最好保留核实空间。"
+    },
+    "evidence_ids": [
+      "RP02-A0450"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0557",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 495,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "3bbf9b9637f75bed767d5634853b5d8faf6ec727ad84d0fcab1f299328f4b754",
+    "input_reserved_units": 2420,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1542,
+    "actual_output_tokens": 77,
+    "elapsed_seconds": 6.296
+  },
+  "validation_status": "valid"
+}

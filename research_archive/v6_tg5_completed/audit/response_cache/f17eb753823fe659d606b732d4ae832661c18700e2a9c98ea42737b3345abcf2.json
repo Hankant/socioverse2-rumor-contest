@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频里这对父子的居住状况和生活方式描述得很具体，但真伪需要核实。求证一下：1）视频原始出处和完整版本在哪里？2）当地扶贫部门或村委会是否证实过？3）当事人是否有回应？"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0209"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0465",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 469,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "f17eb753823fe659d606b732d4ae832661c18700e2a9c98ea42737b3345abcf2",
+    "input_reserved_units": 2428,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1531,
+    "actual_output_tokens": 107,
+    "elapsed_seconds": 3.922
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的都是同一段视频的转述，重复出现不等于已被独立证实。生活片段也不能直接证明这对父子“懒惰”，建议先核对完整视频、涉事干部身份及当地官方通报。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0022",
+      "RP03-A0114",
+      "RP03-A0246",
+      "RP03-A0536",
+      "RP04-A0190",
+      "C03-A0023"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0328",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1044,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "2d29ca3d7a8e0abb710094fb36e4e9546d6a3a58d72e48bc873693635885f06f",
+    "input_reserved_units": 3954,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 5,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2434,
+    "actual_output_tokens": 158,
+    "elapsed_seconds": 4.203
+  },
+  "validation_status": "valid"
+}

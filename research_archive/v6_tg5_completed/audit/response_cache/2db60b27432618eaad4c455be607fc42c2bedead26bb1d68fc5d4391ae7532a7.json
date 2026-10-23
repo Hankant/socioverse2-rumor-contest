@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了好几条都在转同一个视频片段，光凭这种带情绪的片段描述，没法确认这对父子到底怎么回事、扶贫干部说了什么，也看不到当地官方或村委会的说明。先不下结论，等更完整的视频和官方通报出来再说。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C04-A0093",
+      "RP03-A0151",
+      "RP03-A0237",
+      "RP03-A0429",
+      "RP03-A0451",
+      "RP04-A0235"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0157",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 965,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "2db60b27432618eaad4c455be607fc42c2bedead26bb1d68fc5d4391ae7532a7",
+    "input_reserved_units": 3999,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 6,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2435,
+    "actual_output_tokens": 160,
+    "elapsed_seconds": 5.047
+  },
+  "validation_status": "valid"
+}

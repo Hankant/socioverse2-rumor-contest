@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的都是同一个来源的文字转述，没有原始视频、官方通报或权威媒体报道，无法核实这对父子是否符合扶贫对象身份、干部的具体言行以及事情全貌，先不下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0075",
+      "C03-A0167",
+      "C03-A0411"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0092",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 549,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "f3df5c2b6269ae21f17945903a2e1d7cd224243c467cde6337d1932a958b8cc8",
+    "input_reserved_units": 3422,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 1,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2123,
+    "actual_output_tokens": 127,
+    "elapsed_seconds": 6.109
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0075",
+      "text": "情节描述虽具体，但目前只见转述，缺少原始视频和完整背景；这对父子是否符合扶贫对象身份、事情是否被完整呈现都待核实。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0075"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0138",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 282,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "bdd25bd9fd52c24f2cbb4f910b4b4f295134f8dfdaed242d1f73042ae9f70754",
+    "input_reserved_units": 2447,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1555,
+    "actual_output_tokens": 83,
+    "elapsed_seconds": 8.281
+  },
+  "validation_status": "valid"
+}

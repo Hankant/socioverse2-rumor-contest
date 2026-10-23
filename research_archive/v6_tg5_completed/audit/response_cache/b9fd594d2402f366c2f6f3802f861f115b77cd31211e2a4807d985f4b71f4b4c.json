@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前只有视频描述，没有完整来源和上下文，懒惰、牛被饿死以及扶贫干部身份的细节都还无法独立确认，先保留判断。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0028",
+      "text": "视频片段引发的叙事可能先入为主，建议先核实完整背景，再判断事件责任。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0028"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0442",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 181,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "b9fd594d2402f366c2f6f3802f861f115b77cd31211e2a4807d985f4b71f4b4c",
+    "input_reserved_units": 2438,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1543,
+    "actual_output_tokens": 95,
+    "elapsed_seconds": 5.781
+  },
+  "validation_status": "valid"
+}

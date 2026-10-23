@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "这段描述只有传播者的概括，没有原始视频、完整上下文或当地官方材料，暂时无法确认扶贫干部身份及父子和牛的情况。“懒惰”等评价也可能是单方说法，建议等可核验信息出来后再判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0246",
+      "RP03-A0323",
+      "RP03-A0344",
+      "RP03-A0525"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0140",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 569,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "5a9490d5963f6bee48c8ab8622acd1b11c2d262efdfb36f74a34800bf86e9d68",
+    "input_reserved_units": 3489,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2151,
+    "actual_output_tokens": 146,
+    "elapsed_seconds": 3.312
+  },
+  "validation_status": "valid"
+}

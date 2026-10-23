@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的仍是同一段文字和剪辑片段的重复传播，缺少完整视频、事发时间地点及当地官方说明。扶贫干部身份和帮扶关系、父子是否属于帮扶对象、牛是否确实饿死都还不能确认；即使生活环境属实，也不宜直接贴上“懒惰”标签。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0044",
+      "RP03-A0112",
+      "RP04-A0057",
+      "C05-A0102",
+      "C05-A0225"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0357",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1310,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "0b9c85e01cf8745bef7e7730d4c0863f9194b8a233f945e06d9199bb52e758e2",
+    "input_reserved_units": 4091,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2520,
+    "actual_output_tokens": 129,
+    "elapsed_seconds": 6.562
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "一段生活片段能说明的不多，希望能看到更完整的视频和当地扶贫部门的回应，再判断这对父子是否真的长期被“扶贫”却拒绝劳动。网上的剪辑片段容易被断章取义。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0021"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0413",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 169,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "00d858a0905a03c4ff5519ce118b9c1d4c50311888993a8b441cb52937cb223b",
+    "input_reserved_units": 2421,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1526,
+    "actual_output_tokens": 117,
+    "elapsed_seconds": 3.062
+  },
+  "validation_status": "valid"
+}

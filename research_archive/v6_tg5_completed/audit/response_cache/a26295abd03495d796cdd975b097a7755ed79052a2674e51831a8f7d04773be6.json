@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频中的生活场景可以作为质疑其扶贫成效的线索，但仅凭这则转述还无法核实父子身份、当地情况及干部是否确有不当言行。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0020",
+      "text": "先存疑：一段带有强烈标签的视频不等于完整事实，建议核实原始视频、时间地点和官方通报。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0020"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0193",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 119,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "a26295abd03495d796cdd975b097a7755ed79052a2674e51831a8f7d04773be6",
+    "input_reserved_units": 2360,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1510,
+    "actual_output_tokens": 104,
+    "elapsed_seconds": 10.235
+  },
+  "validation_status": "valid"
+}

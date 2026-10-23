@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前只有视频片段式叙述，无法确认完整事件背景，也无法据此直接判断这对父子是否确实“懒惰”。建议先核实原始视频、当事人说法及扶贫干部回应。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0349"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0379",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 411,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "d5e22482e7c6e85ec6e2812585c240a58d1baf1c3cc7f4ddf1b0bf6c306ceb70",
+    "input_reserved_units": 2417,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1538,
+    "actual_output_tokens": 107,
+    "elapsed_seconds": 4.578
+  },
+  "validation_status": "valid"
+}

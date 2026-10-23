@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看到几条转发都说这视频在传，但没人贴出完整视频或当地回应，光凭文字描述不太好判断这对父子具体情况。希望有人补一下原始视频出处和官方通报，不要光骂人家。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP02-A0026",
+      "RP02-A0180",
+      "RP02-A0418"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0309",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 371,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "f115d09589be7e3e897a39bfc101253ec83da3f34ffaa90df326692642cb3f56",
+    "input_reserved_units": 3138,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1936,
+    "actual_output_tokens": 109,
+    "elapsed_seconds": 2.594
+  },
+  "validation_status": "valid"
+}

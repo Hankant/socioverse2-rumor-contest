@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP03-A0196",
+      "text": "目前只看到同一段内容在多位用户处重复转发，缺乏独立信源和完整视频佐证，先存疑不评判真假。希望有当地通报或当事人回应再形成看法。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0196",
+      "RP03-A0212",
+      "RP03-A0334",
+      "RP03-A0413",
+      "RP03-A0489"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0359",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 710,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "1eab6a95b83b6c8050cb4485a633a4b5c0c11872d329a075004042e133a9ca13",
+    "input_reserved_units": 3662,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2279,
+    "actual_output_tokens": 129,
+    "elapsed_seconds": 3.047
+  },
+  "validation_status": "valid"
+}

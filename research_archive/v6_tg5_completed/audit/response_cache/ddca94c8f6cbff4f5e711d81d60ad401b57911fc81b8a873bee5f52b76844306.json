@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0045",
+      "text": "转存待核实。扶贫干部怒斥懒惰父子的视频确实在网络流传，但具体是哪个地方、当事人情况、是否有剪辑拼接等，需要看到原始完整视频和权威来源才能判断。仅凭一段概述不下结论，提醒大家也别急着站队。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0045"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0534",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 204,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "ddca94c8f6cbff4f5e711d81d60ad401b57911fc81b8a873bee5f52b76844306",
+    "input_reserved_units": 2406,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1519,
+    "actual_output_tokens": 134,
+    "elapsed_seconds": 23.641
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的都是同一段概括，缺少原始视频、拍摄时间地点、涉事干部身份及当地部门回应，重复转发也不能算独立核实。“懒惰”这类评价更不宜先下结论，建议等完整材料出来后再判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP04-A0066",
+      "RP04-A0186",
+      "RP04-A0223",
+      "RP03-A0114",
+      "RP03-A0322",
+      "C04-A0277",
+      "C04-A0298"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0419",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1097,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "3860a912b7caaf9f78c26a7dcc2fe4bbb6034cc25f6ba645299d2d86ee7038f1",
+    "input_reserved_units": 3970,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 2,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2470,
+    "actual_output_tokens": 173,
+    "elapsed_seconds": 2.546
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP05-A0027",
+      "text": "官方账号已明确说这条视频“该帖所述情况不属实”，那就没必要再把它当事实传播了。有的人之前转的时候也指出过细节没坐实，现在定性了，转发提醒一下身边的关注者，别再扩散未经核实的内容。后续如果有更完整的核查再跟进。"
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "RP05-A0027",
+      "RP03-A0027"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0151",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1214,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "c8a2a87f98727b5541e90a9857d96baffa4afa27422cb6b17d46d4998aaff6ce",
+    "input_reserved_units": 3716,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 1,
+    "trimmed_comment_count": 7,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2301,
+    "actual_output_tokens": 153,
+    "elapsed_seconds": 7.532
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了两遍还是同一段转述，连原始视频链接、当事人所在村镇或当地通报都没看到。\"牛被饿死\"、\"尿桶放床边\"这些细节如果是真的，需要完整视频+第三方核实才能佐证，现在就贴\"懒惰\"标签对当事人不公平。求官方通报或当事人回应后再下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP04-A0173",
+      "RP04-A0573"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0189",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 982,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "816887c5742ac177216dc3f7dd45c7b103b4847c80003d8316e2cee1b0e07a57",
+    "input_reserved_units": 2821,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1754,
+    "actual_output_tokens": 148,
+    "elapsed_seconds": 5.266
+  },
+  "validation_status": "valid"
+}

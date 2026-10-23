@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的多是同一段文字的重复转述，仍缺原始视频、官方通报和完整背景，无法核实干部身份及父子生活状况，也不足以给当事人贴标签。建议先求证再下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0034",
+      "RP01-A0036",
+      "RP01-A0037",
+      "RP03-A0052",
+      "C02-A0006",
+      "C03-A0256"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0065",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 544,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "af461726e06b8b6742eb9323e3afc7b55d3c3617435fc83937d05e34c917a211",
+    "input_reserved_units": 3964,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 6,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2438,
+    "actual_output_tokens": 160,
+    "elapsed_seconds": 3.594
+  },
+  "validation_status": "valid"
+}

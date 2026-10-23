@@ -1,0 +1,57 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "综合评论区质疑和政府账号的明确回应，这条原始视频里关于'扶贫干部怒斥懒惰父子'的说法已被认定为不属实。建议不要继续传播，耐心等后续核实信息。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "C05-A0035",
+      "C05-A0158",
+      "RP04-A0066",
+      "RP04-A0278",
+      "RP06-A0048",
+      "RP06-A0248",
+      "RP08-A0066"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0469",
+    "tick": 9,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 2106,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "ebe039ab8917cccc7342f93fe5c3ebf3eac3a750617c650340730d912d2cd5bf",
+    "input_reserved_units": 4049,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 4,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2560,
+    "actual_output_tokens": 159,
+    "elapsed_seconds": 3.391
+  },
+  "validation_status": "valid"
+}

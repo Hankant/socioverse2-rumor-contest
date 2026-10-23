@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "重复看到后仍缺少完整视频、原始来源和当地回应，无法核实扶贫干部身份及父子生活状况。细节描述得具体不等于已经证实，先别据片段给当事人定性。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C02-A0010",
+      "C02-A0025",
+      "C02-A0032",
+      "RP01-A0012",
+      "RP01-A0049",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0518",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 482,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "c01fe0021e058a8685537a8d19af9b797ede2010b0af94017a2eec0405d8ddd9",
+    "input_reserved_units": 3971,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      2
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2495,
+    "actual_output_tokens": 108,
+    "elapsed_seconds": 3.625
+  },
+  "validation_status": "valid"
+}

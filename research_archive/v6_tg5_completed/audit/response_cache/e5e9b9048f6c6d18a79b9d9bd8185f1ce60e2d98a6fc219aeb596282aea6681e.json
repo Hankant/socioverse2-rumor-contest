@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP06-A0002",
+      "text": "官方已回应原帖情况不属实，请大家不要再给当事人贴\"懒惰\"等未经核实的标签，也别继续传播。"
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "RP06-A0002",
+      "RP03-A0361"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0536",
+    "tick": 7,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1617,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "e5e9b9048f6c6d18a79b9d9bd8185f1ce60e2d98a6fc219aeb596282aea6681e",
+    "input_reserved_units": 3996,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2519,
+    "actual_output_tokens": 119,
+    "elapsed_seconds": 3.875
+  },
+  "validation_status": "valid"
+}

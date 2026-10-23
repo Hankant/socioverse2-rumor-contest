@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的仍只有发布者的概括，没有完整视频、权威信源和当事人背景。重复转发不等于交叉核实，“懒惰”、扶贫干部身份以及牛被饿死等细节都应等当地官方或主流媒体的完整报道确认。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C02-A0021",
+      "C02-A0044",
+      "RP02-A0002",
+      "RP02-A0006",
+      "RP02-A0025",
+      "RP01-A0028"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0034",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 234,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "105b4d48d5d03d91e029d39b43711379abc31b20d157afb75568590e112b1d14",
+    "input_reserved_units": 4087,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 2,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2482,
+    "actual_output_tokens": 123,
+    "elapsed_seconds": 6.718
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "当前看到的都是同一段文字概括，缺少原始视频、涉事干部身份、当地通报和家庭背景，暂不下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0026",
+      "RP02-A0063",
+      "RP02-A0250",
+      "RP02-A0483"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0290",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 369,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "c0b2b597b17ffc7bcf44c0e5b11b28ed065a4795abcd62343164e019ea00b8ed",
+    "input_reserved_units": 3421,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2120,
+    "actual_output_tokens": 123,
+    "elapsed_seconds": 3.14
+  },
+  "validation_status": "valid"
+}

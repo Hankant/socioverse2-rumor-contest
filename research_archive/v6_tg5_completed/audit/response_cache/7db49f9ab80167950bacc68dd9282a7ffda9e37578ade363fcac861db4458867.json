@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的基本都是同一段网传视频和扶贫干部的单方概述，垃圾遍地、尿桶放床边等生活状况即使属实，也不能直接认定为“懒惰”；牛为何被饿死、干部身份及帮扶经过仍需完整视频和当地说明核实。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP04-A0057",
+      "RP03-A0151",
+      "C04-A0093",
+      "C04-A0157"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0225",
+    "tick": 5,
+    "attempt": 2,
+    "format_max_attempts": 4,
+    "request_number": 1012,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "7db49f9ab80167950bacc68dd9282a7ffda9e37578ade363fcac861db4458867",
+    "input_reserved_units": 3349,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2079,
+    "actual_output_tokens": 148,
+    "elapsed_seconds": 5.0
+  },
+  "validation_status": "valid"
+}

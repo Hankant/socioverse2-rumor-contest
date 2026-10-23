@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看到这段被反复转述，但目前都只是同一段文字+视频片段的二手传播，没有看到原始完整视频、当地扶贫干部的原话、官方通报或当事人回应，所以“每天睡到自然醒不干活”“牛被饿死都不知道”这些细节都没法独立证实。在看到完整材料之前，不适合给这对父子贴“懒惰”的定性标签，也希望大家先求证再讨论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0387",
+      "RP02-A0387",
+      "RP03-A0257",
+      "RP03-A0511",
+      "C03-A0171",
+      "C03-A0232"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0401",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 756,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "70de7a62ac22713b25bfd29d73a277cb60065a52cda3a7ff21ee792aae48bcf3",
+    "input_reserved_units": 3426,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2117,
+    "actual_output_tokens": 192,
+    "elapsed_seconds": 6.984
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "已有账号明确作出“不属实”的核查反馈，因此原帖中关于父子长期不劳动、牛被饿死及干部怒斥等概括性叙述不宜继续当作事实传播。多个账号重复转述并不构成独立证实，建议等待后续完整证据。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "RP07-A0555",
+      "RP02-A0018",
+      "C06-A0370"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0172",
+    "tick": 8,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1730,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "9da0efc9bff437125b7adf2dfe4404ee1268d4541658c427e0cf66bca978f63b",
+    "input_reserved_units": 3958,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 1,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2515,
+    "actual_output_tokens": 143,
+    "elapsed_seconds": 2.437
+  },
+  "validation_status": "valid"
+}

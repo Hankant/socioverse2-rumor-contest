@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的主要是同一段文字和视频描述的重复转发，不是多个独立信源的证实。视频里的人是否确为扶贫干部、是否属于扶贫对象，以及“牛被饿死”等细节都还缺少完整经过和可靠回应，建议先别给当事人定性。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0044",
+      "C02-A0007",
+      "C03-A0387",
+      "RP03-A0532"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0180",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 616,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "9c5464719e77c3c2cd9a321bc3368856a986a6a8c94aa71d0f5e6d2ddf835ea3",
+    "input_reserved_units": 4050,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 2,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2508,
+    "actual_output_tokens": 118,
+    "elapsed_seconds": 4.25
+  },
+  "validation_status": "valid"
+}

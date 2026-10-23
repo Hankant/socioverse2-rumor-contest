@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前还是只能确认这段视频和干部的说法，无法据此确认父子是否确实“懒惰”、是否达到相关扶贫认定标准。重复转发没有增加新的独立证据，希望能看到完整视频及当地部门说明。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C02-A0222",
+      "C02-A0417",
+      "RP02-A0050",
+      "RP01-A0051",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0417",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 420,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "a76ac037cc6500963a1fc33cbf35f02784fa19cb13fde5368e4025c3d3e73413",
+    "input_reserved_units": 3695,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      2
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2259,
+    "actual_output_tokens": 105,
+    "elapsed_seconds": 4.672
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0357",
+      "text": "目前只有同一段文字摘要，多个账号转发不等于独立证实。希望补充完整视频、地点及当地官方或主流媒体对事件经过的说明。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0122",
+      "RP02-A0357",
+      "RP02-A0483"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0399",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 405,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "23954130a51340b84aa55aa00f03c47792e735a55e1ffe0a204142b30edbcc83",
+    "input_reserved_units": 3084,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1934,
+    "actual_output_tokens": 92,
+    "elapsed_seconds": 8.594
+  },
+  "validation_status": "valid"
+}

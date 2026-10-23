@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0024",
+      "text": "先求证：这段视频是否完整，扶贫干部当时具体说了什么？也希望看看父子家庭情况及事件后续，避免仅凭剪辑片段下判断。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0024"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0351",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 158,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "4a25ca3bef59fda2d345b356b86cf701284eeb9c214867285ac9464f55fb1fa5",
+    "input_reserved_units": 2414,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1532,
+    "actual_output_tokens": 83,
+    "elapsed_seconds": 2.407
+  },
+  "validation_status": "valid"
+}

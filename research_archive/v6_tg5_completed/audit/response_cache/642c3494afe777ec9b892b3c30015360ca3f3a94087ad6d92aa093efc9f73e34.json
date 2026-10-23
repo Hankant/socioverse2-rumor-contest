@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几条转帖多是同源的概括，缺原始视频与当地官方通报。也注意到发布原帖的账号就几个，关注数很低，只能作为线索参考，不宜据此给这对父子定性。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0062",
+      "RP02-A0063",
+      "RP02-A0298"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0427",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 422,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "642c3494afe777ec9b892b3c30015360ca3f3a94087ad6d92aa093efc9f73e34",
+    "input_reserved_units": 3311,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      2
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2048,
+    "actual_output_tokens": 130,
+    "elapsed_seconds": 2.765
+  },
+  "validation_status": "valid"
+}

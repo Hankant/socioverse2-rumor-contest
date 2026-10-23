@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "目前只看到一段视频的多次转述，没有扶贫部门或村委的独立说明，而发布者已公开表示该帖所述情况不属实。在没有新证据之前，我倾向于不信这条说法，也不想再继续把视频当成事实转出去。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "RP03-A0343",
+      "RP06-A0343",
+      "RP06-A0530",
+      "RP06-A0538",
+      "RP09-A0325"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0504",
+    "tick": 10,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 2360,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "3c5e3c86d0f31e5ac87f6238f269fc069e4b5f56cf67f84e10efbcaf55936204",
+    "input_reserved_units": 3831,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2418,
+    "actual_output_tokens": 141,
+    "elapsed_seconds": 3.141
+  },
+  "validation_status": "valid"
+}

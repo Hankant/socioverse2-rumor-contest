@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的仍是发布者对视频的概括，缺少完整视频、原始报道和当事人背景，还不能确认事情经过。有人说得对，可以先核实来源再判断。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0049",
+      "text": "先转出来求证一下：视频和原始来源、当事人背景及完整经过都还没确认，暂不能把这段概括当作事实。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0049",
+      "C01-A0006",
+      "C01-A0007"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0022",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 72,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "93cb8d48bd794a6471828a050f81faf111a985c0d9b2c013742fd35c88165e4f",
+    "input_reserved_units": 3186,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      1
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2032,
+    "actual_output_tokens": 125,
+    "elapsed_seconds": 5.312
+  },
+  "validation_status": "valid"
+}

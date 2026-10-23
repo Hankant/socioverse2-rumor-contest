@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的只是对视频内容的概括，还缺原始视频、完整报道和当事人背景，无法确认事情经过及这对父子是否属于扶贫对象。建议先别把“懒惰”等标签当成既定事实，等更完整材料出来再判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C01-A0007"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0055",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 93,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "6e8c8b8cd90975cfc65334632333944f71766b3bc7ac4200c2aaaa95a71b77d8",
+    "input_reserved_units": 2913,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      1
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1862,
+    "actual_output_tokens": 93,
+    "elapsed_seconds": 2.687
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频里的生活状况和干部指责只能说明现场情况，扶贫干部称父子懒惰、父亲的说法是否准确还需要核实。仅凭这段描述不宜直接给这对父子定性。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "P001",
+      "text": "转出来求证：视频是否完整？除了干部叙述，是否还有村委会或当地部门对父子家庭情况、劳动情况作出的说明？"
+    },
+    "evidence_ids": [
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0051",
+    "tick": 1,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 31,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "aaee14672c4577d82dfd07be3c74fca8fb1bd04bddde1d7adb6f61a7bf4a5cbe",
+    "input_reserved_units": 2340,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1491,
+    "actual_output_tokens": 134,
+    "elapsed_seconds": 3.547
+  },
+  "validation_status": "valid"
+}

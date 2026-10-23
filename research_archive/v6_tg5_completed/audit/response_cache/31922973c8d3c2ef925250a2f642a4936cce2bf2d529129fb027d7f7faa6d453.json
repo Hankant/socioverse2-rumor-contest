@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前只有两名账号发布相同文字摘要，不算独立证实；也缺少原始视频和完整语境。“懒惰”属于对当事人的评价，建议先核实事件来源及后续官方信息。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0122",
+      "text": "先存疑：重复转述不等于事实已获证实，具体生活细节和“懒惰”评价都应结合原始视频、完整语境及涉事家庭情况核验。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0122",
+      "RP02-A0250"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0423",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 429,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "31922973c8d3c2ef925250a2f642a4936cce2bf2d529129fb027d7f7faa6d453",
+    "input_reserved_units": 2773,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1743,
+    "actual_output_tokens": 128,
+    "elapsed_seconds": 8.797
+  },
+  "validation_status": "valid"
+}

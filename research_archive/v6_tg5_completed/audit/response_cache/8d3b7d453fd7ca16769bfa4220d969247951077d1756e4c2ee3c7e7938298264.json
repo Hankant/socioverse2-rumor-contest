@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看到几位网友和评论都在质疑视频完整性和父子情况细节，目前还没有当地官方或第三方对视频前因后果的说明，单凭短视频难以判断这对父子是否真的懒散或属于扶贫对象，建议等更完整的信息再下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0030",
+      "RP02-A0060",
+      "RP02-A0458",
+      "C02-A0012",
+      "C02-A0297"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0553",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 499,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "8d3b7d453fd7ca16769bfa4220d969247951077d1756e4c2ee3c7e7938298264",
+    "input_reserved_units": 3948,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      2
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2416,
+    "actual_output_tokens": 136,
+    "elapsed_seconds": 4.203
+  },
+  "validation_status": "valid"
+}

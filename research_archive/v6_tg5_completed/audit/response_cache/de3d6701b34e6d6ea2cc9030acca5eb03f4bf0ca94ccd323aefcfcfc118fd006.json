@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了好几条转述，画面细节很具体（尿桶、垃圾、牛饿死），但都没有附上原始视频链接或发布平台，想确认一下：1）视频首发平台和时间是？2）扶贫干部姓名、所属单位是否有官方信息？3）这对父子是哪个县/村的，有没有本地媒体报道或进村核实？一段被大量转发的剪辑很容易被断章取义，转发不准确信息对当事人和基层扶贫干部都不公平。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0006",
+      "text": "暂存疑求证：画面描述很具体，但目前只看到转述，缺原始视频出处、扶贫干部身份核实和本地官方/媒体报道，仍不能仅凭片段给当事人定性，也不想让基层扶贫干部被一刀切误解。求更多一手信息。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0006",
+      "RP02-A0126"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0254",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 337,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "de3d6701b34e6d6ea2cc9030acca5eb03f4bf0ca94ccd323aefcfcfc118fd006",
+    "input_reserved_units": 2804,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1742,
+    "actual_output_tokens": 237,
+    "elapsed_seconds": 5.343
+  },
+  "validation_status": "valid"
+}

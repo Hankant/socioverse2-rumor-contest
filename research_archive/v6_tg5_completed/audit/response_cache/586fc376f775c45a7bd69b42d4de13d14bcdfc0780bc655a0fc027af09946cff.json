@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前只有转述，缺少完整视频、发布时间及当地部门说明，无法核实父子是否懒惰、牛是否因无人喂养而死。建议先查原始来源，也避免给涉事家庭预判和贴标签。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP04-A0146"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0161",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 962,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "586fc376f775c45a7bd69b42d4de13d14bcdfc0780bc655a0fc027af09946cff",
+    "input_reserved_units": 2456,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1551,
+    "actual_output_tokens": 88,
+    "elapsed_seconds": 4.984
+  },
+  "validation_status": "valid"
+}

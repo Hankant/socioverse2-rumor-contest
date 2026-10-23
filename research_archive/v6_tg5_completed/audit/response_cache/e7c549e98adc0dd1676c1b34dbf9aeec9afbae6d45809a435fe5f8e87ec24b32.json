@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "既然已有账号明确回应称相关帖文不属实，建议先停止传播“扶贫干部怒斥懒惰父子”这一定性说法；完整视频、身份及具体经过仍应等待后续材料核实。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP05-A0061",
+      "text": "相关账号已回应称网传帖文不属实。请勿继续按“懒惰父子”等未经核实的描述传播，等待后续核实信息。"
+    },
+    "evidence_ids": [
+      "G001",
+      "RP05-A0061"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0173",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1228,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "e7c549e98adc0dd1676c1b34dbf9aeec9afbae6d45809a435fe5f8e87ec24b32",
+    "input_reserved_units": 4004,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 6,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2490,
+    "actual_output_tokens": 153,
+    "elapsed_seconds": 4.14
+  },
+  "validation_status": "valid"
+}

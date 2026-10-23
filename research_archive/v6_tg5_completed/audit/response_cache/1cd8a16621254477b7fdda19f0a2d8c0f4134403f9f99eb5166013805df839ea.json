@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "结合已有官方账号明确回应为\"不属实\"，原始帖子关于扶贫干部身份、父子懒散、牛被饿死等具体描述都不能再当作事实传播。即便如此，仍建议等后续详细通报，不要给当事人贴标签或继续扩散片段。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C06-A0291",
+      "G001",
+      "RP05-A0059",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0291",
+    "tick": 7,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1543,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "1cd8a16621254477b7fdda19f0a2d8c0f4134403f9f99eb5166013805df839ea",
+    "input_reserved_units": 4001,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 1,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2493,
+    "actual_output_tokens": 120,
+    "elapsed_seconds": 4.359
+  },
+  "validation_status": "valid"
+}

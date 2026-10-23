@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看到A0027说的这个角度挺有道理，目前确实只有扶贫干部一方的单方面视频，没有当事人回应也没有第三方核实，\"懒\"和\"穷\"也不能简单画等号。支持先不下结论，等更完整的视频和权威来源出来再判断。看到原帖的朋友也请先别急着站队转发。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C02-A0027",
+      "P001",
+      "RP01-A0045"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0534",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 485,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "460246db07e50c68281e6f3c56f62a39b71ce20dfa9d9a446859c52f9be5f485",
+    "input_reserved_units": 3045,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      2
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1906,
+    "actual_output_tokens": 149,
+    "elapsed_seconds": 3.203
+  },
+  "validation_status": "valid"
+}

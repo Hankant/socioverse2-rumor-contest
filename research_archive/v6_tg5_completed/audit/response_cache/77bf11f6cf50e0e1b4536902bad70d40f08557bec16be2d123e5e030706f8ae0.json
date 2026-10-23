@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "已有核查回应明确称网传情况不属实，原视频里的“懒惰”、家庭卫生和牲畜情况不宜再当作事实传播；重复转发也不等于得到独立证实。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "RP08-A0259",
+      "RP08-A0326",
+      "C06-A0141"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0222",
+    "tick": 9,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 2008,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "77bf11f6cf50e0e1b4536902bad70d40f08557bec16be2d123e5e030706f8ae0",
+    "input_reserved_units": 3939,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 4,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2488,
+    "actual_output_tokens": 93,
+    "elapsed_seconds": 4.031
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "两个不同的官方账号都已明确回应原帖情况不属实，那我就不再把这条当作事实。具体家庭情况、扶贫干部身份等细节本来就缺少原始视频和当事人回应支撑，现在定性“不属实”，就先以官方说法为准，等后续完整核查再更新判断。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP05-A0027",
+      "text": "看到官方账号已经明确说原帖“扶贫干部怒斥懒惰父子”不属实，提醒一下关注的各位别再转这条视频当事实。具体情节、人物身份本来就没坐实，先以官方说法为准，等后续完整核查再说。"
+    },
+    "evidence_ids": [
+      "G001",
+      "RP05-A0027",
+      "RP05-A0059",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0080",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1183,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "8047009d7edf068ede7af686bab8121c8a769bfb22668629f0cd949106e848ef",
+    "input_reserved_units": 3945,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 2,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2449,
+    "actual_output_tokens": 194,
+    "elapsed_seconds": 4.031
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频里的画面最多能说明当时居住和卫生状况，扶贫干部的说法也不等于已核实事实。是否有长期懒惰、扶贫识别是否准确，还需要完整视频和当地回应。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0064",
+      "text": "先求证完整视频、事发地点和当地通报吧；不要仅凭一段情绪强烈的话给当事人定性。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0014",
+      "RP01-A0064"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0140",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 118,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "bc0c4f08def0c62ed43927339ae0dc6edbd514857167a52c01df2b1b5d92207b",
+    "input_reserved_units": 2634,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1677,
+    "actual_output_tokens": 115,
+    "elapsed_seconds": 3.532
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频中的家庭卫生和作息情况可以作为画面描述，但“懒惰扶贫干部”的身份、父子的日常行为以及牛被饿死等说法，仍需要核实完整视频、事件来源和时间背景，暂不宜直接下结论。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "P001",
+      "text": "先存疑：目前看到的文字主要是单方叙述，扶贫干部身份和父子生活状况还需要更多证据。"
+    },
+    "evidence_ids": [
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0037",
+    "tick": 1,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 24,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "b5ff4debef1d7a43b93269ce47b21bcc5474603d14772235f40b21975aae76bb",
+    "input_reserved_units": 2329,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1484,
+    "actual_output_tokens": 107,
+    "elapsed_seconds": 13.0
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP03-A0245",
+      "text": "目前只有同一段概括被反复转发，尚不足以确认“懒惰父子”、牛被饿死及干部怒斥的完整前因后果。转出来求证，建议等原始完整视频和当地官方回应。"
+    },
+    "evidence_ids": [
+      "RP03-A0245",
+      "RP03-A0297",
+      "C02-A0026",
+      "C03-A0140",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0439",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 774,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "44a734a5b86f144323d42560d1bb22fbe53555ad624e2550e0b87c80f16e04c5",
+    "input_reserved_units": 3994,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2481,
+    "actual_output_tokens": 110,
+    "elapsed_seconds": 4.297
+  },
+  "validation_status": "valid"
+}

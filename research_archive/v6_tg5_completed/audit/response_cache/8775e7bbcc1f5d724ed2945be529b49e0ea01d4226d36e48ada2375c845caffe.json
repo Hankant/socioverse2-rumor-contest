@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "看到官方已经回应说不属实，而且到现在也没有完整视频和当地通报，\"垃圾遍地\"\"牛被饿死\"这种细节没法核实，转发这类标签化内容容易伤害当事人，转发一下官方的回应更合适。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "RP05-A0159",
+      "RP06-A0093",
+      "RP06-A0189",
+      "RP06-A0264",
+      "C06-A0342"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0209",
+    "tick": 7,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1495,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "8775e7bbcc1f5d724ed2945be529b49e0ea01d4226d36e48ada2375c845caffe",
+    "input_reserved_units": 3642,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2303,
+    "actual_output_tokens": 136,
+    "elapsed_seconds": 3.109
+  },
+  "validation_status": "valid"
+}

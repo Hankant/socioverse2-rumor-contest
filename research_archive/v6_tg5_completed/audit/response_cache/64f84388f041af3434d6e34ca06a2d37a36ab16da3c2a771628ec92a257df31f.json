@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "看了好几条官方账号的澄清，原始帖里那种\"扶贫干部怒斥懒惰父子\"的细节描述与官方通报不符，地面垃圾遍地、尿桶放床边、牛饿死等具体细节都未经核实，建议大家别再转发原帖，等待后续完整调查结果。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP06-A0042",
+      "text": "官方已发声明称网传\"辽宁扶贫干部怒斥懒惰父子\"帖文不属实，提醒关注者暂勿传播，等待后续核实信息。"
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "RP03-A0469",
+      "RP06-A0042",
+      "RP06-A0044",
+      "RP06-A0194",
+      "RP06-A0332"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0391",
+    "tick": 7,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1574,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "64f84388f041af3434d6e34ca06a2d37a36ab16da3c2a771628ec92a257df31f",
+    "input_reserved_units": 3803,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2413,
+    "actual_output_tokens": 195,
+    "elapsed_seconds": 8.375
+  },
+  "validation_status": "valid"
+}

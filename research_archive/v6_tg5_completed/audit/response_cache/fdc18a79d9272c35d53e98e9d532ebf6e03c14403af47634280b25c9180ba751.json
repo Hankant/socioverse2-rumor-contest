@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "自己也在大连，目前只看到概括性的描述，没有完整视频和官方通报，很难判断到底是'懒惰'还是有其他困难（比如疾病、残疾等），希望能看到更完整的来源再下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0026",
+      "RP02-A0250"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0170",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 310,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "fdc18a79d9272c35d53e98e9d532ebf6e03c14403af47634280b25c9180ba751",
+    "input_reserved_units": 2752,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1722,
+    "actual_output_tokens": 122,
+    "elapsed_seconds": 6.016
+  },
+  "validation_status": "valid"
+}

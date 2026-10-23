@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了好几轮了，原帖和不同账号的转述内容完全一致，但一直没人拿出完整原始视频或者权威信源。仅凭这段转述还不足以判断父子俩的真实情况，也不能给当事人贴标签，希望能看到主流媒体或官方部门的完整调查。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0052",
+      "RP03-A0077",
+      "RP03-A0123",
+      "RP03-A0196",
+      "C03-A0006",
+      "C03-A0030"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0051",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 542,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "4535ff510e1f860bc63ae12300c237e2fd20f0ccbea4e649d6fa25460d3e8307",
+    "input_reserved_units": 3984,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2445,
+    "actual_output_tokens": 146,
+    "elapsed_seconds": 7.703
+  },
+  "validation_status": "valid"
+}

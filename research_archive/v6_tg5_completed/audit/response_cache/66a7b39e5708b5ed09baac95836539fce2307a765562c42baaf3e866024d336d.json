@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "官方已澄清该帖不属实，就不再传播了，也建议看到的人别再转发这类未经证实的视频。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "RP07-A0004",
+      "RP06-A0530",
+      "RP06-A0485",
+      "P001",
+      "RP03-A0323",
+      "C04-A0393",
+      "C06-A0138"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0283",
+    "tick": 8,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1788,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "66a7b39e5708b5ed09baac95836539fce2307a765562c42baaf3e866024d336d",
+    "input_reserved_units": 4063,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 3,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2572,
+    "actual_output_tokens": 139,
+    "elapsed_seconds": 6.797
+  },
+  "validation_status": "valid"
+}

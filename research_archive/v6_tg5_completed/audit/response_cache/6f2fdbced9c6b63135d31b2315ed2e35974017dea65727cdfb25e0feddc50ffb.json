@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "已有账号明确回应网传帖文不属实，且现有视频片段不足以核实完整语境。事情涉及对当地扶贫干部和父子处境的具体描述，更不宜把概括或羞辱性标签直接当作事实，先等完整调查与权威通报吧。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "RP06-A0044",
+      "RP06-A0370",
+      "C06-A0090"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0063",
+    "tick": 7,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1423,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "6f2fdbced9c6b63135d31b2315ed2e35974017dea65727cdfb25e0feddc50ffb",
+    "input_reserved_units": 4075,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 2,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2545,
+    "actual_output_tokens": 111,
+    "elapsed_seconds": 4.0
+  },
+  "validation_status": "valid"
+}

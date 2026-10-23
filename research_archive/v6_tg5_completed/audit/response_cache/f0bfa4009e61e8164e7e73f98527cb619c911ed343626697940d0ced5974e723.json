@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "看到了官方账号的正式回应，明确说该帖情况不属实。在这种情况下我倾向于以官方核实结论为准，不再传播未经证实的细节。也提醒大家不要随意转发这类短视频概括，等后续完整通报。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP08-A0147",
+      "G001",
+      "RP01-A0030"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0533",
+    "tick": 9,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 2124,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "f0bfa4009e61e8164e7e73f98527cb619c911ed343626697940d0ced5974e723",
+    "input_reserved_units": 3968,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 2,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2523,
+    "actual_output_tokens": 106,
+    "elapsed_seconds": 7.609
+  },
+  "validation_status": "valid"
+}

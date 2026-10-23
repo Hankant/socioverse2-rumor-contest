@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "仅凭这段转述还无法确认事件全貌，也没看到完整视频、原始来源或当地回应。内容重复出现不等于已被交叉证实，建议先核实前后经过，别仅凭片段给父子定性。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0012",
+      "RP03-A0322",
+      "RP03-A0461",
+      "C03-A0243",
+      "C03-A0518"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0156",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 576,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "29b36a64741722a992326abed1ac2236d708cca9380f7f1c77f4900056605d87",
+    "input_reserved_units": 3911,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2442,
+    "actual_output_tokens": 112,
+    "elapsed_seconds": 10.625
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "多次看到的是同一段转述，并不能形成独立证实。视频细节再具体，也不能直接证明扶贫干部身份、当事人的实际处境及“懒惰”等评价；建议先等完整视频、当地回应或权威媒体采访。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C02-A0021",
+      "C02-A0044",
+      "RP02-A0006",
+      "RP02-A0010",
+      "RP02-A0075"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0044",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 239,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "e7df85382ed77aa04d59cd058861783773f2fa555ebc95e8b98684ca201371a1",
+    "input_reserved_units": 3735,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2290,
+    "actual_output_tokens": 117,
+    "elapsed_seconds": 14.25
+  },
+  "validation_status": "valid"
+}

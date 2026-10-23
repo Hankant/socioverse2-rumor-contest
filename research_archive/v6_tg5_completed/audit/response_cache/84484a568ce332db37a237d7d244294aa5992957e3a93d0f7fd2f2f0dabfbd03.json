@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的都是同一段概括在反复传播，并不能算独立核实。至少还缺原始完整视频、扶贫干部身份、事发地点背景以及父子一方的说法；“懒惰”“牛被饿死都不知道”都是带有定性色彩的描述，建议先别据此给当事人贴标签。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0534",
+      "RP02-A0002",
+      "RP03-A0230",
+      "C03-A0018",
+      "C04-A0249",
+      "C05-A0267",
+      "C05-A0528"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0344",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1314,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "84484a568ce332db37a237d7d244294aa5992957e3a93d0f7fd2f2f0dabfbd03",
+    "input_reserved_units": 3919,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2386,
+    "actual_output_tokens": 181,
+    "elapsed_seconds": 2.453
+  },
+  "validation_status": "valid"
+}

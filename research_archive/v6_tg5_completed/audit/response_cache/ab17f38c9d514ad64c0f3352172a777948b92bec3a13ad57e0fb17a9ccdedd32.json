@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几轮转帖，基本都还是在转同一段文字描述，没有人贴出完整原始视频或当事人/官方回应。我目前仍无法判断视频中扶贫干部和父子的情况是否属实，建议继续等权威媒体报道或官方通报，不要单凭片段下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0065",
+      "RP03-A0416",
+      "RP01-A0064",
+      "RP02-A0022",
+      "C03-A0006"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0023",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 513,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "ab17f38c9d514ad64c0f3352172a777948b92bec3a13ad57e0fb17a9ccdedd32",
+    "input_reserved_units": 3870,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 5,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2377,
+    "actual_output_tokens": 157,
+    "elapsed_seconds": 6.89
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "这仍是此前那段相同文字的多账号转述，没有新增原始视频、完整语境或当地回应。不同账号重复发布不等于独立佐证，因此目前仍无法确认扶贫干部身份及父子懒惰、牛被饿死等说法，不宜据此给当事人定性。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP04-A0537",
+      "RP03-A0065",
+      "C04-A0023",
+      "C04-A0025"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0520",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1116,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "dad000d11b93497d7d351b962f2b7be29adbd18dfdbcdac7296ccb0d56afe036",
+    "input_reserved_units": 3931,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 1,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      4
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2424,
+    "actual_output_tokens": 116,
+    "elapsed_seconds": 2.657
+  },
+  "validation_status": "valid"
+}

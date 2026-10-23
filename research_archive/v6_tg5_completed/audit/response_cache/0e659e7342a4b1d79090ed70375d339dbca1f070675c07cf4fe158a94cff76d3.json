@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几条转述都是同一段文字、同一作者源头，没看到原始视频和官方通报。卫生状况描述不等于可以定性为'懒惰'，扶贫干部的身份和事情经过也需要核实。建议先放一放，别急着下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C03-A0137",
+      "C03-A0251",
+      "P001",
+      "RP02-A0061",
+      "RP03-A0423",
+      "RP03-A0489"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0416",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 749,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "0e659e7342a4b1d79090ed70375d339dbca1f070675c07cf4fe158a94cff76d3",
+    "input_reserved_units": 3427,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 1,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2112,
+    "actual_output_tokens": 135,
+    "elapsed_seconds": 7.843
+  },
+  "validation_status": "valid"
+}

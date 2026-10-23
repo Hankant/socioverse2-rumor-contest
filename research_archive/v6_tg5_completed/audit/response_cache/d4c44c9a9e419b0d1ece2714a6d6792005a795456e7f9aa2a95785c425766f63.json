@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP03-A0084",
+      "text": "先求证：视频是否完整，当事方如何解释？现有生活环境片段不足以证实这对父子“懒惰”以及牛被饿死等全部说法。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0084"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0178",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 601,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "d4c44c9a9e419b0d1ece2714a6d6792005a795456e7f9aa2a95785c425766f63",
+    "input_reserved_units": 2420,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1539,
+    "actual_output_tokens": 82,
+    "elapsed_seconds": 4.5
+  },
+  "validation_status": "valid"
+}

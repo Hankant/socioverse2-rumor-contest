@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "官方已明确称网传情况不属实，重复转发不能算交叉印证。先停止传播，也别给当事人贴标签，等完整核查信息再判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "RP09-A0019",
+      "RP05-A0027",
+      "C06-A0006"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0012",
+    "tick": 10,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 2156,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "cf4447d15807d2c6635d413e9ffcc9ab761f8608ed475fb36acbf7dd7807472c",
+    "input_reserved_units": 4041,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 6,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2543,
+    "actual_output_tokens": 90,
+    "elapsed_seconds": 3.375
+  },
+  "validation_status": "valid"
+}

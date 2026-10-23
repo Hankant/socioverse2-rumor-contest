@@ -1,0 +1,256 @@
+{
+  "tick": 10,
+  "remaining_agents": 520,
+  "remaining_llm": 243,
+  "technical_dropout_count": 62,
+  "offline_agents": {
+    "A0254": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0258": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0265": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0276": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0281": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0297": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0300": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0302": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0304": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0313": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0315": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0318": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0334": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0346": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0349": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0351": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0352": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0354": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0369": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0372": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0379": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0387": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0403": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0408": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0423": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0424": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0431": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0432": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0433": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0434": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0437": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0441": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0442": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0443": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0450": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0451": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0452": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0453": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0455": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0458": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0461": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0462": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0464": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0466": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0467": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0468": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0474": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0476": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0482": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0483": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0490": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0491": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0496": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0498": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0499": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0500": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0506": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0509": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0514": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0518": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0525": {
+      "tick": 4,
+      "reason": "AgentRequestFailure"
+    },
+    "A0094": {
+      "tick": 5,
+      "reason": "FormatAttemptsExhausted"
+    }
+  }
+}

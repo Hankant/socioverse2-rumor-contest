@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "现有材料仍是同一来源的文字转述，没有原始视频、官方通报或完整经过，无法核实父子身份、生活状况及扶贫干部的具体言行。重复出现不等于得到独立证实，先不下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0527",
+      "RP04-A0073",
+      "RP04-A0157",
+      "C04-A0092"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0392",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1067,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "e8c66b677bfb26922be33babd71d4fb1be65230af03de4fa30821869c9aedd88",
+    "input_reserved_units": 3205,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2004,
+    "actual_output_tokens": 140,
+    "elapsed_seconds": 6.094
+  },
+  "validation_status": "valid"
+}

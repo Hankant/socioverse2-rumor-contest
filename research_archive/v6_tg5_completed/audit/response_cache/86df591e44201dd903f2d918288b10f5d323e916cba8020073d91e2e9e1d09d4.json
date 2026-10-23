@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几遍还是同一段转述，缺少完整视频、当事人回应和时间线，单凭扶贫干部一方说法就把父子定性为'懒惰'、断言牛被饿死，感觉证据不够，先不下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0510",
+      "RP04-A0463",
+      "C04-A0238"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0105",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 944,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "86df591e44201dd903f2d918288b10f5d323e916cba8020073d91e2e9e1d09d4",
+    "input_reserved_units": 2796,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1769,
+    "actual_output_tokens": 132,
+    "elapsed_seconds": 2.766
+  },
+  "validation_status": "valid"
+}

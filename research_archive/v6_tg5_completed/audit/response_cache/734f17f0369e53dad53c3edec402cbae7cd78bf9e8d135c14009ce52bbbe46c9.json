@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0045",
+      "text": "转存一下，不过原文只是概述，完整视频出处和当事人背景都没看到，先不下结论，等完整来源再说。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0045"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0319",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 156,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "734f17f0369e53dad53c3edec402cbae7cd78bf9e8d135c14009ce52bbbe46c9",
+    "input_reserved_units": 2404,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1519,
+    "actual_output_tokens": 101,
+    "elapsed_seconds": 4.172
+  },
+  "validation_status": "valid"
+}

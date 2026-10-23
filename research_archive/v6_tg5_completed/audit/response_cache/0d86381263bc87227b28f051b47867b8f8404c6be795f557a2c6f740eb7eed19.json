@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了这一系列转帖，内容基本是同一段描述的反复出现，没有看到原始完整视频、具体地点/时间确认，也没有涉事扶贫干部或当地官方的核实通报。多人已经指出这种重复转述并不等于独立证实，建议先等权威媒体或官方通报再下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0032",
+      "RP02-A0360",
+      "RP03-A0297",
+      "RP04-A0263",
+      "RP04-A0395",
+      "C03-A0005",
+      "C03-A0464"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0200",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 996,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "0d86381263bc87227b28f051b47867b8f8404c6be795f557a2c6f740eb7eed19",
+    "input_reserved_units": 4075,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 2,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2508,
+    "actual_output_tokens": 178,
+    "elapsed_seconds": 13.422
+  },
+  "validation_status": "valid"
+}

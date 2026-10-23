@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的仍只是同一段概括，缺少原始视频、涉事干部身份和完整经过，无法确认父子是否长期符合扶贫标准及现场是否有未展示背景。先等当地官方或权威媒体核实，不宜仅凭片段给当事人定性。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C04-A0028"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0018",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 902,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "2ace1147458da9029d66e59cb73f9395363efe3c3019d44c3e516360aff3b5e6",
+    "input_reserved_units": 3909,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 9,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2401,
+    "actual_output_tokens": 96,
+    "elapsed_seconds": 3.391
+  },
+  "validation_status": "valid"
+}

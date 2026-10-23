@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频里的生活细节和扶贫干部说法都只是单方呈现，不能据此确认父子“懒惰”以及牛饿死的情况，建议先找完整视频、拍摄背景和当事人回应。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0026",
+      "text": "转述求证：目前只有概述，完整上下文及当事人背景不明，暂不能把短视频中的说法当成已核实事实。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0026"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0451",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 447,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "f8e9e7d70a3352f66f170b91bce5707e63e46e0f545e0dda0c0d36c2deb25655",
+    "input_reserved_units": 2742,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1732,
+    "actual_output_tokens": 112,
+    "elapsed_seconds": 3.25
+  },
+  "validation_status": "valid"
+}

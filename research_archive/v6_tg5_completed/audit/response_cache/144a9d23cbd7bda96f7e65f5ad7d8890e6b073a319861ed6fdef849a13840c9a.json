@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频本身可能真实存在，但'扶贫干部怒斥'这种叙事容易被剪辑、断章取义。单凭一方叙述就定性父子'懒惰'，缺少村委或第三方对家庭实际状况（是否有劳动能力、是否因病致贫、帮扶记录）的说明。求证应当先看当地部门是否有通报，再讨论方式是否合适。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0222",
+      "text": "转出来求证。视频里只有干部一面之词，没有看到村委或当地部门关于这家父子实际劳动情况、致贫原因、过往帮扶的说明，训斥的方式也值得讨论。先求证再下判断。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0222"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0449",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 436,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "144a9d23cbd7bda96f7e65f5ad7d8890e6b073a319861ed6fdef849a13840c9a",
+    "input_reserved_units": 2453,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1537,
+    "actual_output_tokens": 200,
+    "elapsed_seconds": 3.828
+  },
+  "validation_status": "valid"
+}

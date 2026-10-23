@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的仍是同一视频的多篇转述，没有完整视频、原始报道或当事家庭说明。生活状况差不能直接归因为“懒惰”，“牛被饿死”等细节也应先核实，暂不宜下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0578",
+      "RP04-A0310",
+      "C04-A0084"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0504",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1104,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "3faeec4ba342fd5e96ce450486356ac54a11cfbcda5bda685484d64dd104a88a",
+    "input_reserved_units": 2914,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1828,
+    "actual_output_tokens": 101,
+    "elapsed_seconds": 3.141
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看到好几个号在转同一段说法，但光凭文字描述不好判断真伪和背景。有没有看到原视频出处或者当地官方通报的？父子具体是哪里的、什么时间的事，希望有更可靠的信息源再讨论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP04-A0190",
+      "RP04-A0393"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0122",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 946,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "bfbafc4348924af5dc07934d768d1b96e87ab292bc0a1d1ef33056f0ec7ce02e",
+    "input_reserved_units": 2749,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1724,
+    "actual_output_tokens": 131,
+    "elapsed_seconds": 3.094
+  },
+  "validation_status": "valid"
+}

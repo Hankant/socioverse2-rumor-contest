@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前只有发布者的概括，缺少完整视频、当事人背景和官方信息。即便卫生状况如描述，也不能据此直接认定父子“懒惰”，更无法确认扶贫干部身份及事情经过，建议先求证。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0061"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0137",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 277,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "f0d515071b3e55c725b44b3ccb01af08bee055c519e2a2c418de5ba7b3d4498d",
+    "input_reserved_units": 2477,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1562,
+    "actual_output_tokens": 88,
+    "elapsed_seconds": 10.766
+  },
+  "validation_status": "valid"
+}

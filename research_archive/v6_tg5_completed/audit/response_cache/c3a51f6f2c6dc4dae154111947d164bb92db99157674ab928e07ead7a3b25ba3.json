@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0417",
+      "text": "先求证：除了网传视频和扶贫干部的说法，是否有村委会或相关部门对这个家庭情况及帮扶经过的说明？目前不宜直接把“懒惰”等标签当作完整事实。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0352",
+      "RP02-A0417"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0392",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 402,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "c3a51f6f2c6dc4dae154111947d164bb92db99157674ab928e07ead7a3b25ba3",
+    "input_reserved_units": 2824,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1760,
+    "actual_output_tokens": 93,
+    "elapsed_seconds": 2.125
+  },
+  "validation_status": "valid"
+}

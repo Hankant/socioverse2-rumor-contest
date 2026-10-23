@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几轮都是同一段转述，原始视频和当地通报还没看到，父子俩的具体情况也没法从片段确认。转发求证之前更想先看到原始素材和权威渠道的说法，先继续存疑。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0172",
+      "RP04-A0136",
+      "C04-A0235",
+      "C04-A0294"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0114",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 941,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "a2f158c3b318edb8e8b13ff6269b7c9af99966217cce82570c56665b268766d6",
+    "input_reserved_units": 3074,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1916,
+    "actual_output_tokens": 143,
+    "elapsed_seconds": 3.047
+  },
+  "validation_status": "valid"
+}

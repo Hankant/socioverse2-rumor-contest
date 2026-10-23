@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的多是同一段画面和叙述的重复，仍缺少完整视频、当事人背景及当地回应，无法确认父子是否长期懒惰、牛是否被饿死。求证前不宜把这段网传叙事当成定论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0028",
+      "C06-A0393"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0051",
+    "tick": 9,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1926,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "aa51ae8bd4d3c1ce500a14f3e2da5855a9c3ddffe0fd6c6d44aac5d36dff58db",
+    "input_reserved_units": 3981,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 9,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2488,
+    "actual_output_tokens": 130,
+    "elapsed_seconds": 4.953
+  },
+  "validation_status": "valid"
+}

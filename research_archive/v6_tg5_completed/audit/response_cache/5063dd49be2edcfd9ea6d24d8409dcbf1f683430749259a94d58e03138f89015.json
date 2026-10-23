@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "看到政府账号已经明确回应原帖不属实，那段训斥视频里只有干部单方面的说法，没有村委或帮扶档案佐证，不能当作事实传播。等待后续调查。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP06-A0449",
+      "text": "转一下政府账号的澄清。原帖里只有扶贫干部训斥的画面，没有当地关于这户人家实际情况、致贫原因和过往帮扶的说明，不宜定性。暂以官方回应为准，后续等核实。"
+    },
+    "evidence_ids": [
+      "P001",
+      "G001",
+      "RP03-A0449",
+      "RP06-A0449"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0357",
+    "tick": 7,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1556,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "5063dd49be2edcfd9ea6d24d8409dcbf1f683430749259a94d58e03138f89015",
+    "input_reserved_units": 3792,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2410,
+    "actual_output_tokens": 174,
+    "elapsed_seconds": 3.625
+  },
+  "validation_status": "valid"
+}

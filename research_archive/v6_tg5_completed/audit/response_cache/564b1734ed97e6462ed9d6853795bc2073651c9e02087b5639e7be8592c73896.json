@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "仅凭这段转述还无法确认视频是否完整、是否为连续画面，以及“扶贫干部怒斥”等背景。建议先找原始视频核实，也应避免把个案片段直接推广成对当事人生活状况的定论。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0034",
+      "text": "先求证完整视频和背景。片段中的生活状况值得关注，但不宜仅凭转述给当事人贴标签。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0034"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0204",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 120,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "564b1734ed97e6462ed9d6853795bc2073651c9e02087b5639e7be8592c73896",
+    "input_reserved_units": 2425,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1536,
+    "actual_output_tokens": 119,
+    "elapsed_seconds": 2.516
+  },
+  "validation_status": "valid"
+}

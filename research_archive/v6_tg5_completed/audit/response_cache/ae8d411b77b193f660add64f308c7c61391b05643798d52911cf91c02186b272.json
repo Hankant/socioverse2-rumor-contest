@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP05-A0063",
+      "text": "转出来提醒一下：原帖所谓\"扶贫干部怒斥懒惰父子\"已被官方账号明确认定为不属实，缺乏完整视频和独立核实，请不要再把这种未经证实的描述当作事实传播，也不要因此给当事人贴标签。"
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "RP02-A0063",
+      "RP03-A0342",
+      "RP05-A0063"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0111",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1207,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "ae8d411b77b193f660add64f308c7c61391b05643798d52911cf91c02186b272",
+    "input_reserved_units": 4027,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 8,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2483,
+    "actual_output_tokens": 128,
+    "elapsed_seconds": 3.125
+  },
+  "validation_status": "valid"
+}

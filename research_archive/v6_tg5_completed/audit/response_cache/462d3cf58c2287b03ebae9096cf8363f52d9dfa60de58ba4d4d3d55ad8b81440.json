@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频中的生活细节可以核实，但“懒惰扶贫干部怒斥”等带有评价色彩的概括仍需要更多背景；仅有片段，暂时无法判断完整情况。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "P001",
+      "text": "先求证：视频是否完整、扶贫干部具体说了什么，以及父子家庭情况是否有更多背景？"
+    },
+    "evidence_ids": [
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0024",
+    "tick": 1,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 13,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "462d3cf58c2287b03ebae9096cf8363f52d9dfa60de58ba4d4d3d55ad8b81440",
+    "input_reserved_units": 2339,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1488,
+    "actual_output_tokens": 92,
+    "elapsed_seconds": 18.843
+  },
+  "validation_status": "valid"
+}

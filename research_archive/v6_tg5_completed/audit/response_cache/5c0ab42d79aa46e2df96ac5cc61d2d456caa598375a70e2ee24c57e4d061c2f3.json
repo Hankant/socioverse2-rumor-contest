@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0021",
+      "text": "先存疑：生活片段不能直接证明“懒惰扶贫干部”的说法，也需要核实事件背景和完整视频。"
+    },
+    "evidence_ids": [
+      "RP01-A0021"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0281",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 146,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "5c0ab42d79aa46e2df96ac5cc61d2d456caa598375a70e2ee24c57e4d061c2f3",
+    "input_reserved_units": 2414,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1536,
+    "actual_output_tokens": 71,
+    "elapsed_seconds": 2.109
+  },
+  "validation_status": "valid"
+}

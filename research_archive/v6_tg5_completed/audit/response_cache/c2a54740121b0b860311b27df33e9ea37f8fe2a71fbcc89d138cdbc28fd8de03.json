@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP05-A0022",
+      "text": "官方账号已明确表态该帖所述情况不属实，之前那些父子细节的转述确实不宜再当事实传播。看到有官方回应，转出来供关注此事的各位参考。"
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "RP05-A0022"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0278",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1294,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "c2a54740121b0b860311b27df33e9ea37f8fe2a71fbcc89d138cdbc28fd8de03",
+    "input_reserved_units": 3950,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 7,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2460,
+    "actual_output_tokens": 104,
+    "elapsed_seconds": 2.875
+  },
+  "validation_status": "valid"
+}

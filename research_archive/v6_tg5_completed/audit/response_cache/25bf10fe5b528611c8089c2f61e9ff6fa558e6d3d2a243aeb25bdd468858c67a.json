@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "同一段描述和视频被反复转发，只能增加熟悉度，不能算独立证实。现在仍缺完整视频、时间地点、当事人回应及当地说明，而且生活困难不能直接等同于“懒惰”，建议先核实再下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C05-A0102",
+      "P001",
+      "RP01-A0044",
+      "RP05-A0158",
+      "RP05-A0194",
+      "RP05-A0547"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0175",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1236,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "25bf10fe5b528611c8089c2f61e9ff6fa558e6d3d2a243aeb25bdd468858c67a",
+    "input_reserved_units": 4002,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 1,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2447,
+    "actual_output_tokens": 115,
+    "elapsed_seconds": 2.687
+  },
+  "validation_status": "valid"
+}

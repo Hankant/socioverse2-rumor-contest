@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "确实只看到反复转述，没有原始视频、当地部门说明或第三方核实，先不下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C04-A0395",
+      "RP03-A0135",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0507",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1114,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "ccce3521f99b567a3ba9dd27a320579991f7c97c0018ce0ba956371b7e068302",
+    "input_reserved_units": 2517,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1595,
+    "actual_output_tokens": 103,
+    "elapsed_seconds": 6.907
+  },
+  "validation_status": "valid"
+}

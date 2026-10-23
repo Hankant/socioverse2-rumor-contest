@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的是同一段内容的多次转述，仍缺少原始视频、完整上下文及可靠核实信息。画面中的卫生情况即使可见，也不能直接证明父子长期懒惰或牛饿死却不知情，建议先核对来源和后续通报。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0352",
+      "text": "重复转述不等于独立证实。现有信息不足以确认完整经过和当事家庭状况，建议核对原始视频、完整语境及后续官方信息后再下结论。"
+    },
+    "evidence_ids": [
+      "RP02-A0352",
+      "RP01-A0036",
+      "RP01-A0038",
+      "C02-A0009",
+      "C02-A0122",
+      "C02-A0200"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0161",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 291,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "0d98d3958a68cf73f71b6e085c5a42411225d54a83e85b6aed558a8c55c155d7",
+    "input_reserved_units": 3747,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 1,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2329,
+    "actual_output_tokens": 155,
+    "elapsed_seconds": 4.797
+  },
+  "validation_status": "valid"
+}

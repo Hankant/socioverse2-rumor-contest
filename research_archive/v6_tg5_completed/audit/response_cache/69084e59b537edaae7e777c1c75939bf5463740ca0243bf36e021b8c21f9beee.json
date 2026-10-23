@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的仍是同一事件的转述，缺少完整视频、干部原话及当地回应；这些细节也不能直接证明父子是扶贫对象或“懒惰”。建议先核对原始材料，再判断事件全貌。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP04-A0236",
+      "RP03-A0189",
+      "C04-A0435"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0574",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1145,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "69084e59b537edaae7e777c1c75939bf5463740ca0243bf36e021b8c21f9beee",
+    "input_reserved_units": 3002,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1868,
+    "actual_output_tokens": 101,
+    "elapsed_seconds": 2.765
+  },
+  "validation_status": "valid"
+}

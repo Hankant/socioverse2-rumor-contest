@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的多是同一段转述的不同转发，还不能据此确认视频来源、完整语境及“牛被饿死”等细节。希望能核实完整视频、当事人回应和当地部门说明，也应避免在事实未明时先给当事人贴标签。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP04-A0287",
+      "RP04-A0485",
+      "RP03-A0213",
+      "C04-A0009",
+      "C04-A0081"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0365",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1059,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "9624a91fa05a2d1ae7eb7398ea0691c63f67d1a319f811df550e4f5669c3b8e3",
+    "input_reserved_units": 3347,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2097,
+    "actual_output_tokens": 122,
+    "elapsed_seconds": 3.281
+  },
+  "validation_status": "valid"
+}

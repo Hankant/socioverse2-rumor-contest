@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "转一下等核实。这种视频类内容容易被剪辑或夸大，想看看当地官方通报里有没有提到牛饿死和家庭具体情况，避免光靠片段就下结论。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0044",
+      "text": "存疑转发求证：辽宁扶贫干部怒斥懒惰父子这事，牛饿死、不干活这些细节是真的吗？有看到官方通报或主流媒体完整报道的欢迎指路。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0044"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0180",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 122,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "dbac36a3129adda1c8d7b4af111ef3eef82524e1a3dddbc605876a4f3bbfa8c4",
+    "input_reserved_units": 2420,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1523,
+    "actual_output_tokens": 149,
+    "elapsed_seconds": 21.359
+  },
+  "validation_status": "valid"
+}

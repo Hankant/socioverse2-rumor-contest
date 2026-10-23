@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP05-A0061",
+      "text": "官方已澄清该网传说法不属实，请大家停止继续传播，也别再给当事人贴“懒惰”等未经核实的标签。"
+    },
+    "evidence_ids": [
+      "G001",
+      "RP05-A0061",
+      "RP03-A0332",
+      "RP03-A0433",
+      "C05-A0356",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0361",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1309,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "de45599584ef2dea1fccb93ff7fa66885bdb858b3ac8543b3c49657f71241add",
+    "input_reserved_units": 4061,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 5,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2530,
+    "actual_output_tokens": 99,
+    "elapsed_seconds": 5.422
+  },
+  "validation_status": "valid"
+}

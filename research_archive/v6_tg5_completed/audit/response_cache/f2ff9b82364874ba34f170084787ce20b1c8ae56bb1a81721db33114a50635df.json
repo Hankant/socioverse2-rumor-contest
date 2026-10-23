@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "现有材料已基本否定这一说法，而且多个账号只是重复同一段转述，不构成独立证实。对涉事家庭的评价应以后续核实信息为准，请勿继续传播。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP05-A0038",
+      "G001",
+      "P001",
+      "RP05-A0350",
+      "C06-A0261"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0200",
+    "tick": 10,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 2249,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "f2ff9b82364874ba34f170084787ce20b1c8ae56bb1a81721db33114a50635df",
+    "input_reserved_units": 4020,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 4,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2527,
+    "actual_output_tokens": 133,
+    "elapsed_seconds": 16.25
+  },
+  "validation_status": "valid"
+}

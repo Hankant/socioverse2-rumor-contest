@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "就目前看到的转述来说，信息要素还不够：没有原始视频或截图、扶贫干部身份和单位、当地官方回应，也不清楚父子家庭是否有未展示的背景（比如因病致贫等）。建议先把原视频和当地通报找出来再评价，避免把单一叙述当成定论。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0063",
+      "text": "转出来一起求证：现在只有传播者的概括，缺少原始视频、涉事干部身份和当地通报，描述可能不完整。先不下结论，等更完整的材料和官方说法出来再判断。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0063",
+      "RP02-A0156"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0323",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 376,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "70e3b9906301bd35307dee5bd3edbe3f227710859daaa5298992baa90d15bc50",
+    "input_reserved_units": 2769,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1732,
+    "actual_output_tokens": 188,
+    "elapsed_seconds": 6.719
+  },
+  "validation_status": "valid"
+}

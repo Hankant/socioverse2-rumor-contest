@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几个转发和评论都在提类似疑问：完整视频没公开、扶贫干部身份未确认、父子家是否属贫困户识别对象也没有官方说法。在有更多材料之前，我也倾向于不下结论，先继续关注。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C02-A0176",
+      "C02-A0188",
+      "RP01-A0024",
+      "RP02-A0256",
+      "RP02-A0533"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0513",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 468,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "ccc938293ba42f7c84917030a49391d327325a72642b7cf3475c1637f52a89ef",
+    "input_reserved_units": 3846,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      2
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2379,
+    "actual_output_tokens": 144,
+    "elapsed_seconds": 15.782
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,6 @@
+{
+  "status": "format_error",
+  "error_type": "JSONDecodeError",
+  "generation_attempt": 1,
+  "prompt_sha256": "1f6b0e72d812bf81aa7a4ebbac2560757da22cb52c684aa09e849eab6372409d"
+}

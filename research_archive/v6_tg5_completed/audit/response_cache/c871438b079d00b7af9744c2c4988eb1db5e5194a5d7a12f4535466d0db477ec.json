@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "现在政府账号已正式澄清“该帖所述情况不属实”，加上之前本身就缺少原始视频、完整背景和当事方回应，我不再采信原帖中关于父子“懒惰”、牛被饿死等具体描述。建议大家不要继续按这段叙述传播，等待后续核实信息。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "G001",
+      "text": "转发官方澄清：原帖所述“辽宁扶贫干部怒斥懒惰父子”已被认定为不属实。请大家停止按这段描述转发传播，等待后续核实。"
+    },
+    "evidence_ids": [
+      "C03-A0061",
+      "C03-A0172",
+      "G001",
+      "P001",
+      "RP02-A0018",
+      "RP02-A0075",
+      "RP04-A0076"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0061",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 930,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "c871438b079d00b7af9744c2c4988eb1db5e5194a5d7a12f4535466d0db477ec",
+    "input_reserved_units": 3993,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 4,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2512,
+    "actual_output_tokens": 196,
+    "elapsed_seconds": 3.765
+  },
+  "validation_status": "valid"
+}

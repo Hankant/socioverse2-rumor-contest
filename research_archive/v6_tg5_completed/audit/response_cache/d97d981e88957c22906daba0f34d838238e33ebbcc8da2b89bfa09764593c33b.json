@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几位网友的转发和讨论，目前只有传播者对视频的概括，没有完整视频、扶贫干部身份核实，也没有当地村委会或官方回应。仅凭剪辑片段无法认定父子确实懒惰，也不能据此评判扶贫工作的成效。建议先等主流媒体采访或当地通报再来讨论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C03-A0021",
+      "C03-A0041",
+      "RP02-A0047"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0166",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 592,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "d97d981e88957c22906daba0f34d838238e33ebbcc8da2b89bfa09764593c33b",
+    "input_reserved_units": 4031,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 1,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 3,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2472,
+    "actual_output_tokens": 142,
+    "elapsed_seconds": 5.578
+  },
+  "validation_status": "valid"
+}

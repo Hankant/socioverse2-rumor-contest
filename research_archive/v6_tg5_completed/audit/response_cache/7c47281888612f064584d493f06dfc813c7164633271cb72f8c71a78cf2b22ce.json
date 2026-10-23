@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了描述挺让人无语的，但视频里的情况我现在没法核实。如果是真的，这种扶贫方式让人怀疑是不是流于形式；如果只是片段剪辑，用来批判贫困户也容易失真。有人知道这视频原始出处和完整背景吗？"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0020"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0275",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 147,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "7c47281888612f064584d493f06dfc813c7164633271cb72f8c71a78cf2b22ce",
+    "input_reserved_units": 2368,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1499,
+    "actual_output_tokens": 123,
+    "elapsed_seconds": 4.922
+  },
+  "validation_status": "valid"
+}

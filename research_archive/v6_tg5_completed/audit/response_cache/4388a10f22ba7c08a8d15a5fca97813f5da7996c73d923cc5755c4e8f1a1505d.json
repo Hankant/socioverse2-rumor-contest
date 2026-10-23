@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的仍主要是同一段文字描述和片段，缺少完整视频、事发时间地点及可靠来源核实。扶贫干部身份、父子是否属于扶贫对象、牛是否确实饿死都还不能确认，先不下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP01-A0044",
+      "C02-A0007",
+      "C02-A0037",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0387",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 400,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "4388a10f22ba7c08a8d15a5fca97813f5da7996c73d923cc5755c4e8f1a1505d",
+    "input_reserved_units": 3272,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      2
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2044,
+    "actual_output_tokens": 101,
+    "elapsed_seconds": 2.969
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "现在有官方账号明确说这个帖子'不属实'，虽然只用一句话没有展开，但来自对应口径的回应已经出现。在没有看到更具体的官方通报前，我先按官方说法走，暂不再传播原帖的具体描述。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP05-A0022",
+      "RP03-A0058",
+      "C05-A0578",
+      "G001",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0059",
+    "tick": 10,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 2186,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "436a8d96e27a0539018ecf253fc2f711a3075057625f55e45284dd7df43a2c9c",
+    "input_reserved_units": 4047,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 6,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2520,
+    "actual_output_tokens": 142,
+    "elapsed_seconds": 4.563
+  },
+  "validation_status": "valid"
+}

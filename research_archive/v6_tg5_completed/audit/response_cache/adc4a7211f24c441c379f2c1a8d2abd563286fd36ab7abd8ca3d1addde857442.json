@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的都是对同一事件的概括和相互转述，不能算独立核实。视频里的卫生与生活片段不足以直接证明这对父子“懒惰”或牛确实饿死，还是需要完整视频、当事人情况及当地回应后再判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP01-A0036",
+      "C02-A0122",
+      "C02-A0161",
+      "RP04-A0414",
+      "C05-A0111",
+      "C05-A0406",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0360",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1327,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "adc4a7211f24c441c379f2c1a8d2abd563286fd36ab7abd8ca3d1addde857442",
+    "input_reserved_units": 3488,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2149,
+    "actual_output_tokens": 122,
+    "elapsed_seconds": 3.953
+  },
+  "validation_status": "valid"
+}

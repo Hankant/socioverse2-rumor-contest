@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP05-A0063",
+      "text": "官方账号已明确回应网传内容不属实。原帖只有网传片段和扶贫干部的单方概括，缺少完整视频与独立核实，还是不要继续传播，也别据此给当事人贴“懒惰”标签。"
+    },
+    "evidence_ids": [
+      "G001",
+      "P001",
+      "RP03-A0151",
+      "RP05-A0063"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0323",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1303,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "69a7ee7a1c2fae71575c71983c2b96a80ea64defd501d2b5ab5f448384dc0508",
+    "input_reserved_units": 3558,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      5
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2214,
+    "actual_output_tokens": 103,
+    "elapsed_seconds": 3.985
+  },
+  "validation_status": "valid"
+}

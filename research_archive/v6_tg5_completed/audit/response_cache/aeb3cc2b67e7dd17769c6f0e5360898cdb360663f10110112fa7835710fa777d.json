@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前只有发布者的概括，评论也指出缺少完整视频和背景；重复看到并不等于得到独立核实。先确认原始视频、扶贫干部身份及父子两人的具体处境，再判断“懒惰”等说法是否成立。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0050",
+      "text": "先转出来求证：视频是否完整、当事人的身份和事件背景如何？建议不要仅凭片段给这对父子定性。"
+    },
+    "evidence_ids": [
+      "P001",
+      "C02-A0021",
+      "C02-A0044",
+      "RP01-A0035",
+      "RP01-A0062",
+      "RP02-A0050"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0077",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 248,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "aeb3cc2b67e7dd17769c6f0e5360898cdb360663f10110112fa7835710fa777d",
+    "input_reserved_units": 4018,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 3,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2466,
+    "actual_output_tokens": 145,
+    "elapsed_seconds": 2.843
+  },
+  "validation_status": "valid"
+}

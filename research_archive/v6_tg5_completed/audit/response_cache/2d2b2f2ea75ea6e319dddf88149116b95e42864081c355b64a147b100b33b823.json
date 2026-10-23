@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "这段描述已被多次重复转发，但仍不是彼此独立的核实。目前缺少完整视频、当事人背景、涉事干部身份和当地回应，现有生活片段也不足以直接认定父子“懒惰”或判断牛为何死亡，先存疑并等待原始材料。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0026",
+      "RP02-A0418",
+      "C04-A0290",
+      "RP04-A0283",
+      "RP04-A0414"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0309",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1046,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "2d2b2f2ea75ea6e319dddf88149116b95e42864081c355b64a147b100b33b823",
+    "input_reserved_units": 3895,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 4,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2410,
+    "actual_output_tokens": 119,
+    "elapsed_seconds": 2.078
+  },
+  "validation_status": "valid"
+}

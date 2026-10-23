@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "看到官方核查结论称该帖所述情况不属实，原帖中对父子“懒惰”等描述不宜继续当作事实传播；具体细节以完整核查信息为准。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP05-A0061",
+      "text": "转发核查回应：相关帖子已被认定为不属实，请勿继续按原描述传播，等待完整信息。"
+    },
+    "evidence_ids": [
+      "G001",
+      "RP05-A0061",
+      "P001",
+      "RP04-A0173",
+      "RP04-A0573",
+      "RP05-A0158",
+      "RP05-A0363"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0189",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1279,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "6c12024e24b0fcefff3e64120d15c0bb916fb33bb5eb8f5de0f0533307bdad33",
+    "input_reserved_units": 3943,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 3,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2465,
+    "actual_output_tokens": 130,
+    "elapsed_seconds": 2.625
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "仅有这段描述还无法核实视频真伪、上下文及当事人情况，建议先找到完整视频和可靠来源，再判断扶贫干部说法是否夸张。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0007",
+      "text": "先存疑求证：希望能看到完整视频和来源核实，也应避免仅凭一段剪辑给当地扶贫和当事人下结论。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0007"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0126",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 112,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "ede228b9374d4045f8e578b04d1b432296689680ca812a25a2775ec9d26488ed",
+    "input_reserved_units": 2423,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1539,
+    "actual_output_tokens": 135,
+    "elapsed_seconds": 1.75
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的都是同一段概括性描述，多人重复转发并不能替代独立核实。完整视频、扶贫干部身份以及当地回应都还缺，先不对这对父子作事实或品行定性，等后续权威信息更稳妥。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C04-A0028",
+      "RP04-A0059",
+      "RP04-A0312"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0036",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 901,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "e6db4c17cbc343e6702c2b146310122c5bf6eb58865ebc36e61d347e3791f224",
+    "input_reserved_units": 3919,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 5,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2386,
+    "actual_output_tokens": 103,
+    "elapsed_seconds": 6.266
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前只有发布者的概括，缺少完整视频、当事人背景和官方信息。片段里的卫生与生活状况不足以证明他们“懒惰”，更无法确认扶贫干部身份及事情经过，建议先核实。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0061",
+      "text": "先求证：不要仅凭情绪强烈的片段给当事人定性，完整视频、现场背景和当地通报都很关键。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0061",
+      "RP02-A0140"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0361",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 403,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "d7a337ac1bfa62f33a1a0f7356bb0ed8948765b4be2a07cee7b4713df4f601dc",
+    "input_reserved_units": 2801,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1755,
+    "actual_output_tokens": 149,
+    "elapsed_seconds": 14.968
+  },
+  "validation_status": "valid"
+}

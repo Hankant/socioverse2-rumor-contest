@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0090",
+      "text": "转发提醒：仅有视频描述，扶贫干部身份、父子情况及牛是否真被饿死都还没看到原始视频和官方通报，无法核实，请大家先别下结论。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0018",
+      "RP02-A0090",
+      "RP02-A0193"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0481",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 460,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "574fce09dd61cf59b16ce69b26215ee2cd5c664cfd899f86d21e47bf99ce16de",
+    "input_reserved_units": 3128,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1935,
+    "actual_output_tokens": 131,
+    "elapsed_seconds": 3.625
+  },
+  "validation_status": "valid"
+}

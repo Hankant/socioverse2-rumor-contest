@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP03-A0555",
+      "text": "看了几轮，文字描述都一样但都没附完整视频或官方核实，这种把家庭状况直接贴上\"懒惰\"标签的转述容易变成对他人的刻板印象，先存疑等更可靠信息。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0061",
+      "RP02-A0122",
+      "RP02-A0418",
+      "RP03-A0177",
+      "RP03-A0555",
+      "C03-A0137"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0271",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 649,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "c42812dbfaf087bdc75f56767cbfa43b73c50e9899a47e9871b996883a4d90b5",
+    "input_reserved_units": 3966,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 4,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2427,
+    "actual_output_tokens": 160,
+    "elapsed_seconds": 3.328
+  },
+  "validation_status": "valid"
+}

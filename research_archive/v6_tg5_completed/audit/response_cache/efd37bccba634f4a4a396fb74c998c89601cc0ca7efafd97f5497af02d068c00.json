@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "这种扶贫场景在国内不少地方确实存在，但单凭一段剪辑过的视频很难判断全貌——父子具体困难、扶贫干部是否还有其他沟通方式、当地基层反映等都没有看到。希望有更完整的报道，而不是把渲染过的片段当成结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0028"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0433",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 172,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "efd37bccba634f4a4a396fb74c998c89601cc0ca7efafd97f5497af02d068c00",
+    "input_reserved_units": 2442,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1532,
+    "actual_output_tokens": 126,
+    "elapsed_seconds": 3.25
+  },
+  "validation_status": "valid"
+}

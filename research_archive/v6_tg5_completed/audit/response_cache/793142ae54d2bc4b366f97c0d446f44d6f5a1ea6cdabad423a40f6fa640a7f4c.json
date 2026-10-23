@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "还是那句话，多个不同账号转发的都是同一段文字，没有看到原始视频或权威通报。\"懒惰\"\"牛被饿死却不知道\"这类描述容易引发情绪共鸣，但在没有核实信息来源的情况下不宜直接当成事实传播。希望能看到当地扶贫部门或主流媒体的确认或澄清。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C02-A0009",
+      "C03-A0161",
+      "C03-A0209",
+      "C03-A0360",
+      "P001",
+      "RP01-A0038",
+      "RP02-A0352",
+      "RP03-A0425"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0161",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 591,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "793142ae54d2bc4b366f97c0d446f44d6f5a1ea6cdabad423a40f6fa640a7f4c",
+    "input_reserved_units": 3777,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2324,
+    "actual_output_tokens": 158,
+    "elapsed_seconds": 10.906
+  },
+  "validation_status": "valid"
+}

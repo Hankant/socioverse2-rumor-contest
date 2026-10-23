@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "已有政府账号明确回应称该帖所述情况不属实。原视频中的局部画面不足以支持“懒惰”、扶贫干部身份以及牛被饿死等完整说法，因此不宜继续把这套叙事当事实传播。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "RP06-A0174",
+      "RP07-A0539",
+      "C04-A0287"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0287",
+    "tick": 10,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 2292,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "bf496cf2240fa14d1e74f72ab70a15e91abc8e1dca6b035c109c4bcd42c76d74",
+    "input_reserved_units": 4069,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 3,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2560,
+    "actual_output_tokens": 100,
+    "elapsed_seconds": 2.797
+  },
+  "validation_status": "valid"
+}

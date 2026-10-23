@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "现有内容仍只是同一段二次概括，缺少原始视频、完整上下文及当地通报或当事人回应。画面或许能反映生活状况，但还不足以确认这对父子“懒惰”或牛确实被饿死，建议先核实。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP03-A0302",
+      "C05-A0333",
+      "C05-A0345"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0237",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1262,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "f46d01e6279506f01bfd643bbd9293b52ab309302e9fcb31a7ff68dbed268554",
+    "input_reserved_units": 2765,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1731,
+    "actual_output_tokens": 100,
+    "elapsed_seconds": 10.531
+  },
+  "validation_status": "valid"
+}

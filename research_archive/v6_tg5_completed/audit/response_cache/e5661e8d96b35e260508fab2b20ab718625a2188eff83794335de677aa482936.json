@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几条评论也都在呼吁要看原始视频和完整报道。转述里生活细节很具体，但扶贫干部与这家人之间的关系、当事人背景、视频出处都还说不清楚，我也继续保持观望，希望能看到更完整的信源再判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C01-A0006",
+      "C01-A0007"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0059",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 84,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "e5661e8d96b35e260508fab2b20ab718625a2188eff83794335de677aa482936",
+    "input_reserved_units": 2985,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      1
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1881,
+    "actual_output_tokens": 113,
+    "elapsed_seconds": 8.188
+  },
+  "validation_status": "valid"
+}

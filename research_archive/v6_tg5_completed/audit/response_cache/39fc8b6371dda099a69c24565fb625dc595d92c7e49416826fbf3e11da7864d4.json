@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "多个账号虽表述为“官方核查”，但目前展示内容没有具体发布部门、原始通报或可独立核验的依据，不能据此确认传言内容属实或细节准确。建议先核对原始视频、涉事地点、干部身份及正式通报，暂不按事实传播。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP06-A0194",
+      "RP06-A0199",
+      "RP03-A0138",
+      "C04-A0291"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0519",
+    "tick": 7,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1613,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "39fc8b6371dda099a69c24565fb625dc595d92c7e49416826fbf3e11da7864d4",
+    "input_reserved_units": 3948,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 2,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2516,
+    "actual_output_tokens": 118,
+    "elapsed_seconds": 5.547
+  },
+  "validation_status": "valid"
+}

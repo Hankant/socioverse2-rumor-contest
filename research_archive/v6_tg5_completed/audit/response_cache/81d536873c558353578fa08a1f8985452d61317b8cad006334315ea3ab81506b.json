@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频情节看着很夸张，但目前只有转述，暂不能确认干部身份及父子懒惰、牛被饿死等细节；建议先等完整视频或权威通报。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "P001",
+      "text": "先求证：希望能看到完整视频、事发背景及官方信息，别仅凭片段给当事父子定性。"
+    },
+    "evidence_ids": [
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0062",
+    "tick": 1,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 39,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "81d536873c558353578fa08a1f8985452d61317b8cad006334315ea3ab81506b",
+    "input_reserved_units": 2340,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1489,
+    "actual_output_tokens": 128,
+    "elapsed_seconds": 14.219
+  },
+  "validation_status": "valid"
+}

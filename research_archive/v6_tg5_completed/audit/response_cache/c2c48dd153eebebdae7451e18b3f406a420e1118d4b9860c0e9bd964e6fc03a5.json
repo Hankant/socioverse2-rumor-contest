@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前只有两处近乎相同的文字描述，没有原始视频、官方通报或完整报道可供核实。“牛被饿死”“父子不干活”等细节只能先当作待证说法，不宜直接判定为事实。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0032",
+      "text": "转出来求证：现有内容只是重复的文字叙述，缺少原始视频和权威回应，事件地点、时间及“牛饿死”等细节都还无法确认。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0032",
+      "RP02-A0180"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0160",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 285,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "c2c48dd153eebebdae7451e18b3f406a420e1118d4b9860c0e9bd964e6fc03a5",
+    "input_reserved_units": 2795,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1751,
+    "actual_output_tokens": 130,
+    "elapsed_seconds": 10.047
+  },
+  "validation_status": "valid"
+}

@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前只有转述，没有完整视频或可核验的官方、主流媒体报道；先确认事件来源、拍摄时间和当地通报，再判断细节是否属实。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0044",
+      "text": "转出来求证：这对父子是否长期不劳动、牛是否因此饿死，以及扶贫干部所说的具体背景，都需要完整视频和当地官方材料佐证。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0044"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0391",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 162,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "967ebd1e59d161a336c4db7a20764da88eecded8e25408cc965c938cc73f28b4",
+    "input_reserved_units": 2420,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1536,
+    "actual_output_tokens": 113,
+    "elapsed_seconds": 3.406
+  },
+  "validation_status": "valid"
+}

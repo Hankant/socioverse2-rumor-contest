@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了好几条转述，描述高度一致，但都只是同一段概述的搬运，没有看到原始视频、当事干部身份核实或当地官方回应。仅凭片段给当事人贴\"懒惰\"标签太快，也容易让基层扶贫工作被一刀切误读，希望有人能放出完整视频或权威报道。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0026",
+      "RP03-A0138",
+      "RP03-A0199",
+      "RP03-A0254",
+      "RP04-A0263",
+      "C04-A0290"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0519",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1112,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "8ddffe2e3f033eecde9872bad13092e65859614ec8de06d6cc9301e882a318e0",
+    "input_reserved_units": 3912,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 5,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2411,
+    "actual_output_tokens": 173,
+    "elapsed_seconds": 3.625
+  },
+  "validation_status": "valid"
+}

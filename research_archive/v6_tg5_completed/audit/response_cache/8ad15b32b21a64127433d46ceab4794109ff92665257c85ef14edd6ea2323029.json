@@ -1,0 +1,54 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的多条转发基本是同一段文字的重复传播，不算相互印证。垃圾遍地、生活作息和畜牧情况等细节仍需完整视频及当地说明核实，也不能仅凭这些片段直接认定父子“懒惰”。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP03-A0098",
+      "RP03-A0416",
+      "RP02-A0054",
+      "C03-A0168",
+      "C03-A0180",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0532",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 858,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "8ad15b32b21a64127433d46ceab4794109ff92665257c85ef14edd6ea2323029",
+    "input_reserved_units": 3435,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 1,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2138,
+    "actual_output_tokens": 156,
+    "elapsed_seconds": 3.203
+  },
+  "validation_status": "valid"
+}

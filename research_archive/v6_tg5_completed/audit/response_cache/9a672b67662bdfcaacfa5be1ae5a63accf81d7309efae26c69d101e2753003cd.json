@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几条转述都是同一段视频的概要，关键细节（完整视频、当事人回应、扶贫干部身份认定、地方官方说明）都还没看到。在没有这些材料之前，我倾向于不下结论，也不愿意把\"懒惰\"\"牛被饿死\"这类标签直接转给更多人看。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0060",
+      "RP02-A0428",
+      "RP02-A0442",
+      "RP03-A0084",
+      "C03-A0055",
+      "C03-A0113",
+      "C03-A0433"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0212",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 624,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "9a672b67662bdfcaacfa5be1ae5a63accf81d7309efae26c69d101e2753003cd",
+    "input_reserved_units": 3970,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 1,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 2,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2428,
+    "actual_output_tokens": 176,
+    "elapsed_seconds": 6.188
+  },
+  "validation_status": "valid"
+}

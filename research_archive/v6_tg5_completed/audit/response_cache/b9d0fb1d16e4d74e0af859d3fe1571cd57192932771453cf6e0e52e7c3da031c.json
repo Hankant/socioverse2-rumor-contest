@@ -1,0 +1,56 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "我已经在另一条相同内容的转贴里表达过存疑立场，这里再补一句：同一段概述已经被多个账号反复转发了若干轮，仍然没有看到原始视频、涉事扶贫干部身份或当地通报。希望任何能看到原始素材的人帮忙补一下出处，或者等官方渠道有回应再讨论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C02-A0077",
+      "C02-A0519",
+      "C05-A0090",
+      "C05-A0545",
+      "P001",
+      "RP01-A0035",
+      "RP02-A0519",
+      "RP04-A0497"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0090",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1194,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "b9d0fb1d16e4d74e0af859d3fe1571cd57192932771453cf6e0e52e7c3da031c",
+    "input_reserved_units": 3682,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2278,
+    "actual_output_tokens": 181,
+    "elapsed_seconds": 6.078
+  },
+  "validation_status": "valid"
+}

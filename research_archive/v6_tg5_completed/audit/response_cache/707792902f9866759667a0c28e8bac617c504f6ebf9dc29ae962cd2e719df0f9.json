@@ -1,0 +1,49 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "这种扶贫场景挺让人无奈的。不过视频是真是假？有人核实过事发地点和当事人身份吗？光靠一段视频就下结论怕不太严谨。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0058",
+    "tick": 1,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 35,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "707792902f9866759667a0c28e8bac617c504f6ebf9dc29ae962cd2e719df0f9",
+    "input_reserved_units": 2337,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1474,
+    "actual_output_tokens": 102,
+    "elapsed_seconds": 4.016
+  },
+  "validation_status": "valid"
+}

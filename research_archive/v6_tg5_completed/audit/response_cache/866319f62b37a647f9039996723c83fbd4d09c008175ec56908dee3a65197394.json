@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频描述很具体，但目前看到的都是转述，缺乏完整视频和官方核实，父子家庭状况和扶贫干部说法都还有待验证，不宜直接下结论。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0036",
+      "C02-A0122",
+      "C02-A0161"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0545",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1383,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "866319f62b37a647f9039996723c83fbd4d09c008175ec56908dee3a65197394",
+    "input_reserved_units": 4014,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 4,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2470,
+    "actual_output_tokens": 124,
+    "elapsed_seconds": 3.453
+  },
+  "validation_status": "valid"
+}

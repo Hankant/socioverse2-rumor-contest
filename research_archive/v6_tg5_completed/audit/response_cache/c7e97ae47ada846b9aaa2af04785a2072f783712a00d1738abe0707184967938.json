@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "同一段视频反复转述，缺少完整画面、当事人说法和独立核实，先不下结论。看到后续有官方通报或当事人回应再重新评估。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C05-A0212",
+      "C05-A0553",
+      "P001",
+      "RP02-A0060"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0212",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1251,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "c7e97ae47ada846b9aaa2af04785a2072f783712a00d1738abe0707184967938",
+    "input_reserved_units": 2814,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1748,
+    "actual_output_tokens": 121,
+    "elapsed_seconds": 6.765
+  },
+  "validation_status": "valid"
+}

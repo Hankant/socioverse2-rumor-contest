@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "官方核查已明确称相关帖述情况不属实，因此不再把“扶贫干部怒斥懒惰父子、父亲懒到牛饿死”等内容当作事实传播；仍可关注后续完整核实信息。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "RP05-A0054",
+      "RP08-A0521",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0180",
+    "tick": 9,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1990,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "db0529e10ea30fff1f35448cea33dd86e0ddc611ff43fc00ecc7609a66d19b90",
+    "input_reserved_units": 4086,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 6,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2596,
+    "actual_output_tokens": 96,
+    "elapsed_seconds": 3.125
+  },
+  "validation_status": "valid"
+}

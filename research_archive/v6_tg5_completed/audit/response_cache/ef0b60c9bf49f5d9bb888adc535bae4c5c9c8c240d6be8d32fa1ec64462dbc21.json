@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的都是同一段说法的重复转述，仍缺原始视频、完整经过及可靠信源，无法确认扶贫干部身份、父子是否“懒惰”以及牛是否确实被饿死。建议先核实，也别急着给涉事家庭贴标签。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP05-A0333",
+      "C05-A0142",
+      "C05-A0146",
+      "C05-A0136",
+      "C05-A0161"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0353",
+    "tick": 6,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1315,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "ef0b60c9bf49f5d9bb888adc535bae4c5c9c8c240d6be8d32fa1ec64462dbc21",
+    "input_reserved_units": 3818,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 1,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2361,
+    "actual_output_tokens": 118,
+    "elapsed_seconds": 7.125
+  },
+  "validation_status": "valid"
+}

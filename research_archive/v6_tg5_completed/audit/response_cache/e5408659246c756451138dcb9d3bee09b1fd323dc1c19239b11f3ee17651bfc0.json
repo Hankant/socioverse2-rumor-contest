@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的多是对同一段视频的概括，仍缺完整视频、涉事干部身份及当地官方或主流媒体核实。“懒惰”和“扶贫干部怒斥”等表述不能仅凭重复转发当作事实，先保留判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C02-A0021",
+      "C02-A0044",
+      "RP02-A0050",
+      "RP02-A0063"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0051",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 244,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "e5408659246c756451138dcb9d3bee09b1fd323dc1c19239b11f3ee17651bfc0",
+    "input_reserved_units": 3991,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 4,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2449,
+    "actual_output_tokens": 110,
+    "elapsed_seconds": 6.39
+  },
+  "validation_status": "valid"
+}

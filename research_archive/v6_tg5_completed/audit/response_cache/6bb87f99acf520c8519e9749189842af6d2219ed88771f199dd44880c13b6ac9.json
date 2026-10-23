@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频画面看着确实糟糕，但仅有干部一方说法容易有偏。希望看到村委或第三方对该家庭实际状况的核实，以及扶贫干部这种当众训斥方式是否合规、是否征求过家属意见。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0051",
+      "text": "转出来求证：除干部叙述外，是否有村委或当地部门对该父子家庭情况、劳动情况的说明？这种当众训斥的方式是否合适？"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0051"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0222",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 128,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "6bb87f99acf520c8519e9749189842af6d2219ed88771f199dd44880c13b6ac9",
+    "input_reserved_units": 2429,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1524,
+    "actual_output_tokens": 158,
+    "elapsed_seconds": 3.656
+  },
+  "validation_status": "valid"
+}

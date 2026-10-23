@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "政府账号已明确称网传内容不属实，而且现有片段缺少完整上下文，无法支撑“懒惰”、扶贫干部身份及牛死亡原因等说法。先停止给当事人定性，等待完整调查信息。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "RP06-A0243",
+      "RP06-A0280",
+      "RP06-A0414",
+      "RP02-A0061",
+      "C03-A0137"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0274",
+    "tick": 7,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1526,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "f30e8df6ecce89bb83ba772b5c876c36b8b910153f9ee41894c6bfae256ee578",
+    "input_reserved_units": 4052,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 2,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2548,
+    "actual_output_tokens": 107,
+    "elapsed_seconds": 1.953
+  },
+  "validation_status": "valid"
+}

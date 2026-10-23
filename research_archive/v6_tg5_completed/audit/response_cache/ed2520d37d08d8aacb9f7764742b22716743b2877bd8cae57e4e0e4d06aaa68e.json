@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "政府账号已明确说该帖不属实，让大家别当事实传播。我之前就持保留态度，现在这一出来就更应该停下来了——支持的人可以拿原始视频、当事人回应来反驳官方说法，但在没有这些之前，这段描述本身不该被当成真的来转。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "C04-A0010",
+      "G001",
+      "P001",
+      "RP03-A0053"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0010",
+    "tick": 9,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1902,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "ed2520d37d08d8aacb9f7764742b22716743b2877bd8cae57e4e0e4d06aaa68e",
+    "input_reserved_units": 3985,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 5,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 9,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2484,
+    "actual_output_tokens": 143,
+    "elapsed_seconds": 5.687
+  },
+  "validation_status": "valid"
+}

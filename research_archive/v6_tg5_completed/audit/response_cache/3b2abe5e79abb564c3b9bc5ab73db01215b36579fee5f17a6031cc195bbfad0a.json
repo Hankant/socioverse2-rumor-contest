@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "视频片段和文字描述不足以核实完整经过，建议先确认原始视频、扶贫干部身份及父子家庭情况。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0024",
+      "text": "先求证：视频是否完整、扶贫干部具体说了什么，以及父子家庭情况是否有更多背景？"
+    },
+    "evidence_ids": [
+      "RP01-A0024",
+      "RP01-A0049"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0252",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 135,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "3b2abe5e79abb564c3b9bc5ab73db01215b36579fee5f17a6031cc195bbfad0a",
+    "input_reserved_units": 2680,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1699,
+    "actual_output_tokens": 96,
+    "elapsed_seconds": 1.641
+  },
+  "validation_status": "valid"
+}

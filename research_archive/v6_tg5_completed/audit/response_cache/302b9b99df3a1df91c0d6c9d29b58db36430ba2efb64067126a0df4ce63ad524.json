@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": false,
+      "text": ""
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0010",
+      "text": "转出来求证。现阶段只有传播者的概述，尚无法确认完整视频背景、当地回应，以及“懒惰”等评价是否有充分依据；先核实，不把断章取义当完整事实。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0010",
+      "RP02-A0352"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0467",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 448,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "302b9b99df3a1df91c0d6c9d29b58db36430ba2efb64067126a0df4ce63ad524",
+    "input_reserved_units": 2841,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1772,
+    "actual_output_tokens": 96,
+    "elapsed_seconds": 6.828
+  },
+  "validation_status": "valid"
+}

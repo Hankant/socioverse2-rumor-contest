@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "reject",
+    "comment": {
+      "enabled": true,
+      "text": "已有官方账号明确回应称该帖情况不属实，建议大家停止传播并等待进一步可核验信息，不要再给当事人贴标签。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "G001",
+      "RP06-A0023",
+      "RP06-A0231",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0114",
+    "tick": 7,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1444,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "693a0395d9204a38e4c154b490e83b4c21f25e207908ff5936c4736babbdc757",
+    "input_reserved_units": 4001,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 4,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 5,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2515,
+    "actual_output_tokens": 116,
+    "elapsed_seconds": 2.75
+  },
+  "validation_status": "valid"
+}

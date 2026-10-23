@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "先别急着给这对父子贴上“懒惰”的标签。现有片段只能说明家中卫生状况，不能证实视频是否完整、当事方为何如此生活，也无法确认牛被饿死等情况，建议核对完整视频、当事人回应及当地通报。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP04-A0178",
+      "RP04-A0283"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0141",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 960,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "38bbebd8e7071f11eeddfaf5d7469655c2442afa90baa9944fd9672bf424dd4e",
+    "input_reserved_units": 2761,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1741,
+    "actual_output_tokens": 133,
+    "elapsed_seconds": 3.625
+  },
+  "validation_status": "valid"
+}

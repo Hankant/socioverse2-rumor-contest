@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的是不同账号对同一段视频的重复转述，并不能算彼此独立证实。完整视频、当事人背景、帮扶经过及干部身份都还缺少可靠材料，建议先别给父子贴上“懒惰”标签，等官方通报或完整采访再判断。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "C03-A0023",
+      "RP02-A0352",
+      "RP03-A0149",
+      "RP03-A0528"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0230",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 639,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "c27d52b8b27f2037046526b5da0e9f3b91e7148bf560bbfb94acf33548cd8530",
+    "input_reserved_units": 3977,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 3,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2440,
+    "actual_output_tokens": 120,
+    "elapsed_seconds": 5.156
+  },
+  "validation_status": "valid"
+}

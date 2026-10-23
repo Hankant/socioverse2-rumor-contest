@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "仅凭这段转述还无法确认完整情况，尤其应核实视频是否有剪辑、扶贫干部与当事人的具体身份背景，以及父子俩一方是否另有说法。环境和生活状态值得关怀，但不宜仅凭片段给当事人贴上“懒惰”的标签。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP02-A0025",
+      "text": "先求证再下结论：这段内容缺少完整视频、事发地点和当事人背景，生活环境糟糕也不足以单独证明帖子对父子的全部描述。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0025",
+      "RP02-A0315",
+      "RP02-A0553"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0255",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 340,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "f8d09db0b7fc0deabd70dbab29adce6ddbfe1a0650c9ae28400a715bac666750",
+    "input_reserved_units": 3118,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1947,
+    "actual_output_tokens": 144,
+    "elapsed_seconds": 16.047
+  },
+  "validation_status": "valid"
+}

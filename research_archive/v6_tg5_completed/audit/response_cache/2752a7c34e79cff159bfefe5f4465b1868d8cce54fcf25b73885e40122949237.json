@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "重复看到后仍只能确认发布者对视频的概括，尚未看到原始视频、完整上下文或当地回应，因此不能确认这对父子是否属于扶贫对象，也无法核实“牛被饿死”等细节。建议先等来源和后续信息。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0030",
+      "C01-A0007"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0012",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 64,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "2752a7c34e79cff159bfefe5f4465b1868d8cce54fcf25b73885e40122949237",
+    "input_reserved_units": 3360,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [
+      1
+    ],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2109,
+    "actual_output_tokens": 100,
+    "elapsed_seconds": 3.703
+  },
+  "validation_status": "valid"
+}

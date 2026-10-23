@@ -1,0 +1,55 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前看到的仍主要是对扶贫干部视频的转述，缺少完整视频、当事人回应和独立核实；“懒惰”及“牛被饿死”等说法暂不能据此确认，先等更完整的来源信息。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0045",
+      "C02-A0027",
+      "C03-A0534",
+      "RP02-A0006",
+      "RP02-A0026",
+      "RP03-A0171"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0027",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 520,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "91909e454e82234e2f718a4dd9962d476ae9c338e087871f9ce1808fa553fb04",
+    "input_reserved_units": 3984,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 6,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2464,
+    "actual_output_tokens": 117,
+    "elapsed_seconds": 3.406
+  },
+  "validation_status": "valid"
+}

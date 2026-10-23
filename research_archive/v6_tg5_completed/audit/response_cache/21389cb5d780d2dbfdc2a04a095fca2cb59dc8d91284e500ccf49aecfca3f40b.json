@@ -1,0 +1,53 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "多次转发的仍是同一段文字描述，没有看到原始视频、当事扶贫干部身份、当地核实通报或独立媒体报道，仅凭画面细节难以判定“懒惰扶贫对象”这类标签是否成立。建议有官方核实或原始完整视频前不要直接定性，也可以转给熟悉当地情况的朋友求证。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0352",
+      "RP03-A0364",
+      "C03-A0161",
+      "C03-A0360"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0360",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 711,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "21389cb5d780d2dbfdc2a04a095fca2cb59dc8d91284e500ccf49aecfca3f40b",
+    "input_reserved_units": 3165,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1947,
+    "actual_output_tokens": 158,
+    "elapsed_seconds": 8.985
+  },
+  "validation_status": "valid"
+}

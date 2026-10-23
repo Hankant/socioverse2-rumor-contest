@@ -1,0 +1,51 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了两段转发，都是同一段标签化的视频描述，没有当事人回应或当地部门通报，暂时无法判断全貌，倾向于等官方说明再说。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP02-A0054",
+      "RP02-A0193"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0168",
+    "tick": 3,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 293,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "46948731d423a0f5a54757b67e53f68630c4b7e78c2aada7a222bb92e8e2423a",
+    "input_reserved_units": 2759,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1726,
+    "actual_output_tokens": 113,
+    "elapsed_seconds": 2.922
+  },
+  "validation_status": "valid"
+}

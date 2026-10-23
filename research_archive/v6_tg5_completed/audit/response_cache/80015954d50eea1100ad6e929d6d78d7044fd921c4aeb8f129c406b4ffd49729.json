@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "光凭一段剪辑确实难下结论。懒汉式扶贫的报道之前也见过不少，但具体到这家人还得有完整视频和当地核实。建议别急着给当地扶贫工作定性，也别急着给人贴标签。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0007",
+      "text": "转发存疑：视频看着挺震撼，但只有片段难判断全貌。希望能看到完整来源和官方回应再下结论，也提醒一下别因此否定当地的扶贫工作。"
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0007"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0507",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 195,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "80015954d50eea1100ad6e929d6d78d7044fd921c4aeb8f129c406b4ffd49729",
+    "input_reserved_units": 2423,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1527,
+    "actual_output_tokens": 162,
+    "elapsed_seconds": 3.704
+  },
+  "validation_status": "valid"
+}

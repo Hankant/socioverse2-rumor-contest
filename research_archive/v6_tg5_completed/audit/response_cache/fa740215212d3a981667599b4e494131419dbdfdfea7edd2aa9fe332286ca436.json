@@ -1,0 +1,50 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "目前只有视频文字描述，无法确认视频是否完整，也不能据此判断这对父子的整体家庭情况。建议先核实原视频、扶贫干部原话及当地官方信息，再讨论对个人行为的评价。"
+    },
+    "repost": {
+      "enabled": true,
+      "target_content_id": "RP01-A0024",
+      "text": "先求证，不把一段可能不完整的视频直接当作事实全貌。"
+    },
+    "evidence_ids": [
+      "RP01-A0024",
+      "P001"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0176",
+    "tick": 2,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 136,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "fa740215212d3a981667599b4e494131419dbdfdfea7edd2aa9fe332286ca436",
+    "input_reserved_units": 2416,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 0,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1533,
+    "actual_output_tokens": 138,
+    "elapsed_seconds": 9.719
+  },
+  "validation_status": "valid"
+}

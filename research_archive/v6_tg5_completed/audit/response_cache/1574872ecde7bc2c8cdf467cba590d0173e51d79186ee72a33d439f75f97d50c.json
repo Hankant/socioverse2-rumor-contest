@@ -1,0 +1,57 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "又看到这条的转载了，材料还是同一段概述，没有完整视频、官方或主流媒体核实，扶贫干部身份和父子生活状况都没法确认。仅凭重复传播不能等同于证实，多账号转发不等于独立求证，坐等原始来源再说。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP01-A0012",
+      "RP02-A0200",
+      "RP03-A0399",
+      "RP03-A0510",
+      "C03-A0104",
+      "C03-A0235",
+      "C03-A0243",
+      "C03-A0518"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0104",
+    "tick": 4,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 555,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "1574872ecde7bc2c8cdf467cba590d0173e51d79186ee72a33d439f75f97d50c",
+    "input_reserved_units": 4010,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 2,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 2467,
+    "actual_output_tokens": 177,
+    "elapsed_seconds": 3.937
+  },
+  "validation_status": "valid"
+}

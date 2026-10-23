@@ -1,0 +1,52 @@
+{
+  "answer": {
+    "belief": "uncertain",
+    "comment": {
+      "enabled": true,
+      "text": "看了几条转述，基本都是同一段内容的二次传播，缺乏原始视频和官方通报，‘牛被饿死’等细节也无法交叉确认。暂不下结论，建议等当地或官方核实。"
+    },
+    "repost": {
+      "enabled": false,
+      "target_content_id": null,
+      "text": ""
+    },
+    "evidence_ids": [
+      "P001",
+      "RP03-A0490",
+      "RP04-A0283",
+      "C04-A0508"
+    ]
+  },
+  "metadata": {
+    "agent_id": "A0523",
+    "tick": 5,
+    "attempt": 1,
+    "format_max_attempts": 4,
+    "request_number": 1126,
+    "requested_model": "MiniMax-M3",
+    "prompt_sha256": "5a4a36dce53a2a5f6ba985587501b2cd6aab2ad543775042f3fe90c968a741af",
+    "input_reserved_units": 2912,
+    "request_options": {
+      "temperature": 0.7,
+      "top_p": 0.8,
+      "max_tokens": 512,
+      "extra_body": {
+        "thinking": {
+          "type": "disabled"
+        },
+        "reasoning_split": true
+      }
+    },
+    "input_count_method": "cl100k_base_estimate_15percent_plus64_not_minimax_tokenizer",
+    "trimmed_memory_count": 3,
+    "trimmed_post_count": 0,
+    "trimmed_comment_count": 0,
+    "used_memory_ticks": [],
+    "cached": false,
+    "returned_model": "MiniMax-M3",
+    "actual_input_tokens": 1814,
+    "actual_output_tokens": 128,
+    "elapsed_seconds": 5.016
+  },
+  "validation_status": "valid"
+}
