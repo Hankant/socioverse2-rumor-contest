@@ -17,6 +17,7 @@ jobs:
       - run: python app_v6/verify_run.py research_archive/v6_tg2_completed/run
 
       - run: python scripts/verify_v7_results.py
+      - run: python scripts/verify_showcase.py
       - run: python -m pytest tests -q
         working-directory: v7
       - run: python app_v7/local_cli.py preview
