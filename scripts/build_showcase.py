@@ -96,7 +96,7 @@ def main():
     data = build_data()
     template = (ROOT / 'scripts/showcase/index.template.html').read_text(encoding='utf-8')
     template = template.replace('__WORKBENCH_CSS__', (ROOT / 'scripts/showcase/workbench.css').read_text(encoding='utf-8'))
-    template = template.replace('__WORKBENCH_JS__', (ROOT / 'scripts/showcase/workbench.js').read_text(encoding='utf-8'))
+    template = template.replace('__WORKBENCH_JS__', (ROOT / 'scripts/showcase/workbench.js').read_text(encoding='utf-8') + '\n' + (ROOT / 'scripts/showcase/i18n.js').read_text(encoding='utf-8-sig'))
     encoded = json.dumps(data, ensure_ascii=False, separators=(',', ':'), allow_nan=False).replace('<', '\\u003c')
     assert template.count('__SHOWCASE_DATA__') == 1
     output = ROOT / 'results/index.html'
