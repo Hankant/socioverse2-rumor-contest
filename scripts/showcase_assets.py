@@ -71,7 +71,7 @@ def load_assets(cases):
             p = by_id[agent[0]]
             assert agent == [p[k] for k in ('agent_id', 'group', 'synthetic_age', 'synthetic_region', 'synthetic_occupation', 'synthetic_mbti_type')], (case['id'], agent[0])
     blocks, refs = report_blocks(report)
-    figure_defs = [('Figure1_network_access.png', '模型网络接触示意', '模型设定示意，不是该批次的逐次传播路径。'), ('Figure2_FB_framework_preview.png', 'FB 指标定义', '来自现有 FB 报告制图文件。'), ('Figure3_FB_level_differences_preview.png', '参数水平与 FB 时长', '原报告分析图；解释和限制见报告正文。'), ('Figure4_FB_moderation_preview.png', 'DGC 交互分析', '原报告未支持三项 DGC 交互，不据此宣称存在调节效应。'), ('Figure5_FB_time_origin_preview.png', '时间起点与观察窗口', '区分首次相信时点与政府发布时点。')]
+    figure_defs = [('Figure1_network_access.png', '模型网络接触示意', '模型设定示意，不是该批次的逐次传播路径。'), ('Figure2_FB_framework_preview.png', '信念更新时间定义', '来自现有报告制图文件；原图文字按报告保留。'), ('Figure3_FB_level_differences_preview.png', '参数水平与信念更新时间', '原报告分析图；解释和限制见报告正文。'), ('Figure4_FB_moderation_preview.png', '来源信任差的交互分析', '原报告未支持三项交互，不据此宣称存在调节效应。'), ('Figure5_FB_time_origin_preview.png', '时间起点与观察窗口', '区分首次相信时点与政府发布时点。')]
     figures = []
     for name, title, note in figure_defs:
         path = RESULTS / 'fb/figures' / name
