@@ -1,0 +1,11 @@
+{
+  "sheets": 7,
+  "events": 757,
+  "strict": 475,
+  "censored": 222,
+  "before": 1,
+  "strict_missing_cells": 4,
+  "dependency_test": true,
+  "formula_errors": false,
+  "all_scenarios_reconciled": true
+}

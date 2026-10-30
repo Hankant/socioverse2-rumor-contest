@@ -1,0 +1,13 @@
+{
+  "url": "https://github.com/sii-research/SocioVerse2",
+  "commit": "9c3ac774816511c121184ca11f539dc398ba1544",
+  "included_paths": [
+    "socioverse",
+    "dashboard",
+    "pyproject.toml",
+    "README.pypi.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scope": "unmodified runtime and dashboard; examples/data omitted"
+}

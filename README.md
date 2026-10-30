@@ -1,3 +1,19 @@
+# 最新 V7 代码与完整 54 组结果（2026-10-30）
+
+最新模拟代码在 [v7/](v7/)，300 名 LLM 用户（圈内 48、圈外 252），10 轮，54 个实验条件。研究结果在 [results/v7_20261030/](results/v7_20261030/README.md)。
+
+- [最新 FB 口径研究报告](results/v7_20261030/fb/10-30-SocioVerse-研究报告_FB口径8页版.docx)
+- [54 组独立实验 Excel](results/v7_20261030/workbooks/)
+- [FB 情景汇总 CSV](results/v7_20261030/fb/data/FB_scenarios.csv) 与 [FB 用户事件 CSV](results/v7_20261030/fb/data/FB_users.csv)
+- [双 TBU 定义统计结果与数据](results/v7_20261030/dual_tbu/)
+- [完整轨迹、补充分析与图表](results/v7_20261030/complete54/)
+
+安装、离线预检和测试见 [V7 发布说明](v7/PUBLICATION.md)。当前代码与完成实验时的冻结配置分别保留，旧实验不冒充新代码的重新运行结果。所有 54 组均已完成至第 10 轮；本次同步没有调用模型。
+
+以下为此前 V6 与参赛版本的历史说明，相关代码和结果继续保留。
+
+---
+
 # 当前 V6 本地模型（2026-10-23）
 
 新增归档：[2026-10-21 TG5完整十轮结果](research_archive/v6_tg5_completed/run/)及[参数与版本说明](docs/V6_TG5历史结果归档.md)。此为此前三态判断版本，不是下述最新评分模型的运行结果。

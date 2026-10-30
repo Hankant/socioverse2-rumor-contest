@@ -1,0 +1,7 @@
+﻿event_id,agent_id,group,episode_number,believe_started_tick,reject_tick,believe_duration_ticks,score_before,score_after,score_change,government_tick,ticks_from_government,after_government_intervention,official_seen_before,official_seen_at_transition,official_first_seen_tick,official_shown_in_transition_tick,rumor_read_rounds,official_read_rounds,source_trust,government_trust,causal_attribution
+A0014-B2R-001,A0014,inside,1,1,4,3,57.5,45,-12.5,4,0,True,False,True,4,True,4,1,0.6183792928201519,0.36927200936643717,observed_change_only; official_exposure_is_not_proof_of_causation
+A0206-B2R-001,A0206,inside,1,1,4,3,60,48,-12,4,0,True,False,True,4,True,4,1,0.7009899279400081,0.4205324886561777,observed_change_only; official_exposure_is_not_proof_of_causation
+A0020-B2R-001,A0020,inside,1,1,6,5,50.5,49.8,-0.7000000000000028,4,2,True,True,True,4,True,6,3,0.5973887975665753,0.12729698821134905,observed_change_only; official_exposure_is_not_proof_of_causation
+A0033-B2R-001,A0033,inside,1,1,6,5,50.5,47.6,-2.8999999999999986,4,2,True,True,True,5,True,6,2,0.7454212363275597,0.4280671654630708,observed_change_only; official_exposure_is_not_proof_of_causation
+A0011-B2R-001,A0011,inside,1,1,7,6,51.6,48.8,-2.8000000000000043,4,3,True,True,True,4,True,7,4,0.8309869931927957,0.3612557855788292,observed_change_only; official_exposure_is_not_proof_of_causation
+A0030-B2R-001,A0030,inside,1,1,7,6,52,50,-2,4,3,True,True,True,6,True,7,2,0.6518382044702011,0.2079470083169103,observed_change_only; official_exposure_is_not_proof_of_causation

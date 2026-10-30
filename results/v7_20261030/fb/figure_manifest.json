@@ -1,0 +1,11 @@
+{
+  "data_source": "D:\\Codex\\outputs\\v7_fb_report_20261030\\analysis_FB.json",
+  "endpoint": "FB only",
+  "png_dpi": 600,
+  "framework_size_mm": [
+    240,
+    150
+  ],
+  "original_vector_role_illustrations": true,
+  "api_calls": 0
+}

@@ -1,0 +1,14 @@
+﻿event_id,agent_id,group,episode_number,believe_started_tick,reject_tick,believe_duration_ticks,score_before,score_after,score_change,government_tick,ticks_from_government,after_government_intervention,official_seen_before,official_seen_at_transition,official_first_seen_tick,official_shown_in_transition_tick,rumor_read_rounds,official_read_rounds,source_trust,government_trust,causal_attribution
+A0071-B2R-001,A0071,inside,1,5,6,1,50.2,49.6,-0.6000000000000014,7,,False,False,False,,False,6,0,0.6849017413486815,0.6744996297591281,observed_change_only; official_exposure_is_not_proof_of_causation
+A0003-B2R-001,A0003,inside,1,5,7,2,50.6,42.5,-8.100000000000001,7,0,True,False,True,7,True,7,1,0.5073541155076206,0.7504125841087482,observed_change_only; official_exposure_is_not_proof_of_causation
+A0011-B2R-001,A0011,inside,1,1,7,6,64.3,42.6,-21.699999999999996,7,0,True,False,True,7,True,7,1,0.8309869931927957,0.8612557855788292,observed_change_only; official_exposure_is_not_proof_of_causation
+A0014-B2R-001,A0014,inside,1,1,7,6,58.4,46.2,-12.199999999999996,7,0,True,False,True,7,True,7,1,0.6183792928201519,0.8692720093664372,observed_change_only; official_exposure_is_not_proof_of_causation
+A0025-B2R-001,A0025,inside,1,1,7,6,59.7,48.6,-11.100000000000001,7,0,True,False,True,7,True,7,1,0.6926458844923793,0.6920382471623705,observed_change_only; official_exposure_is_not_proof_of_causation
+A0026-B2R-001,A0026,inside,1,1,7,6,59.5,46.8,-12.700000000000003,7,0,True,False,True,7,True,7,1,0.5762813200603327,0.7849426224705214,observed_change_only; official_exposure_is_not_proof_of_causation
+A0012-B2R-001,A0012,inside,1,1,8,7,65.7,48.6,-17.1,7,1,True,False,True,8,True,8,1,0.7862310164397289,0.5758237308467585,observed_change_only; official_exposure_is_not_proof_of_causation
+A0024-B2R-001,A0024,inside,1,1,8,7,62.3,43.5,-18.799999999999997,7,1,True,False,True,8,True,8,1,0.6459527000712758,0.5214698197862123,observed_change_only; official_exposure_is_not_proof_of_causation
+A0032-B2R-001,A0032,inside,1,1,8,7,54.6,45.2,-9.399999999999999,7,1,True,True,True,7,True,8,2,0.7624714478043353,0.6340240544520714,observed_change_only; official_exposure_is_not_proof_of_causation
+A0036-B2R-001,A0036,inside,1,1,8,7,59.3,44.8,-14.5,7,1,True,False,True,8,True,8,1,0.6707590397793677,0.7237074575251912,observed_change_only; official_exposure_is_not_proof_of_causation
+A0189-B2R-001,A0189,inside,1,1,8,7,57.9,45.6,-12.299999999999997,7,1,True,False,True,8,True,8,1,0.5921592564294961,0.6830094023688428,observed_change_only; official_exposure_is_not_proof_of_causation
+A0023-B2R-001,A0023,inside,1,1,10,9,55.9,43.8,-12.100000000000001,7,3,True,False,True,10,True,10,1,0.5420908910875782,0.8069883906357749,observed_change_only; official_exposure_is_not_proof_of_causation
+A0033-B2R-001,A0033,inside,1,1,10,9,64.3,43.8,-20.5,7,3,True,False,True,10,True,10,1,0.7454212363275597,0.9280671654630708,observed_change_only; official_exposure_is_not_proof_of_causation

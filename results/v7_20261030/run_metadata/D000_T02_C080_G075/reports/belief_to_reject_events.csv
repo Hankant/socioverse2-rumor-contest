@@ -1,0 +1,10 @@
+﻿event_id,agent_id,group,episode_number,believe_started_tick,reject_tick,believe_duration_ticks,score_before,score_after,score_change,government_tick,ticks_from_government,after_government_intervention,official_seen_before,official_seen_at_transition,official_first_seen_tick,official_shown_in_transition_tick,rumor_read_rounds,official_read_rounds,source_trust,government_trust,causal_attribution
+A0005-B2R-001,A0005,inside,1,1,2,1,54,42,-12,2,0,True,False,True,2,True,2,1,0.5776421214799459,0.7396670685950517,observed_change_only; official_exposure_is_not_proof_of_causation
+A0012-B2R-001,A0012,inside,1,1,2,1,55,48,-7,2,0,True,False,True,2,True,2,1,0.6862728049166222,0.5758237308467585,observed_change_only; official_exposure_is_not_proof_of_causation
+A0018-B2R-001,A0018,inside,1,1,2,1,57,43,-14,2,0,True,False,True,2,True,2,1,0.6202507121611741,0.7404963055213327,observed_change_only; official_exposure_is_not_proof_of_causation
+A0040-B2R-001,A0040,inside,1,1,2,1,57,44,-13,2,0,True,False,True,2,True,2,1,0.61011445477209,0.7867023343215512,observed_change_only; official_exposure_is_not_proof_of_causation
+A0041-B2R-001,A0041,inside,1,1,2,1,54.5,43.8,-10.700000000000003,2,0,True,False,True,2,True,2,1,0.5579131790504538,0.814939132152926,observed_change_only; official_exposure_is_not_proof_of_causation
+A0206-B2R-001,A0206,inside,1,1,2,1,54,42,-12,2,0,True,False,True,2,True,2,1,0.6009989346582023,0.9205324886561776,observed_change_only; official_exposure_is_not_proof_of_causation
+A0011-B2R-001,A0011,inside,1,1,3,2,63,48,-15,2,1,True,False,True,3,True,3,1,0.7310981175538389,0.8612557855788292,observed_change_only; official_exposure_is_not_proof_of_causation
+A0017-B2R-001,A0017,inside,1,1,4,3,59,49,-10,2,2,True,False,True,4,True,4,1,0.6318009505797308,0.7338391944054137,observed_change_only; official_exposure_is_not_proof_of_causation
+A0242-B2R-001,A0242,outside,1,4,5,1,54,42,-12,2,3,True,False,True,5,True,2,1,0.6778039574320456,0.9322479673076519,observed_change_only; official_exposure_is_not_proof_of_causation

@@ -1,0 +1,550 @@
+{
+  "status": "completed",
+  "created_at": "2026-10-27T14:51:29.166509",
+  "steps": 10,
+  "total": 54,
+  "api_global_concurrency": 8,
+  "output": "D:\\Codex\\runs\\V7_Optimized_20261027_145124",
+  "cases": {
+    "D000_T02_C020_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T02_C020_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T02_C020_G025\\runs\\government-rumor-v7-openai-20261028-163653-173706",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D000_T02_C020_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T02_C020_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T02_C020_G050\\runs\\government-rumor-v7-openai-20261028-124411-205657",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D000_T02_C020_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T02_C020_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T02_C020_G075\\runs\\government-rumor-v7-openai-20261028-124929-657907",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D000_T02_C080_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T02_C080_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T02_C080_G025\\runs\\government-rumor-v7-openai-20261029-042957-362915",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D000_T02_C080_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T02_C080_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T02_C080_G050\\runs\\government-rumor-v7-openai-20261028-142604-491759",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "unknown_network_response"
+    },
+    "D000_T02_C080_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T02_C080_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T02_C080_G075\\runs\\government-rumor-v7-openai-20261028-161343-578065",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D000_T04_C020_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T04_C020_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T04_C020_G025\\runs\\government-rumor-v7-openai-20261028-124635-586785",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D000_T04_C020_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T04_C020_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T04_C020_G050\\runs\\government-rumor-v7-openai-20261029-090709-784951",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D000_T04_C020_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T04_C020_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T04_C020_G075\\runs\\government-rumor-v7-openai-20261028-124720-129581",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "unknown_network_response"
+    },
+    "D000_T04_C080_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T04_C080_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T04_C080_G025\\runs\\government-rumor-v7-openai-20261028-124803-323719",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D000_T04_C080_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T04_C080_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T04_C080_G050\\runs\\government-rumor-v7-openai-20261028-124902-837317",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D000_T04_C080_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T04_C080_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T04_C080_G075\\runs\\government-rumor-v7-openai-20261029-051739-421076",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D000_T07_C020_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T07_C020_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T07_C020_G025\\runs\\government-rumor-v7-openai-20261028-124800-276517",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D000_T07_C020_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T07_C020_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T07_C020_G050\\runs\\government-rumor-v7-openai-20261028-124451-689961",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D000_T07_C020_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T07_C020_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T07_C020_G075\\runs\\government-rumor-v7-openai-20261028-124612-763464",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "unknown_network_response"
+    },
+    "D000_T07_C080_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T07_C080_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T07_C080_G025\\runs\\government-rumor-v7-openai-20261028-124827-294588",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D000_T07_C080_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T07_C080_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T07_C080_G050\\runs\\government-rumor-v7-openai-20261028-125031-979416",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D000_T07_C080_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D000_T07_C080_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T07_C080_G075\\runs\\government-rumor-v7-openai-20261028-124511-695889",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D020_T02_C020_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T02_C020_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T02_C020_G025\\runs\\government-rumor-v7-openai-20261028-124856-736324",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D020_T02_C020_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T02_C020_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T02_C020_G050\\runs\\government-rumor-v7-openai-20261028-124534-905479",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D020_T02_C020_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T02_C020_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T02_C020_G075\\runs\\government-rumor-v7-openai-20261028-125033-861573",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D020_T02_C080_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T02_C080_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T02_C080_G025\\runs\\government-rumor-v7-openai-20261028-124539-574537",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D020_T02_C080_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T02_C080_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T02_C080_G050\\runs\\government-rumor-v7-openai-20261028-200612-670016",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D020_T02_C080_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T02_C080_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T02_C080_G075\\runs\\government-rumor-v7-openai-20261028-131514-693049",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D020_T04_C020_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T04_C020_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T04_C020_G025\\runs\\government-rumor-v7-openai-20261028-144106-460054",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "unknown_network_response"
+    },
+    "D020_T04_C020_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T04_C020_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T04_C020_G050\\runs\\government-rumor-v7-openai-20261029-101050-919758",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "unknown_network_response"
+    },
+    "D020_T04_C020_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T04_C020_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T04_C020_G075\\runs\\government-rumor-v7-openai-20261028-124425-845288",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D020_T04_C080_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T04_C080_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T04_C080_G025\\runs\\government-rumor-v7-openai-20261029-042647-641023",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D020_T04_C080_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T04_C080_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T04_C080_G050\\runs\\government-rumor-v7-openai-20261028-124947-222874",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D020_T04_C080_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T04_C080_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T04_C080_G075\\runs\\government-rumor-v7-openai-20261028-171959-094542",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D020_T07_C020_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T07_C020_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T07_C020_G025\\runs\\government-rumor-v7-openai-20261028-131729-837721",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D020_T07_C020_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T07_C020_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T07_C020_G050\\runs\\government-rumor-v7-openai-20261028-124746-689750",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D020_T07_C020_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T07_C020_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T07_C020_G075\\runs\\government-rumor-v7-openai-20261028-125541-751783",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D020_T07_C080_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T07_C080_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T07_C080_G025\\runs\\government-rumor-v7-openai-20261028-152608-478904",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "unknown_network_response"
+    },
+    "D020_T07_C080_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T07_C080_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T07_C080_G050\\runs\\government-rumor-v7-openai-20261028-124623-130100",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D020_T07_C080_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D020_T07_C080_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T07_C080_G075\\runs\\government-rumor-v7-openai-20261028-134004-743423",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D040_T02_C020_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T02_C020_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T02_C020_G025\\runs\\government-rumor-v7-openai-20261028-124519-227375",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D040_T02_C020_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T02_C020_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T02_C020_G050\\runs\\government-rumor-v7-openai-20261028-165906-316641",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D040_T02_C020_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T02_C020_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T02_C020_G075\\runs\\government-rumor-v7-openai-20261028-142015-927074",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D040_T02_C080_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T02_C080_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T02_C080_G025\\runs\\government-rumor-v7-openai-20261028-175600-725825",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "unknown_network_response"
+    },
+    "D040_T02_C080_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T02_C080_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T02_C080_G050\\runs\\government-rumor-v7-openai-20261028-125038-254225",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D040_T02_C080_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T02_C080_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T02_C080_G075\\runs\\government-rumor-v7-openai-20261028-143331-510190",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D040_T04_C020_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T04_C020_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T04_C020_G025\\runs\\government-rumor-v7-openai-20261028-161801-932937",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D040_T04_C020_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T04_C020_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T04_C020_G050\\runs\\government-rumor-v7-openai-20261028-124846-380663",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D040_T04_C020_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T04_C020_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T04_C020_G075\\runs\\government-rumor-v7-openai-20261029-004312-286614",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "unknown_network_response"
+    },
+    "D040_T04_C080_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T04_C080_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T04_C080_G025\\runs\\government-rumor-v7-openai-20261028-171950-304557",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D040_T04_C080_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T04_C080_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T04_C080_G050\\runs\\government-rumor-v7-openai-20261028-124841-123408",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D040_T04_C080_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T04_C080_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T04_C080_G075\\runs\\government-rumor-v7-openai-20261029-090635-577528",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "unknown_network_response"
+    },
+    "D040_T07_C020_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T07_C020_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T07_C020_G025\\runs\\government-rumor-v7-openai-20261029-180722-568104",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D040_T07_C020_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T07_C020_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T07_C020_G050\\runs\\government-rumor-v7-openai-20261028-140937-969662",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "output_contract"
+    },
+    "D040_T07_C020_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T07_C020_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T07_C020_G075\\runs\\government-rumor-v7-openai-20261028-124948-538302",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D040_T07_C080_G025": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T07_C080_G025_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T07_C080_G025\\runs\\government-rumor-v7-openai-20261028-124933-259759",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D040_T07_C080_G050": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T07_C080_G050_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T07_C080_G050\\runs\\government-rumor-v7-openai-20261028-124703-302686",
+      "dry_run": false,
+      "export_status": "complete"
+    },
+    "D040_T07_C080_G075": {
+      "status": "completed_live",
+      "last_completed_tick": 10,
+      "filename": "D040_T07_C080_G075_N300_IN48_OUT252_R50.xlsx",
+      "run_dir": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T07_C080_G075\\runs\\government-rumor-v7-openai-20261028-180649-229222",
+      "dry_run": false,
+      "export_status": "complete",
+      "recovery_kind": "unknown_network_response"
+    }
+  },
+  "api_slot_concurrency": {
+    "primary": 0,
+    "backup": 1,
+    "third": 1,
+    "fourth": 1,
+    "primary2": 4
+  },
+  "fresh_start": true,
+  "source_runtime_version": "v7-government-trust-persona-20261027-2",
+  "prior_results_preserved": "E:\\papers\\socioverse 2026\\socioverse2_v6_local\\Results_V7",
+  "original_batch_state_reused": false,
+  "original_response_caches_reused": false,
+  "pid": 55872,
+  "started_at": "2026-10-29T18:07:22.507721",
+  "api_key_retry_interval_seconds": 600,
+  "updated_at": "2026-10-29T18:44:17.289631",
+  "rate_limit_fallback_active": false,
+  "storage_path_alias": {
+    "physical_output": "E:\\papers\\socioverse 2026\\socioverse2_v6_local\\Results_V7\\V7_Optimized_20261027_145124",
+    "short_root": "E:\\SV7R_20261027_145124",
+    "existing_received_answers_reused": 107,
+    "api_requests_during_recovery": 0
+  },
+  "maintenance_migration_manifest": "D:\\Codex\\outputs\\v7_final_case_resume_20261029\\selection_migration.json",
+  "storage_migration": {
+    "previous_output": "E:\\papers\\socioverse 2026\\socioverse2_v6_local\\Results_V7\\V7_Optimized_20261027_145124",
+    "active_output": "D:\\Codex\\runs\\V7_Optimized_20261027_145124",
+    "verified_cached_answers": 635
+  },
+  "recovery_authorizations": {
+    "D040_T07_C020_G025": {
+      "request_cutoff": 1972,
+      "unknown_reissue": [],
+      "action": "r",
+      "source_run": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T07_C020_G025\\runs\\government-rumor-v7-openai-20261029-180042-680284",
+      "user_authorization": "用户要求接续完成唯一未完成情景；针对已审计的不可见证据引用错误，更正纠错提示后开放一组4次有上限生成。已保存成功回答、预算及科学设置保留。",
+      "prepared_at": "2026-10-29T18:07:21.762868+08:00"
+    }
+  },
+  "elastic_capacity_upgrade": {
+    "global_concurrency": 7,
+    "base_slot_limits": {
+      "primary": 4,
+      "backup": 1,
+      "third": 1,
+      "fourth": 1
+    },
+    "capacity_policy": "elastic_failover_v1",
+    "preserved_answers": 1345
+  },
+  "floating_capacity_upgrade": {
+    "global_concurrency": 8,
+    "base_slot_limits": {
+      "primary": 4,
+      "backup": 1,
+      "third": 1,
+      "fourth": 1
+    },
+    "capacity_policy": "elastic_failover_v1",
+    "preserved_answers": 12589
+  },
+  "second_primary_upgrade": {
+    "global_concurrency": 8,
+    "base_slot_limits": {
+      "primary": 0,
+      "backup": 1,
+      "third": 1,
+      "fourth": 1,
+      "primary2": 4
+    },
+    "primary1_suspended_until": 1793421821.7153778,
+    "primary2_slot": "primary2",
+    "preserved_answers": 79918,
+    "preserved_checkpoints": 316,
+    "preserved_case_ticks": 316
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "version": "V7",
+  "source_project": "E:\\papers\\socioverse 2026\\socioverse2_v6_local",
+  "source_manifest_sha256": "ad04ee6fb48e3985a53054fad65633adafb6333e7287268b74bae873b20dcc4e",
+  "population": {
+    "all_llm": 300,
+    "inside": 48,
+    "outside": 252
+  },
+  "government_reach": 50,
+  "government_inside_high": 40,
+  "government_inside_low": 10,
+  "tests_passed": 221,
+  "live_run_started": true,
+  "key_storage": "Existing CurrentUser DPAPI vault outside project; no secrets copied",
+  "design_configs": 54,
+  "source_v6_unchanged": true,
+  "batch_cases": 54,
+  "batch_output": "E:\\papers\\socioverse 2026\\socioverse2_v6_local\\Results_V7",
+  "batch_global_api_concurrency": 6,
+  "maintenance_recovery": "json-delimiters-v2; pinned code upgrade; cooperative pause; refusal-aware retry",
+  "previous_complete_ticks_preserved": 63,
+  "concurrency5_protected_files": 10744,
+  "batch_api_slot_concurrency": {
+    "primary": 3,
+    "backup": 1,
+    "third": 1,
+    "fourth": 1
+  },
+  "batch_api_retry_interval_seconds": 600,
+  "weighted6_protected_files": 11289,
+  "tests_scope": "full V7 suite including per-condition ledgers, lazy audited history, live capacity/probe updates",
+  "prior_full_suite_tests_passed": 169,
+  "batch_rate_limit_fallback": {
+    "max_global_concurrency": 5,
+    "api_slot_concurrency": {
+      "primary": 2,
+      "backup": 1,
+      "third": 1,
+      "fourth": 1
+    }
+  },
+  "auto5_protected_files": 11489,
+  "automatic_batch_recovery": "user-authorized-batch-recovery-v1",
+  "resume6_preserved_complete_ticks": 216,
+  "recovery_immutable_audit_reuse": "ntfs_hardlink_with_copy_fallback",
+  "upgraded_account_primary_lanes": 3,
+  "upgraded_account_preserved_ticks": 216,
+  "upgraded_account_preserved_cache_files": 53553
+}

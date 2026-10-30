@@ -1,0 +1,21 @@
+{
+  "pages": 8,
+  "sections": "portrait / landscape / portrait",
+  "figures": 4,
+  "tables": 5,
+  "source_files": 54,
+  "matched_events": 757,
+  "censored_first_episodes": 222,
+  "independent_HC3_and_F_checked": true,
+  "counterfactual_DID_checked": true,
+  "clock_identity_checked": true,
+  "xlsx_saved_cached_means_checked": true,
+  "preserve_only_parts_unchanged": true,
+  "original_report_unchanged": true,
+  "api_calls": 0,
+  "published_directory": "E:\\papers\\socioverse 2026\\socioverse2_v6_local\\Results_V7\\双TBU定义对比_20261030",
+  "published_report": "E:\\papers\\socioverse 2026\\SocioVerse-研究报告_双TBU口径8页版.docx",
+  "docx_sha256": "b4e1dd86a4ed706c5f6b712f2ebeaf5ddef60bc9e51987b00140d1d046b4dc74",
+  "xlsx_sha256": "d146f19fba389ee06fc7e2c4ee9e865929160565c26cb54b84a6453a87fd1c0b",
+  "all_pages_and_sheets_visually_reviewed": true
+}

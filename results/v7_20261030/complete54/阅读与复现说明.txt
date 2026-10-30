@@ -1,0 +1,31 @@
+完整54情景 TBU研究结果
+
+先打开 V7_完整54组_TBU研究报告.html，或使用19页Word报告。
+Excel共7张表：主要检验、水平对比、调节效应、稳健性分析、情景指标、初始相信者、回应前队列。
+9幅图同时提供PNG、SVG、PDF，保存在figures文件夹；英文方法、结果和讨论另有TXT写作稿。
+
+TBU9为第1轮相信者的9轮限制平均持续时间；PRUD3为发布前一轮相信者的3轮限制平均发布后等待。
+删失者未被删掉或伪造为已更新者。主分析单位54情景，不是911条用户轨迹。
+GC是主观政府来源信任；TC是固定50人中的圈内比例；DGC是圈内外初始来源信任差，未操纵网络拓扑。
+
+主要结果：GC和TC缩短TBU9与PRUD3；较早RT缩短TBU9，但PRUD3的RT差异不显著。
+DGC在两个时间结局上的直接差异和总体调节未获显著支持。
+总相信负担出现DGC×GC、DGC×RT调节，是补充结局，不能改称TBU调节。
+GC .75相对.50的额外收益没有通过两两校正。不能写成高中低全部两两显著。
+
+raw是54份完整结果快照；data是情景指标、用户事件/删失、逐步人数和所有统计检验。
+scenario_summary_SCI.csv将旧字段GT/TG/D改名为GC/RT/DGC，保留其数值和含义；其他原始中间文件沿用代码字段。
+extraction.json记录54份原始来源位置和SHA256；verification.json记录独立复算与原始文件保留检查。
+protocol.txt在本次54格拟合前固定分析口径，但此前看过53格结果，故不属于预注册。
+
+复现顺序：extract.py → analysis54.py → figures54.py → build_content.py。
+分析环境版本见analysis.json的versions。工作区附带numpy/pandas；本任务补充scipy 1.16.3，使用既有statsmodels 0.15.0、patsy 1.0.3和matplotlib 3.9.2。
+统计核心代码在statistical_helpers.py；其HC3系数/协方差和F统计量逐模型与statsmodels核对。
+独立核验脚本verify_and_package.py从原始CSV再次计算108个限制均值，并验证阈值、跨状态事件和F=t²。
+构建Excel需@oai/artifact-tool，Word需python-docx；Word排版已通过本机Microsoft Word导出PDF并逐页查看。
+推断统计是分析代码的结果快照；Excel中的情景指标和水平均值可重算，但修改输入后F/t/p值需要重新拟合。
+
+完整模拟原始目录
+D:/Codex/runs/V7_Optimized_20261027_145124
+
+本次只读分析，不改变模拟代码、参数和运行结果，也不新增MiniMax调用。

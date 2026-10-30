@@ -1,0 +1,1846 @@
+{
+  "version": "V7",
+  "source_profile_sha256": "f0f62dbaff723347097d1f7107807c1977e07a78cee583b4601670bdb3142796",
+  "selection_seed": 20261024,
+  "source_llm_profiles": 305,
+  "selected_llm_profiles": 300,
+  "excluded_profile_ids": [
+    "A0172",
+    "A0179",
+    "A0278",
+    "A0435",
+    "A0540"
+  ],
+  "reassigned_to_inside_source_ids": [
+    "A0146",
+    "A0178",
+    "A0290",
+    "A0369",
+    "A0406"
+  ],
+  "population": {
+    "inside": 48,
+    "outside": 252
+  },
+  "mbti_counts": {
+    "ESTJ": 19,
+    "ESTP": 19,
+    "ENFP": 18,
+    "INTP": 18,
+    "ISTP": 19,
+    "INFJ": 19,
+    "ISFP": 19,
+    "ENFJ": 19,
+    "INFP": 19,
+    "ESFP": 18,
+    "ISTJ": 19,
+    "ESFJ": 18,
+    "INTJ": 19,
+    "ENTJ": 19,
+    "ENTP": 19,
+    "ISFJ": 19
+  },
+  "profile_mapping": [
+    {
+      "agent_id": "A0001",
+      "source_profile_id": "A0002",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0002",
+      "source_profile_id": "A0005",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0003",
+      "source_profile_id": "A0006",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0004",
+      "source_profile_id": "A0007",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0005",
+      "source_profile_id": "A0009",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0006",
+      "source_profile_id": "A0010",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0007",
+      "source_profile_id": "A0012",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0008",
+      "source_profile_id": "A0017",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0009",
+      "source_profile_id": "A0018",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0010",
+      "source_profile_id": "A0021",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0011",
+      "source_profile_id": "A0022",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0012",
+      "source_profile_id": "A0023",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0013",
+      "source_profile_id": "A0024",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0014",
+      "source_profile_id": "A0025",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0015",
+      "source_profile_id": "A0026",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0016",
+      "source_profile_id": "A0027",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0017",
+      "source_profile_id": "A0028",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0018",
+      "source_profile_id": "A0030",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0019",
+      "source_profile_id": "A0032",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0020",
+      "source_profile_id": "A0034",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0021",
+      "source_profile_id": "A0035",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0022",
+      "source_profile_id": "A0036",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0023",
+      "source_profile_id": "A0037",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0024",
+      "source_profile_id": "A0038",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0025",
+      "source_profile_id": "A0041",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0026",
+      "source_profile_id": "A0044",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0027",
+      "source_profile_id": "A0045",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0028",
+      "source_profile_id": "A0050",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0029",
+      "source_profile_id": "A0051",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0030",
+      "source_profile_id": "A0052",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0031",
+      "source_profile_id": "A0054",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0032",
+      "source_profile_id": "A0055",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0033",
+      "source_profile_id": "A0058",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0034",
+      "source_profile_id": "A0059",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0035",
+      "source_profile_id": "A0060",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0036",
+      "source_profile_id": "A0061",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0037",
+      "source_profile_id": "A0062",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0038",
+      "source_profile_id": "A0063",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0039",
+      "source_profile_id": "A0065",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0040",
+      "source_profile_id": "A0075",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0041",
+      "source_profile_id": "A0077",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0042",
+      "source_profile_id": "A0080",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0043",
+      "source_profile_id": "A0081",
+      "original_group": "inside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0044",
+      "source_profile_id": "A0084",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0045",
+      "source_profile_id": "A0087",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0046",
+      "source_profile_id": "A0090",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0047",
+      "source_profile_id": "A0092",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0048",
+      "source_profile_id": "A0093",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0049",
+      "source_profile_id": "A0094",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0050",
+      "source_profile_id": "A0098",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0051",
+      "source_profile_id": "A0100",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0052",
+      "source_profile_id": "A0102",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0053",
+      "source_profile_id": "A0104",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0054",
+      "source_profile_id": "A0105",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0055",
+      "source_profile_id": "A0110",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0056",
+      "source_profile_id": "A0111",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0057",
+      "source_profile_id": "A0112",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0058",
+      "source_profile_id": "A0113",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0059",
+      "source_profile_id": "A0114",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0060",
+      "source_profile_id": "A0122",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0061",
+      "source_profile_id": "A0126",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0062",
+      "source_profile_id": "A0130",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0063",
+      "source_profile_id": "A0136",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0064",
+      "source_profile_id": "A0137",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0065",
+      "source_profile_id": "A0138",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0066",
+      "source_profile_id": "A0139",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0067",
+      "source_profile_id": "A0140",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0068",
+      "source_profile_id": "A0141",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0069",
+      "source_profile_id": "A0142",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0070",
+      "source_profile_id": "A0143",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0071",
+      "source_profile_id": "A0146",
+      "original_group": "outside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0072",
+      "source_profile_id": "A0149",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0073",
+      "source_profile_id": "A0151",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0074",
+      "source_profile_id": "A0156",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0075",
+      "source_profile_id": "A0157",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0076",
+      "source_profile_id": "A0158",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0077",
+      "source_profile_id": "A0160",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0078",
+      "source_profile_id": "A0161",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0079",
+      "source_profile_id": "A0164",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0080",
+      "source_profile_id": "A0166",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0081",
+      "source_profile_id": "A0167",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0082",
+      "source_profile_id": "A0168",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0083",
+      "source_profile_id": "A0169",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0084",
+      "source_profile_id": "A0170",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0085",
+      "source_profile_id": "A0171",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0086",
+      "source_profile_id": "A0173",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0087",
+      "source_profile_id": "A0174",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0088",
+      "source_profile_id": "A0175",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0089",
+      "source_profile_id": "A0176",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0090",
+      "source_profile_id": "A0178",
+      "original_group": "outside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0091",
+      "source_profile_id": "A0180",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0092",
+      "source_profile_id": "A0183",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0093",
+      "source_profile_id": "A0186",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0094",
+      "source_profile_id": "A0188",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0095",
+      "source_profile_id": "A0189",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0096",
+      "source_profile_id": "A0190",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0097",
+      "source_profile_id": "A0193",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0098",
+      "source_profile_id": "A0194",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0099",
+      "source_profile_id": "A0199",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0100",
+      "source_profile_id": "A0200",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0101",
+      "source_profile_id": "A0201",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0102",
+      "source_profile_id": "A0204",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0103",
+      "source_profile_id": "A0205",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0104",
+      "source_profile_id": "A0207",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0105",
+      "source_profile_id": "A0209",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0106",
+      "source_profile_id": "A0211",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0107",
+      "source_profile_id": "A0212",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0108",
+      "source_profile_id": "A0213",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0109",
+      "source_profile_id": "A0218",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0110",
+      "source_profile_id": "A0222",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0111",
+      "source_profile_id": "A0225",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0112",
+      "source_profile_id": "A0228",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0113",
+      "source_profile_id": "A0230",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0114",
+      "source_profile_id": "A0232",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0115",
+      "source_profile_id": "A0235",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0116",
+      "source_profile_id": "A0236",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0117",
+      "source_profile_id": "A0237",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0118",
+      "source_profile_id": "A0238",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0119",
+      "source_profile_id": "A0239",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0120",
+      "source_profile_id": "A0243",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0121",
+      "source_profile_id": "A0245",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0122",
+      "source_profile_id": "A0246",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0123",
+      "source_profile_id": "A0248",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0124",
+      "source_profile_id": "A0249",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0125",
+      "source_profile_id": "A0250",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0126",
+      "source_profile_id": "A0251",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0127",
+      "source_profile_id": "A0252",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0128",
+      "source_profile_id": "A0254",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0129",
+      "source_profile_id": "A0255",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0130",
+      "source_profile_id": "A0256",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0131",
+      "source_profile_id": "A0257",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0132",
+      "source_profile_id": "A0258",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0133",
+      "source_profile_id": "A0261",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0134",
+      "source_profile_id": "A0263",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0135",
+      "source_profile_id": "A0265",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0136",
+      "source_profile_id": "A0266",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0137",
+      "source_profile_id": "A0267",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0138",
+      "source_profile_id": "A0271",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0139",
+      "source_profile_id": "A0274",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0140",
+      "source_profile_id": "A0275",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0141",
+      "source_profile_id": "A0276",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0142",
+      "source_profile_id": "A0277",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0143",
+      "source_profile_id": "A0281",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0144",
+      "source_profile_id": "A0283",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0145",
+      "source_profile_id": "A0287",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0146",
+      "source_profile_id": "A0290",
+      "original_group": "outside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0147",
+      "source_profile_id": "A0291",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0148",
+      "source_profile_id": "A0294",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0149",
+      "source_profile_id": "A0297",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0150",
+      "source_profile_id": "A0298",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0151",
+      "source_profile_id": "A0300",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0152",
+      "source_profile_id": "A0302",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0153",
+      "source_profile_id": "A0304",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0154",
+      "source_profile_id": "A0305",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0155",
+      "source_profile_id": "A0309",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0156",
+      "source_profile_id": "A0312",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0157",
+      "source_profile_id": "A0313",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0158",
+      "source_profile_id": "A0315",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0159",
+      "source_profile_id": "A0316",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0160",
+      "source_profile_id": "A0318",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0161",
+      "source_profile_id": "A0319",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0162",
+      "source_profile_id": "A0322",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0163",
+      "source_profile_id": "A0323",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0164",
+      "source_profile_id": "A0326",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0165",
+      "source_profile_id": "A0328",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0166",
+      "source_profile_id": "A0331",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0167",
+      "source_profile_id": "A0332",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0168",
+      "source_profile_id": "A0333",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0169",
+      "source_profile_id": "A0334",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0170",
+      "source_profile_id": "A0337",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0171",
+      "source_profile_id": "A0342",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0172",
+      "source_profile_id": "A0343",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0173",
+      "source_profile_id": "A0344",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0174",
+      "source_profile_id": "A0345",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0175",
+      "source_profile_id": "A0346",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0176",
+      "source_profile_id": "A0349",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0177",
+      "source_profile_id": "A0351",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0178",
+      "source_profile_id": "A0352",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0179",
+      "source_profile_id": "A0353",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0180",
+      "source_profile_id": "A0354",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0181",
+      "source_profile_id": "A0356",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0182",
+      "source_profile_id": "A0357",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0183",
+      "source_profile_id": "A0359",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0184",
+      "source_profile_id": "A0360",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0185",
+      "source_profile_id": "A0361",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0186",
+      "source_profile_id": "A0364",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0187",
+      "source_profile_id": "A0365",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0188",
+      "source_profile_id": "A0368",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0189",
+      "source_profile_id": "A0369",
+      "original_group": "outside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0190",
+      "source_profile_id": "A0370",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0191",
+      "source_profile_id": "A0372",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0192",
+      "source_profile_id": "A0374",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0193",
+      "source_profile_id": "A0376",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0194",
+      "source_profile_id": "A0379",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0195",
+      "source_profile_id": "A0386",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0196",
+      "source_profile_id": "A0387",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0197",
+      "source_profile_id": "A0391",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0198",
+      "source_profile_id": "A0392",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0199",
+      "source_profile_id": "A0393",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0200",
+      "source_profile_id": "A0394",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0201",
+      "source_profile_id": "A0395",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0202",
+      "source_profile_id": "A0399",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0203",
+      "source_profile_id": "A0401",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0204",
+      "source_profile_id": "A0403",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0205",
+      "source_profile_id": "A0405",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0206",
+      "source_profile_id": "A0406",
+      "original_group": "outside",
+      "v7_group": "inside"
+    },
+    {
+      "agent_id": "A0207",
+      "source_profile_id": "A0408",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0208",
+      "source_profile_id": "A0411",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0209",
+      "source_profile_id": "A0412",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0210",
+      "source_profile_id": "A0413",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0211",
+      "source_profile_id": "A0414",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0212",
+      "source_profile_id": "A0416",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0213",
+      "source_profile_id": "A0417",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0214",
+      "source_profile_id": "A0418",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0215",
+      "source_profile_id": "A0419",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0216",
+      "source_profile_id": "A0423",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0217",
+      "source_profile_id": "A0424",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0218",
+      "source_profile_id": "A0426",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0219",
+      "source_profile_id": "A0427",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0220",
+      "source_profile_id": "A0428",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0221",
+      "source_profile_id": "A0429",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0222",
+      "source_profile_id": "A0431",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0223",
+      "source_profile_id": "A0432",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0224",
+      "source_profile_id": "A0433",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0225",
+      "source_profile_id": "A0434",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0226",
+      "source_profile_id": "A0437",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0227",
+      "source_profile_id": "A0438",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0228",
+      "source_profile_id": "A0439",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0229",
+      "source_profile_id": "A0441",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0230",
+      "source_profile_id": "A0442",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0231",
+      "source_profile_id": "A0443",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0232",
+      "source_profile_id": "A0445",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0233",
+      "source_profile_id": "A0449",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0234",
+      "source_profile_id": "A0450",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0235",
+      "source_profile_id": "A0451",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0236",
+      "source_profile_id": "A0452",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0237",
+      "source_profile_id": "A0453",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0238",
+      "source_profile_id": "A0455",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0239",
+      "source_profile_id": "A0458",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0240",
+      "source_profile_id": "A0461",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0241",
+      "source_profile_id": "A0462",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0242",
+      "source_profile_id": "A0464",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0243",
+      "source_profile_id": "A0465",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0244",
+      "source_profile_id": "A0466",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0245",
+      "source_profile_id": "A0467",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0246",
+      "source_profile_id": "A0468",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0247",
+      "source_profile_id": "A0469",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0248",
+      "source_profile_id": "A0474",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0249",
+      "source_profile_id": "A0476",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0250",
+      "source_profile_id": "A0478",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0251",
+      "source_profile_id": "A0481",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0252",
+      "source_profile_id": "A0482",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0253",
+      "source_profile_id": "A0483",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0254",
+      "source_profile_id": "A0490",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0255",
+      "source_profile_id": "A0491",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0256",
+      "source_profile_id": "A0496",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0257",
+      "source_profile_id": "A0497",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0258",
+      "source_profile_id": "A0498",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0259",
+      "source_profile_id": "A0499",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0260",
+      "source_profile_id": "A0500",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0261",
+      "source_profile_id": "A0504",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0262",
+      "source_profile_id": "A0506",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0263",
+      "source_profile_id": "A0507",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0264",
+      "source_profile_id": "A0508",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0265",
+      "source_profile_id": "A0509",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0266",
+      "source_profile_id": "A0511",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0267",
+      "source_profile_id": "A0513",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0268",
+      "source_profile_id": "A0514",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0269",
+      "source_profile_id": "A0515",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0270",
+      "source_profile_id": "A0518",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0271",
+      "source_profile_id": "A0519",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0272",
+      "source_profile_id": "A0520",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0273",
+      "source_profile_id": "A0523",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0274",
+      "source_profile_id": "A0525",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0275",
+      "source_profile_id": "A0526",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0276",
+      "source_profile_id": "A0527",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0277",
+      "source_profile_id": "A0528",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0278",
+      "source_profile_id": "A0532",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0279",
+      "source_profile_id": "A0533",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0280",
+      "source_profile_id": "A0534",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0281",
+      "source_profile_id": "A0536",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0282",
+      "source_profile_id": "A0538",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0283",
+      "source_profile_id": "A0539",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0284",
+      "source_profile_id": "A0542",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0285",
+      "source_profile_id": "A0543",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0286",
+      "source_profile_id": "A0545",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0287",
+      "source_profile_id": "A0546",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0288",
+      "source_profile_id": "A0547",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0289",
+      "source_profile_id": "A0552",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0290",
+      "source_profile_id": "A0553",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0291",
+      "source_profile_id": "A0554",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0292",
+      "source_profile_id": "A0555",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0293",
+      "source_profile_id": "A0557",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0294",
+      "source_profile_id": "A0558",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0295",
+      "source_profile_id": "A0561",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0296",
+      "source_profile_id": "A0567",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0297",
+      "source_profile_id": "A0573",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0298",
+      "source_profile_id": "A0574",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0299",
+      "source_profile_id": "A0578",
+      "original_group": "outside",
+      "v7_group": "outside"
+    },
+    {
+      "agent_id": "A0300",
+      "source_profile_id": "A0580",
+      "original_group": "outside",
+      "v7_group": "outside"
+    }
+  ],
+  "note": "Profiles retain their attributes; IDs renumbered in V7. Five previously outside profiles become SOURCE followers. Runtime reads only frozen V7 files."
+}

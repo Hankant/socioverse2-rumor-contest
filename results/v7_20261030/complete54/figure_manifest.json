@@ -1,0 +1,38 @@
+[
+  {
+    "stem": "01_two_time_origins",
+    "caption": "两个时间起点的示意。首次相信至不信的TBU与回应发布后的等待并不相同；图中示例不是观测数据。"
+  },
+  {
+    "stem": "02_TBU9_levels",
+    "caption": "各因素不同水平的情景等权边际均值与95% HC3置信区间。主效应p对两结局共8项检验作Holm校正。"
+  },
+  {
+    "stem": "03_post_response_levels",
+    "caption": "各因素不同水平的情景等权边际均值与95% HC3置信区间。主效应p对两结局共8项检验作Holm校正。"
+  },
+  {
+    "stem": "04_endpoint_effects",
+    "caption": "端点水平差异与逐项95% HC3区间。负差值表示更短；显著性判断另用20项两两比较的Holm校正p，完整表还提供同时区间。"
+  },
+  {
+    "stem": "05_cocooning_moderation",
+    "caption": "三项条件效应随DGC变化的曲线。点为高低水平差异，线为95%逐项区间；总体交互p对两结局共6项作Holm校正，均未达到.05。"
+  },
+  {
+    "stem": "06_method_robustness",
+    "caption": "七种方法或规格的比较。各列在同一方法内对8项平均主效应作Holm校正；全部探索检验另附全局BH和Holm。各列不是独立重复实验证据。"
+  },
+  {
+    "stem": "07_belief_update_curves",
+    "caption": "第1轮相信者尚未完成首次更新的比例。先在各情景内计算，再对情景等权平均；末轮尚未更新者右删失。面积对应9轮限制平均TBU，不将用户轨迹视为独立实验。"
+  },
+  {
+    "stem": "08_full54_TBU_heatmap",
+    "caption": "54个实际完成情景的限制平均TBU，无插值或预测填格。行按DGC与TC排列，列按RT与GC排列；所有值来自真实保存的模拟输出。"
+  },
+  {
+    "stem": "09_burden_moderation",
+    "caption": "补充结局总相信负担的调节效应。GC和RT与DGC的交互显著，TC交互不显著；总相信负担是10轮相信人数之和，不能改称为TBU。"
+  }
+]

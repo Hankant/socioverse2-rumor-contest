@@ -1,0 +1,11 @@
+{
+  "last_completed_tick": 10,
+  "events": 15,
+  "users_with_change": 15,
+  "policy": "only_score_gt50_to_score_le50; all_episodes; no_nonchangers",
+  "time_unit": "abstract_simulation_ticks",
+  "api_requests": 0,
+  "before_government": 0,
+  "without_official_exposure": 0,
+  "file": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T04_C020_G050\\runs\\government-rumor-v7-openai-20261029-101050-919758\\reports\\belief_to_reject_events.csv"
+}

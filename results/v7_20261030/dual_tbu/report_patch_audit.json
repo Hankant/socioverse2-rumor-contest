@@ -1,0 +1,11 @@
+{
+  "output": "D:\\Codex\\outputs\\v7_dual_tbu_20261030\\SocioVerse-研究报告_双TBU口径8页版.docx",
+  "changed_parts": [
+    "word/document.xml",
+    "word/media/image4.png",
+    "word/media/image5.png",
+    "word/media/image6.png"
+  ],
+  "source_sha256": "facc6edf94c57f7340fb104f909029e389431d328c8fdbee0855cb736372f1b7",
+  "expected_pages": 8
+}

@@ -1,0 +1,289 @@
+{
+  "scenarios": 54,
+  "raw_agent_step_rows": 178200,
+  "raw_event_flags_checked": true,
+  "all_believe_to_reject_events": 758,
+  "restricted_means_independently_recalculated": 108,
+  "source_files_unchanged": 54,
+  "no_imputation": true,
+  "analysis_api_calls": 0,
+  "TC_F_equals_t_squared": true,
+  "workbook_formula_checks": 54,
+  "workbook_marginal_mean_checks": 22,
+  "docx_render_engine": "Microsoft Word native PDF export",
+  "canonical_renderer_unavailable_reason": "LibreOffice soffice.exe was not on PATH; native Word rendering was used instead",
+  "rendered_docx_pages": 19,
+  "figures": 9,
+  "source_hashes": [
+    {
+      "case_id": "D000_T02_C020_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T02_C020_G025\\runs\\government-rumor-v7-openai-20261028-163653-173706\\trajectory\\belief_measurements.csv",
+      "sha256": "d3110ae2adebcebdeb563c0b3427700ff06e41110c5a013f16ef2f6621156235"
+    },
+    {
+      "case_id": "D000_T02_C020_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T02_C020_G050\\runs\\government-rumor-v7-openai-20261028-124411-205657\\trajectory\\belief_measurements.csv",
+      "sha256": "8280241de08311ac5c720479809f3516ab10eb0c1d6be8834e5a6c272db6d47e"
+    },
+    {
+      "case_id": "D000_T02_C020_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T02_C020_G075\\runs\\government-rumor-v7-openai-20261028-124929-657907\\trajectory\\belief_measurements.csv",
+      "sha256": "e4ea11342152471f9d89c16eb941113e009829bb2004c9201e63893598ec2563"
+    },
+    {
+      "case_id": "D000_T02_C080_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T02_C080_G025\\runs\\government-rumor-v7-openai-20261029-042957-362915\\trajectory\\belief_measurements.csv",
+      "sha256": "c920477ff4bc9456d081942ebf1c65913858e04609391a525eddef7eb16969e3"
+    },
+    {
+      "case_id": "D000_T02_C080_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T02_C080_G050\\runs\\government-rumor-v7-openai-20261028-142604-491759\\trajectory\\belief_measurements.csv",
+      "sha256": "a25617249b10b8d84f5f0655e6813397eb108bd3ee1c06c27c3351992aed30bc"
+    },
+    {
+      "case_id": "D000_T02_C080_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T02_C080_G075\\runs\\government-rumor-v7-openai-20261028-161343-578065\\trajectory\\belief_measurements.csv",
+      "sha256": "0f2aef8e8cd2a9e0bf8162abe4d67729f3da684ad9a9e8f390e0b66355c2b013"
+    },
+    {
+      "case_id": "D000_T04_C020_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T04_C020_G025\\runs\\government-rumor-v7-openai-20261028-124635-586785\\trajectory\\belief_measurements.csv",
+      "sha256": "979b59e7402b4fec049ba752bbfc73b0e480efbd568f94d7ed6f4ec44b420dd6"
+    },
+    {
+      "case_id": "D000_T04_C020_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T04_C020_G050\\runs\\government-rumor-v7-openai-20261029-090709-784951\\trajectory\\belief_measurements.csv",
+      "sha256": "10bc2071aa974897db7b0e7de27730903649d46122f63ed7b8be87b5f3cf7b01"
+    },
+    {
+      "case_id": "D000_T04_C020_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T04_C020_G075\\runs\\government-rumor-v7-openai-20261028-124720-129581\\trajectory\\belief_measurements.csv",
+      "sha256": "8a9dd40b3852efc2993157009662f7478dd8cb7a4f29d298aea7e3d98b646fef"
+    },
+    {
+      "case_id": "D000_T04_C080_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T04_C080_G025\\runs\\government-rumor-v7-openai-20261028-124803-323719\\trajectory\\belief_measurements.csv",
+      "sha256": "f49f8fb9a90622ee512e2af2e6ee82d3e938e00b1feb2740a77d1b338c5f3284"
+    },
+    {
+      "case_id": "D000_T04_C080_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T04_C080_G050\\runs\\government-rumor-v7-openai-20261028-124902-837317\\trajectory\\belief_measurements.csv",
+      "sha256": "82226d8bae8fe9b648f3ff4733e5339ab82e2be7bc8c424355e4c7c3678ab2d1"
+    },
+    {
+      "case_id": "D000_T04_C080_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T04_C080_G075\\runs\\government-rumor-v7-openai-20261029-051739-421076\\trajectory\\belief_measurements.csv",
+      "sha256": "4e441d1299cea296dcf1cc597b9ca3ae7494c48c3d2f27ccedd0a50537fa6445"
+    },
+    {
+      "case_id": "D000_T07_C020_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T07_C020_G025\\runs\\government-rumor-v7-openai-20261028-124800-276517\\trajectory\\belief_measurements.csv",
+      "sha256": "d9569189f830d12ee4ca4935b79995e8b85a963afd7e9af4ae1717cb73fbd5a9"
+    },
+    {
+      "case_id": "D000_T07_C020_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T07_C020_G050\\runs\\government-rumor-v7-openai-20261028-124451-689961\\trajectory\\belief_measurements.csv",
+      "sha256": "9590d0dc963f3c688c5b84e24207fe50d2c9f817695efd12d767fbdf255e2f0e"
+    },
+    {
+      "case_id": "D000_T07_C020_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T07_C020_G075\\runs\\government-rumor-v7-openai-20261028-124612-763464\\trajectory\\belief_measurements.csv",
+      "sha256": "3fb08a934ca3d9f1294967becb3355bd6d44505ca68db117e830c294622d15cd"
+    },
+    {
+      "case_id": "D000_T07_C080_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T07_C080_G025\\runs\\government-rumor-v7-openai-20261028-124827-294588\\trajectory\\belief_measurements.csv",
+      "sha256": "c2b52c26ad507cd918696b57ad4af64b80705fd9eb55fcec3b97bac74ededa21"
+    },
+    {
+      "case_id": "D000_T07_C080_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T07_C080_G050\\runs\\government-rumor-v7-openai-20261028-125031-979416\\trajectory\\belief_measurements.csv",
+      "sha256": "849d0ded009f4ac502629514c90aaa7a9b287fcd40a713d16dade003ac8a937e"
+    },
+    {
+      "case_id": "D000_T07_C080_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D000_T07_C080_G075\\runs\\government-rumor-v7-openai-20261028-124511-695889\\trajectory\\belief_measurements.csv",
+      "sha256": "ba80a94e0057b4d6cac1199564c9694bd111b9302adfef163c9b7f20e59ea30e"
+    },
+    {
+      "case_id": "D020_T02_C020_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T02_C020_G025\\runs\\government-rumor-v7-openai-20261028-124856-736324\\trajectory\\belief_measurements.csv",
+      "sha256": "1ec3f8233a5856cf8fa2a657409ece1e0860afda1287c674758a106454b6d879"
+    },
+    {
+      "case_id": "D020_T02_C020_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T02_C020_G050\\runs\\government-rumor-v7-openai-20261028-124534-905479\\trajectory\\belief_measurements.csv",
+      "sha256": "962773282c2d746c7913ac2c2e426c90f893f417ab326ac33e9524d1524afc19"
+    },
+    {
+      "case_id": "D020_T02_C020_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T02_C020_G075\\runs\\government-rumor-v7-openai-20261028-125033-861573\\trajectory\\belief_measurements.csv",
+      "sha256": "cb8c8f9c0b0f55f3ef4db3905aa5799e5ff4d92809b10d3568a4926f44eb4bfc"
+    },
+    {
+      "case_id": "D020_T02_C080_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T02_C080_G025\\runs\\government-rumor-v7-openai-20261028-124539-574537\\trajectory\\belief_measurements.csv",
+      "sha256": "3b386e7e1b7d1ce7011c1dd53e969111e310866c2e75cd0d7f3dbaa48ed816c0"
+    },
+    {
+      "case_id": "D020_T02_C080_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T02_C080_G050\\runs\\government-rumor-v7-openai-20261028-200612-670016\\trajectory\\belief_measurements.csv",
+      "sha256": "30a73ba53011fb4b021e77fd1f5f304bdb87f604070688cf58bc886d3060113d"
+    },
+    {
+      "case_id": "D020_T02_C080_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T02_C080_G075\\runs\\government-rumor-v7-openai-20261028-131514-693049\\trajectory\\belief_measurements.csv",
+      "sha256": "a22b679b50123539b50a3e3412601c48866faf049465f6706849b0196f95b850"
+    },
+    {
+      "case_id": "D020_T04_C020_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T04_C020_G025\\runs\\government-rumor-v7-openai-20261028-144106-460054\\trajectory\\belief_measurements.csv",
+      "sha256": "df6e763513ece0fd1bf9a29d993a01d256e02868d1021502e396b1a2472634f2"
+    },
+    {
+      "case_id": "D020_T04_C020_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T04_C020_G050\\runs\\government-rumor-v7-openai-20261029-101050-919758\\trajectory\\belief_measurements.csv",
+      "sha256": "76020769072905cc27be598d5c5031c731d294c44c5ccf338b1c22b15bba6687"
+    },
+    {
+      "case_id": "D020_T04_C020_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T04_C020_G075\\runs\\government-rumor-v7-openai-20261028-124425-845288\\trajectory\\belief_measurements.csv",
+      "sha256": "f9e900bc7d27cdb1fbd109abc59d5801ec795e9ad6d1e2c2f43fd50dc3a36bcd"
+    },
+    {
+      "case_id": "D020_T04_C080_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T04_C080_G025\\runs\\government-rumor-v7-openai-20261029-042647-641023\\trajectory\\belief_measurements.csv",
+      "sha256": "0dad5c09517bcad23901137e76da59f5ccbcac01ed486ae5bf77b6069d89e2a5"
+    },
+    {
+      "case_id": "D020_T04_C080_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T04_C080_G050\\runs\\government-rumor-v7-openai-20261028-124947-222874\\trajectory\\belief_measurements.csv",
+      "sha256": "33251e3e2233b79bf613faa44e98bcf43f465d7893575e2c161670ef48e7629c"
+    },
+    {
+      "case_id": "D020_T04_C080_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T04_C080_G075\\runs\\government-rumor-v7-openai-20261028-171959-094542\\trajectory\\belief_measurements.csv",
+      "sha256": "ae6fd525aa5370a36f3f35c461fadd00f8810777641ca6bb6006e975b3184ebb"
+    },
+    {
+      "case_id": "D020_T07_C020_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T07_C020_G025\\runs\\government-rumor-v7-openai-20261028-131729-837721\\trajectory\\belief_measurements.csv",
+      "sha256": "d183f4ea91b65a3674fd60d89a481cc404f9aba525b9d2df657ff5244387ed4b"
+    },
+    {
+      "case_id": "D020_T07_C020_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T07_C020_G050\\runs\\government-rumor-v7-openai-20261028-124746-689750\\trajectory\\belief_measurements.csv",
+      "sha256": "e8cc8544867c34b936843c2f2944b40836765767b9d7c403bbe50a7274f228cf"
+    },
+    {
+      "case_id": "D020_T07_C020_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T07_C020_G075\\runs\\government-rumor-v7-openai-20261028-125541-751783\\trajectory\\belief_measurements.csv",
+      "sha256": "8cea7af4e7eb698f88f40042eb166af8de9a994d3716690b8c695449652472f3"
+    },
+    {
+      "case_id": "D020_T07_C080_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T07_C080_G025\\runs\\government-rumor-v7-openai-20261028-152608-478904\\trajectory\\belief_measurements.csv",
+      "sha256": "4cef1f0d61b5366502569465c0d5561cd4c66a40989c544714e3b19af931a6c2"
+    },
+    {
+      "case_id": "D020_T07_C080_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T07_C080_G050\\runs\\government-rumor-v7-openai-20261028-124623-130100\\trajectory\\belief_measurements.csv",
+      "sha256": "ee709d932414121d15f4df9c2324af476d87e99849a8ee70182d223059e2f0d6"
+    },
+    {
+      "case_id": "D020_T07_C080_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D020_T07_C080_G075\\runs\\government-rumor-v7-openai-20261028-134004-743423\\trajectory\\belief_measurements.csv",
+      "sha256": "36d1470feb7f11c01f455e9cd94103411734e6a747f0c0df22e3190758101c32"
+    },
+    {
+      "case_id": "D040_T02_C020_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T02_C020_G025\\runs\\government-rumor-v7-openai-20261028-124519-227375\\trajectory\\belief_measurements.csv",
+      "sha256": "eea8288b9b41f23663898fce36f05f89953751f60f1aaf0cc992f24bb159279b"
+    },
+    {
+      "case_id": "D040_T02_C020_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T02_C020_G050\\runs\\government-rumor-v7-openai-20261028-165906-316641\\trajectory\\belief_measurements.csv",
+      "sha256": "846eb619f30170218bba299c424ba9481ceac1575c8824e815b74b2c6650e4fd"
+    },
+    {
+      "case_id": "D040_T02_C020_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T02_C020_G075\\runs\\government-rumor-v7-openai-20261028-142015-927074\\trajectory\\belief_measurements.csv",
+      "sha256": "5ae1e1f08c9f57b43e03d15ce5616a319ad61bd2d045e8351e7e54769e406471"
+    },
+    {
+      "case_id": "D040_T02_C080_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T02_C080_G025\\runs\\government-rumor-v7-openai-20261028-175600-725825\\trajectory\\belief_measurements.csv",
+      "sha256": "c420e03cdb077e02f9e259e8794dccb049c13950a139527d4289a2cbdfb8651a"
+    },
+    {
+      "case_id": "D040_T02_C080_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T02_C080_G050\\runs\\government-rumor-v7-openai-20261028-125038-254225\\trajectory\\belief_measurements.csv",
+      "sha256": "f70dbc65d50cb1598b84f04cd069ce1cc90789edb67feab686b81e9238788a74"
+    },
+    {
+      "case_id": "D040_T02_C080_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T02_C080_G075\\runs\\government-rumor-v7-openai-20261028-143331-510190\\trajectory\\belief_measurements.csv",
+      "sha256": "f00496c96c74635553a7b375a5ba6ce2122c66da4c99607034fcc222d6c8bb75"
+    },
+    {
+      "case_id": "D040_T04_C020_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T04_C020_G025\\runs\\government-rumor-v7-openai-20261028-161801-932937\\trajectory\\belief_measurements.csv",
+      "sha256": "774316dc86612cc16bde80f4c68bb2b456857f86af626fd1aa4745363172be57"
+    },
+    {
+      "case_id": "D040_T04_C020_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T04_C020_G050\\runs\\government-rumor-v7-openai-20261028-124846-380663\\trajectory\\belief_measurements.csv",
+      "sha256": "aad4b80d44e6f021d70fc3aad6be67e4412453243c058211a8d5a050b1e82321"
+    },
+    {
+      "case_id": "D040_T04_C020_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T04_C020_G075\\runs\\government-rumor-v7-openai-20261029-004312-286614\\trajectory\\belief_measurements.csv",
+      "sha256": "abaa7603df4a21ede84047b5e0ef3f68f18d34c6135c8f76d194b5cab67b11af"
+    },
+    {
+      "case_id": "D040_T04_C080_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T04_C080_G025\\runs\\government-rumor-v7-openai-20261028-171950-304557\\trajectory\\belief_measurements.csv",
+      "sha256": "e257bf9de42cd691ff498fe41496952d15aa09b466d4844350f3094a8cff8b9b"
+    },
+    {
+      "case_id": "D040_T04_C080_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T04_C080_G050\\runs\\government-rumor-v7-openai-20261028-124841-123408\\trajectory\\belief_measurements.csv",
+      "sha256": "b8a166623f61d2929495176683c69379fb91512bb3badf0cea41438776d2d617"
+    },
+    {
+      "case_id": "D040_T04_C080_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T04_C080_G075\\runs\\government-rumor-v7-openai-20261029-090635-577528\\trajectory\\belief_measurements.csv",
+      "sha256": "daac385ca6d0fd3a039d7c5ed780737dcf044deefc94ef665075fca5d9e38360"
+    },
+    {
+      "case_id": "D040_T07_C020_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T07_C020_G025\\runs\\government-rumor-v7-openai-20261029-180722-568104\\trajectory\\belief_measurements.csv",
+      "sha256": "b1d626737b88b099e05fc7c52b3d9838cb73f5fc4318dfb26bda7567d5f182f2"
+    },
+    {
+      "case_id": "D040_T07_C020_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T07_C020_G050\\runs\\government-rumor-v7-openai-20261028-140937-969662\\trajectory\\belief_measurements.csv",
+      "sha256": "363249ee713204075bd826ee96cf7c05c9e304f86e784dff697cceb17e4d7301"
+    },
+    {
+      "case_id": "D040_T07_C020_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T07_C020_G075\\runs\\government-rumor-v7-openai-20261028-124948-538302\\trajectory\\belief_measurements.csv",
+      "sha256": "401e19a220fd9ad68512fa858e9bb2b226eedd905d8d76002cb802cc7a56860e"
+    },
+    {
+      "case_id": "D040_T07_C080_G025",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T07_C080_G025\\runs\\government-rumor-v7-openai-20261028-124933-259759\\trajectory\\belief_measurements.csv",
+      "sha256": "b1c4d8cf20dda39100cd200b48d4d88d84b778772a4a217adeb79cbbf11f1f86"
+    },
+    {
+      "case_id": "D040_T07_C080_G050",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T07_C080_G050\\runs\\government-rumor-v7-openai-20261028-124703-302686\\trajectory\\belief_measurements.csv",
+      "sha256": "604f5003e8f456f03cd006f68700059b598c0120d0552c474977d7bdf0c086b0"
+    },
+    {
+      "case_id": "D040_T07_C080_G075",
+      "source": "D:\\Codex\\runs\\V7_Optimized_20261027_145124\\_batch54\\20261027-145124\\cases\\D040_T07_C080_G075\\runs\\government-rumor-v7-openai-20261028-180649-229222\\trajectory\\belief_measurements.csv",
+      "sha256": "112978c65be62a07c1e51e924051b7d0a30436b3fcd21d3bd447d3b224e78b04"
+    }
+  ]
+}

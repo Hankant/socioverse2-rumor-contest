@@ -1,0 +1,326 @@
+[
+  {
+    "name": "D000_T02_C020_G025",
+    "config": "configs/v7/research54/D000_T02_C020_G025.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D000_T02_C020_G050",
+    "config": "configs/v7/research54/D000_T02_C020_G050.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D000_T02_C020_G075",
+    "config": "configs/v7/research54/D000_T02_C020_G075.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D000_T02_C080_G025",
+    "config": "configs/v7/research54/D000_T02_C080_G025.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D000_T02_C080_G050",
+    "config": "configs/v7/research54/D000_T02_C080_G050.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D000_T02_C080_G075",
+    "config": "configs/v7/research54/D000_T02_C080_G075.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D000_T04_C020_G025",
+    "config": "configs/v7/research54/D000_T04_C020_G025.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D000_T04_C020_G050",
+    "config": "configs/v7/research54/D000_T04_C020_G050.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D000_T04_C020_G075",
+    "config": "configs/v7/research54/D000_T04_C020_G075.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D000_T04_C080_G025",
+    "config": "configs/v7/research54/D000_T04_C080_G025.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D000_T04_C080_G050",
+    "config": "configs/v7/research54/D000_T04_C080_G050.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D000_T04_C080_G075",
+    "config": "configs/v7/research54/D000_T04_C080_G075.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D000_T07_C020_G025",
+    "config": "configs/v7/research54/D000_T07_C020_G025.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D000_T07_C020_G050",
+    "config": "configs/v7/research54/D000_T07_C020_G050.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D000_T07_C020_G075",
+    "config": "configs/v7/research54/D000_T07_C020_G075.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D000_T07_C080_G025",
+    "config": "configs/v7/research54/D000_T07_C080_G025.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D000_T07_C080_G050",
+    "config": "configs/v7/research54/D000_T07_C080_G050.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D000_T07_C080_G075",
+    "config": "configs/v7/research54/D000_T07_C080_G075.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D020_T02_C020_G025",
+    "config": "configs/v7/research54/D020_T02_C020_G025.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D020_T02_C020_G050",
+    "config": "configs/v7/research54/D020_T02_C020_G050.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D020_T02_C020_G075",
+    "config": "configs/v7/research54/D020_T02_C020_G075.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D020_T02_C080_G025",
+    "config": "configs/v7/research54/D020_T02_C080_G025.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D020_T02_C080_G050",
+    "config": "configs/v7/research54/D020_T02_C080_G050.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D020_T02_C080_G075",
+    "config": "configs/v7/research54/D020_T02_C080_G075.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D020_T04_C020_G025",
+    "config": "configs/v7/research54/D020_T04_C020_G025.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D020_T04_C020_G050",
+    "config": "configs/v7/research54/D020_T04_C020_G050.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D020_T04_C020_G075",
+    "config": "configs/v7/research54/D020_T04_C020_G075.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D020_T04_C080_G025",
+    "config": "configs/v7/research54/D020_T04_C080_G025.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D020_T04_C080_G050",
+    "config": "configs/v7/research54/D020_T04_C080_G050.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D020_T04_C080_G075",
+    "config": "configs/v7/research54/D020_T04_C080_G075.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D020_T07_C020_G025",
+    "config": "configs/v7/research54/D020_T07_C020_G025.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D020_T07_C020_G050",
+    "config": "configs/v7/research54/D020_T07_C020_G050.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D020_T07_C020_G075",
+    "config": "configs/v7/research54/D020_T07_C020_G075.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D020_T07_C080_G025",
+    "config": "configs/v7/research54/D020_T07_C080_G025.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D020_T07_C080_G050",
+    "config": "configs/v7/research54/D020_T07_C080_G050.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D020_T07_C080_G075",
+    "config": "configs/v7/research54/D020_T07_C080_G075.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D040_T02_C020_G025",
+    "config": "configs/v7/research54/D040_T02_C020_G025.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D040_T02_C020_G050",
+    "config": "configs/v7/research54/D040_T02_C020_G050.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D040_T02_C020_G075",
+    "config": "configs/v7/research54/D040_T02_C020_G075.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D040_T02_C080_G025",
+    "config": "configs/v7/research54/D040_T02_C080_G025.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D040_T02_C080_G050",
+    "config": "configs/v7/research54/D040_T02_C080_G050.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D040_T02_C080_G075",
+    "config": "configs/v7/research54/D040_T02_C080_G075.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D040_T04_C020_G025",
+    "config": "configs/v7/research54/D040_T04_C020_G025.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D040_T04_C020_G050",
+    "config": "configs/v7/research54/D040_T04_C020_G050.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D040_T04_C020_G075",
+    "config": "configs/v7/research54/D040_T04_C020_G075.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D040_T04_C080_G025",
+    "config": "configs/v7/research54/D040_T04_C080_G025.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D040_T04_C080_G050",
+    "config": "configs/v7/research54/D040_T04_C080_G050.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D040_T04_C080_G075",
+    "config": "configs/v7/research54/D040_T04_C080_G075.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D040_T07_C020_G025",
+    "config": "configs/v7/research54/D040_T07_C020_G025.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D040_T07_C020_G050",
+    "config": "configs/v7/research54/D040_T07_C020_G050.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D040_T07_C020_G075",
+    "config": "configs/v7/research54/D040_T07_C020_G075.json",
+    "government_inside": 10,
+    "government_outside": 40
+  },
+  {
+    "name": "D040_T07_C080_G025",
+    "config": "configs/v7/research54/D040_T07_C080_G025.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D040_T07_C080_G050",
+    "config": "configs/v7/research54/D040_T07_C080_G050.json",
+    "government_inside": 40,
+    "government_outside": 10
+  },
+  {
+    "name": "D040_T07_C080_G075",
+    "config": "configs/v7/research54/D040_T07_C080_G075.json",
+    "government_inside": 40,
+    "government_outside": 10
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "policy": "binary_score_gt50_v1",
+  "denominator": "believe+reject; unjudged excluded",
+  "results": [
+    {
+      "step": 10,
+      "group": "all",
+      "population_n": 300,
+      "judged_n": 297,
+      "believe": 3,
+      "reject": 294,
+      "unjudged_n": 3,
+      "believe_rate_judged": 0.010101010101010102,
+      "rumor_seen_n": 289,
+      "official_seen_n": 221
+    },
+    {
+      "step": 10,
+      "group": "inside",
+      "population_n": 48,
+      "judged_n": 48,
+      "believe": 2,
+      "reject": 46,
+      "unjudged_n": 0,
+      "believe_rate_judged": 0.041666666666666664,
+      "rumor_seen_n": 48,
+      "official_seen_n": 31
+    },
+    {
+      "step": 10,
+      "group": "outside",
+      "population_n": 252,
+      "judged_n": 249,
+      "believe": 1,
+      "reject": 248,
+      "unjudged_n": 3,
+      "believe_rate_judged": 0.004016064257028112,
+      "rumor_seen_n": 241,
+      "official_seen_n": 190
+    }
+  ]
+}

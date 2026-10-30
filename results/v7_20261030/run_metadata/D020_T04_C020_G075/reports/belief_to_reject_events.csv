@@ -1,0 +1,10 @@
+﻿event_id,agent_id,group,episode_number,believe_started_tick,reject_tick,believe_duration_ticks,score_before,score_after,score_change,government_tick,ticks_from_government,after_government_intervention,official_seen_before,official_seen_at_transition,official_first_seen_tick,official_shown_in_transition_tick,rumor_read_rounds,official_read_rounds,source_trust,government_trust,causal_attribution
+A0011-B2R-001,A0011,inside,1,1,4,3,60.5,44.5,-16.0,4,0,True,False,True,4,True,4,1,0.8309869931927957,0.8612557855788292,observed_change_only; official_exposure_is_not_proof_of_causation
+A0025-B2R-001,A0025,inside,1,1,4,3,60,48,-12,4,0,True,False,True,4,True,4,1,0.6926458844923793,0.6920382471623705,observed_change_only; official_exposure_is_not_proof_of_causation
+A0026-B2R-001,A0026,inside,1,1,4,3,56.5,43,-13.5,4,0,True,False,True,4,True,4,1,0.5762813200603327,0.7849426224705214,observed_change_only; official_exposure_is_not_proof_of_causation
+A0017-B2R-001,A0017,inside,1,1,5,4,64.5,42.8,-21.700000000000003,4,1,True,False,True,5,True,5,1,0.7317857169535613,0.7338391944054137,observed_change_only; official_exposure_is_not_proof_of_causation
+A0023-B2R-001,A0023,inside,1,1,5,4,57,45,-12,4,1,True,False,True,5,True,5,1,0.5420908910875782,0.8069883906357749,observed_change_only; official_exposure_is_not_proof_of_causation
+A0036-B2R-001,A0036,inside,1,1,5,4,54.5,48.6,-5.899999999999999,4,1,True,False,True,5,True,5,1,0.6707590397793677,0.7237074575251912,observed_change_only; official_exposure_is_not_proof_of_causation
+A0012-B2R-001,A0012,inside,1,1,6,5,55.5,49.8,-5.700000000000003,4,2,True,True,True,5,True,6,2,0.7862310164397289,0.5758237308467585,observed_change_only; official_exposure_is_not_proof_of_causation
+A0018-B2R-001,A0018,inside,1,1,6,5,59.8,48.6,-11.199999999999996,4,2,True,False,True,6,True,6,1,0.7202382172191726,0.7404963055213327,observed_change_only; official_exposure_is_not_proof_of_causation
+A0032-B2R-001,A0032,inside,1,1,9,8,50.5,46.5,-4.0,4,5,True,True,True,4,True,9,6,0.7624714478043353,0.6340240544520714,observed_change_only; official_exposure_is_not_proof_of_causation

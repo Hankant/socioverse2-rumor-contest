@@ -1,0 +1,21 @@
+{
+  "scenario_id": "budget_priority_20261022_v1",
+  "prompt_revision": "v7-llm300-trust30-20261024-1",
+  "belief_target": "本案例所指的一部分项目，将原本优先用于老旧小区电线老化、消防通道等安全隐患整改的一部分资金，调整到商业街立面改造和景观提升，导致相关安全整改项目后排。",
+  "post_source": "用户提供的三段研究情景文本，逐字保留，未提供现实来源",
+  "real_world_truth_status": "not_independently_verified",
+  "government_response_source": "按用户要求撰写的实验性情况说明；非真实官方通告",
+  "correction_mode": "scripted_claimed_review_no_documents",
+  "government_evidence_boundary": "正文声称核对预算、调整审批和拨付记录，但未附可独立查验文件；不伪称研究者已完成现实核查",
+  "scope": "原帖与政府回应指向同一模拟地区、同一组项目，不代表一个部门可以否定全国所有地区的类似情况",
+  "browsing_context": "初始只有关注SOURCE的48名圈内用户接触原帖；其他252人通过关注账号的转发首次接触；接触后每轮回看原帖及上一轮以前最新30条评论；未接触者不获原帖或评论；政府为独立账号，向50人定向投放并经转发传播",
+  "belief_definition": "完整核心说法subjective_credibility>50为believe；<=50为reject。LLM只给分，不独立选择标签。unjudged为尚未判断的技术记录，不纳入相信率分母。",
+  "ground_truth_use": "不向Agent预先提供真假标签，不把政府否认自动当作研究者已证实的现实结论",
+  "population_version": "v7-llm300-inside48-outside252-20261024-1",
+  "belief_measurement_policy": "binary_score_gt50_v1",
+  "feed_policy": "network_rumor_latest_comments_v1",
+  "decision_condition_policy": "all_conditions_v1",
+  "comment_window_limit": 30,
+  "memory_retention_policy": "rolling_simulation_ticks_v1",
+  "memory_window_ticks": 3
+}

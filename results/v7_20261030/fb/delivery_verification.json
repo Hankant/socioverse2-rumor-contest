@@ -1,0 +1,21 @@
+{
+  "pages": 8,
+  "figures": 5,
+  "tables": 5,
+  "native_equations": 4,
+  "tutor_and_authors_preserved": true,
+  "all_visible_results_FB": true,
+  "conservative_adjustment_retained": true,
+  "all_result_tables_checked": true,
+  "all_54_source_hashes_checked": true,
+  "opaque_source_parts_preserved": 24,
+  "api_calls": 0,
+  "published_report": "E:\\papers\\socioverse 2026\\SocioVerse-研究报告_FB口径8页版.docx",
+  "original_updated": false,
+  "original_path": "E:\\papers\\socioverse 2026\\SocioVerse-研究报告.docx",
+  "backup": "E:\\papers\\socioverse 2026\\SocioVerse-研究报告_FB更新前备份_20261030_133543.docx",
+  "original_publish_error": "[WinError 5] 拒绝访问。: 'E:\\\\papers\\\\socioverse 2026\\\\.codex-fb-report-7swsbbqx.docx' -> 'E:\\\\papers\\\\socioverse 2026\\\\SocioVerse-研究报告.docx'",
+  "figure_directory": "E:\\papers\\socioverse 2026\\SocioVerse_FB流程图_20261030",
+  "final_sha256": "da96652053f36e21a49338f4cf2064f2a2f21b6d76588b20028a2f3a186946b2",
+  "all_eight_final_pages_visually_reviewed": true
+}

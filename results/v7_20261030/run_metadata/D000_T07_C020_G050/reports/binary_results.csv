@@ -1,0 +1,4 @@
+﻿step,group,population_n,judged_n,believe,reject,unjudged_n,believe_rate_judged,rumor_seen_n,official_seen_n
+10,all,300,297,3,294,3,0.010101010101010102,289,221
+10,inside,48,48,2,46,0,0.041666666666666664,48,31
+10,outside,252,249,1,248,3,0.004016064257028112,241,190
